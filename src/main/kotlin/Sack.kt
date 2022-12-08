@@ -1,67 +1,56 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: TQ_weaponsmith.Sack
-// Assembly: TQ_Blacksmith, Version=0.1.4.1, Culture=neutral, PublicKeyToken=null
-// MVID: 1CC9040D-95C6-4C54-B248-9D80684B2CA8
-// Assembly location: D:\Games\GOG Galaxy\Games\Titan Quest - Anniversary Edition\Downloads\Blacksmith\TQ_Blacksmith.exe
+﻿import org.jetbrains.skia.Point
 
-using System;
-using System.Collections.Generic;
-using System.Drawing;
-using System.IO;
-
-namespace TQ_weaponsmith
-{
-  public class Sack
+public class Sack
   {
-    private static Point[] equipmentLocationOffsets = new Point[12]
-    {
-      new Point(4, 0),
-      new Point(4, 3),
-      new Point(4, 5),
-      new Point(4, 9),
-      new Point(7, 6),
-      new Point(4, 12),
-      new Point(5, 12),
-      new Point(Item.WeaponSlotIndicator, 0),
-      new Point(Item.WeaponSlotIndicator, 1),
-      new Point(Item.WeaponSlotIndicator, 2),
-      new Point(Item.WeaponSlotIndicator, 3),
-      new Point(1, 6)
-    };
-    private static Size[] equipmentLocationSizes = new Size[12]
-    {
-      new Size(2, 2),
-      new Size(1, 1),
-      new Size(2, 3),
-      new Size(2, 2),
-      new Size(2, 2),
-      new Size(1, 1),
-      new Size(1, 1),
-      new Size(2, 5),
-      new Size(2, 5),
-      new Size(2, 5),
-      new Size(2, 5),
-      new Size(2, 2)
-    };
-    private static Point[] weaponLocationOffsets = new Point[4]
-    {
-      new Point(1, 0),
-      new Point(7, 0),
-      new Point(1, 9),
-      new Point(7, 9)
-    };
-    private static Size weaponLocationSize = new Size(2, 5);
-    private int beginBlockCrap;
-    private int endBlockCrap;
-    private int tempBool;
-    private int size;
-    private SackType sackType;
-    private List<Item> items = new List<Item>();
-    private bool isModified;
-    private bool isImmortalThrone;
-    private int slots;
+    private val equipmentLocationOffsets =  arrayOf<Pair<Int,Int>>(
+    
+      Pair(4, 0),
+      Pair(4, 3),
+      Pair(4, 5),
+       Pair(4, 9),
+       Pair(7, 6),
+       Pair(4, 12),
+       Pair(5, 12),
+       Pair(Item.WeaponSlotIndicator, 0),
+       Pair(Item.WeaponSlotIndicator, 1),
+       Pair(Item.WeaponSlotIndicator, 2),
+       Pair(Item.WeaponSlotIndicator, 3),
+       Pair(1, 6)
+    )
+    private val  equipmentLocationSizes = arrayOf<Pair<Int,Int>>(
 
-    public Sack() => this.isModified = false;
+      Pair(2, 2),
+      Pair(1, 1),
+      Pair(2, 3),
+      Pair(2, 2),
+      Pair(2, 2),
+      Pair(1, 1),
+      Pair(1, 1),
+      Pair(2, 5),
+      Pair(2, 5),
+      Pair(2, 5),
+      Pair(2, 5),
+      Pair(2, 2)
+      )
+    private val weaponLocationOffsets = arrayOf<Pair<Int,Int>>(
+
+       Pair(1, 0),
+       Pair(7, 0),
+       Pair(1, 9),
+       Pair(7, 9)
+      )
+    private val weaponLocationSize = Pair(2, 5);
+    private var beginBlockCrap:Int
+    private var endBlockCrap:Int
+    private var tempBool:Int
+    private var size:Int
+    private var  sackType:SackType
+    private val items = emptyList<Item>()
+    private var isModified = false
+    private var isImmortalThrone = true
+    private var slots:Int
+
+
 
     public void AddItem(Item item)
     {
@@ -96,7 +85,7 @@ namespace TQ_weaponsmith
       this.IsModified = true;
     }
 
-    public void Encode(BinaryWriter writer)
+    public void Encode(OutputStream writer)
     {
       if (this.sackType != SackType.Equipment)
       {
@@ -155,7 +144,7 @@ namespace TQ_weaponsmith
 
     public static bool IsWeaponSlot(int equipmentSlot) => equipmentSlot >= 0 && equipmentSlot <= Sack.equipmentLocationOffsets.Length && Sack.equipmentLocationOffsets[equipmentSlot].X == Item.WeaponSlotIndicator;
 
-    public void Parse(BinaryReader reader)
+    public void Parse(InputStream reader)
     {
       try
       {

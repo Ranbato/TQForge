@@ -3,15 +3,20 @@ import java.io.File
 import java.io.ObjectInputStream
 import java.io.RandomAccessFile
 import java.util.*
+import kotlin.collections.ArrayList
 
 // Place definition above class declaration to make field static
 private val logger = mu.KotlinLogging.logger {}
 
-public class ArcFile(FileName:String) {
-  private var fileHasBeenRead: Boolean = false
-  private var directoryEntries: Map<String, ArcFile.ARCDirEntry> = emptyMap()
-  private var keys: SortedSet<String> = sortedSetOf("")
+public class ArcFile {
+  private var fileHasBeenRead = false
+  private var directoryEntries  = mutableMapOf<String, ARCDirEntry>()
+  private var keys = mutableSetOf<String>()
+  private val  FileName:String
 
+constructor(FileName:String){
+  this.FileName = FileName
+}
 
   private fun BuildKeyTable(): Unit {
     if (this.directoryEntries.isEmpty())
@@ -164,31 +169,31 @@ public class ArcFile(FileName:String) {
     private fun ReadARCToC():Unit
     {
       fileHasBeenRead = true;
-      logger.debug{ "ARCFile.ReadARCToC({$FileName})"}
+      logger.debug{ "ARCFile.ReadARCToC(${FileName})"}
 
 
-      val ras = RandomAccessFile(File(FileName),"r")
+      val ras = BufferedRandomAccessFile(FileName,"r")
         .use { it->
-        if (it.readByte() !=  65.toByte() || it.readByte() !=  82.toByte() || it.readByte() !=  67.toByte() || it.available() < 33L)  return@use
+        if (it.readByte() !=  65.toByte() || it.readByte() !=  82.toByte() || it.readByte() !=  67.toByte() || it.length()- it.filePointer < 33L)  return@use
         it.seek(8L);
         val capacity = it.readInt()
         val length1 = it.readInt()
-        logger.debug{ "numEntries={$capacity}, numParts={$length1}"}
+        logger.debug{ "numEntries=${capacity}, numParts=${length1}"}
         val arcPartEntryArray = arrayOfNulls<ARCPartEntry>(length1)
         val arcDirEntryArray = arrayOfNulls<ARCDirEntry>(capacity)
 
           logger.info("Seeking to tocOffset location")
           it.seek(24L)
-          val offset = it.readInt()
-          logger.debug { "tocOffset = {$offset}"}
-          if (it.available() <  (offset + 12))  return@use
+          val offset = it.readInt().toLong()
+          logger.debug { "tocOffset = ${offset}"}
+          if (it.length()- it.filePointer <  (offset + 12))  return@use
           it.seek( offset)
 
             for (index in 1..length1)
             {
               arcPartEntryArray[index] = ARCPartEntry( it.readInt(),  it.readInt(),  it.readInt());
               logger.debug {  "parts[{$index}]"}
-              logger.debug {  "  fileOffset={$arcPartEntryArray[index].FileOffset}, compressedSize={$arcPartEntryArray[index].CompressedSize}, realSize={$arcPartEntryArray[index].RealSize}"}
+              logger.debug {  "  fileOffset=${arcPartEntryArray[index]?.FileOffset}, compressedSize=${arcPartEntryArray[index]?.CompressedSize}, realSize=${arcPartEntryArray[index]?.RealSize}"}
 
             }
 
@@ -196,188 +201,107 @@ public class ArcFile(FileName:String) {
           val num1 = 44 * capacity
           logger.debug {   "fileNamesOffset = {$position}.  Seeking to {$num1} to read file record data."}
           it.seek( it.length() - num1);
-      }
 
-
-
-
-            for (int index1 = 0; index1 < capacity; ++index1)
+          for (index1 in 1..capacity)
+          {
+            val num2 = it.readInt()
+            arcDirEntryArray[index1] = ARCDirEntry(num2, it.readInt(), it.readInt(), it.readInt())
+              logger.info {"StorageType=${num2}"}
+            val num3 = it.readInt()
+              logger.info{"Crap2=${num3}"}
+          val num4 = it.readInt()
+          logger.info{ "Crap3=${num4}"}
+      val num5 = it.readInt()
+      logger.info{ "Crap4=${num5}"}
+            val length2 = it.readInt()
+            if (length2 < 1)
             {
-              arcDirEntryArray[index1] = new ArcFile.ARCDirEntry();
-              int num2 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-                logger.info "StorageType={0}", new object[1]
-                {
-                  (object) num2
-                }));
-              arcDirEntryArray[index1].StorageType = num2;
-              arcDirEntryArray[index1].FileOffset = binaryReader.ReadInt32();
-              arcDirEntryArray[index1].CompressedSize = binaryReader.ReadInt32();
-              arcDirEntryArray[index1].RealSize = binaryReader.ReadInt32();
-              int num3 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-                logger.info "Crap2={0}", new object[1]
-                {
-                  (object) num3
-                }));
-              int num4 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-                logger.info "Crap3={0}", new object[1]
-                {
-                  (object) num4
-                }));
-              int num5 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-                logger.info "Crap4={0}", new object[1]
-                {
-                  (object) num5
-                }));
-              int length2 = binaryReader.ReadInt32();
-              if (length2 < 1)
-              {
-                arcDirEntryArray[index1].Parts = (ArcFile.ARCPartEntry[]) null;
-                if (TQDebug.ArcFileDebugLevel > 2)
-                  logger.info "File {0} is not compressed.", new object[1]
-                  {
-                    (object) index1
-                  }));
-              }
-              else
-                arcDirEntryArray[index1].Parts = new ArcFile.ARCPartEntry[length2];
-              int num6 = binaryReader.ReadInt32();
-              int num7 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-                logger.info "Filename Length={0}", new object[1]
-                {
-                  (object) num7
-                }));
-              int num8 = binaryReader.ReadInt32();
-              if (TQDebug.ArcFileDebugLevel > 2)
-              {
-                logger.info "Filename Offset={0}", new object[1]
-                {
-                  (object) num8
-                }));
-                logger.info "record[{0}]", new object[1]
-                {
-                  (object) index1
-                }));
-                logger.info "  offset={0} compressedSize={1} realSize={2}", new object[3]
-                {
-                  (object) arcDirEntryArray[index1].FileOffset,
-                  (object) arcDirEntryArray[index1].CompressedSize,
-                  (object) arcDirEntryArray[index1].RealSize
-                }));
-                if (num2 != 1 && arcDirEntryArray[index1].IsActive)
-                  logger.info "  numParts={0} firstPart={1} lastPart={2}", new object[3]
-                  {
-                    (object) arcDirEntryArray[index1].Parts.Length,
-                    (object) num6,
-                    (object) (num6 + arcDirEntryArray[index1].Parts.Length - 1)
-                  }));
-                else
-                  logger.info "  INACTIVE firstPart={0}", new object[1]
-                  {
-                    (object) num6
-                  }));
-              }
-              if (num2 != 1 && arcDirEntryArray[index1].IsActive)
-              {
-                for (int index2 = 0; index2 < arcDirEntryArray[index1].Parts.Length; ++index2)
-                  arcDirEntryArray[index1].Parts[index2] = arcPartEntryArray[index2 + num6];
-              }
+              arcDirEntryArray[index1]?.Parts?.clear()
+                logger.info {"File ${index1} is not compressed."}
             }
-            input.Seek((long) position, SeekOrigin.Begin);
-            byte[] bytes = new byte[2048];
-            ASCIIEncoding asciiEncoding = new ASCIIEncoding();
-            for (int index3 = 0; index3 < capacity; ++index3)
+            else {
+//              arcDirEntryArray[index1].Parts = ARCPartEntry [length2];
+            }
+            val num6 = it.readInt()
+            val num7 = it.readInt()
+              logger.info {"Filename Length=${num7}"}
+            val num8 = it.readInt()
+              logger.info {"Filename Offset=${num8}"}
+              logger.info {"record[{$index1}]"}
+              logger.info {"  offset=${arcDirEntryArray[index1]?.FileOffset} compressedSize=${arcDirEntryArray[index1]?.CompressedSize} realSize=${arcDirEntryArray[index1]?.RealSize}"}
+              if (num2 != 1 && arcDirEntryArray[index1]?.IsActive() == true)
+                logger.info {"  numParts=${arcDirEntryArray[index1]?.Parts?.size} firstPart=${num6} lastPart=${(num6 + (arcDirEntryArray[index1]?.Parts?.size?:0) - 1)}"}
+              else
+                logger.info {"  INACTIVE firstPart=${num6}"}
+
+
+            if (num2 != 1 && arcDirEntryArray[index1]?.IsActive()== true)
             {
-              if (arcDirEntryArray[index3].IsActive)
+              for (index2 in 1..arcDirEntryArray[index1]!!.Parts!!.size)
+              arcDirEntryArray[index1]!!.Parts[index2] = arcPartEntryArray[index2 + num6]!!
+            }
+          }
+            it.seek( position)
+            var bytes =  ByteArray(2048)
+            for (index3 in 1 until capacity)
+            {
+              if (arcDirEntryArray[index3]?.IsActive() == true)
               {
-                if (TQDebug.ArcFileDebugLevel > 2)
-                  logger.info "Reading entry name {0:n0}", new object[1]
-                  {
-                    (object) index3
-                  }));
-                int index4 = 0;
-                while ((bytes[index4++] = binaryReader.ReadByte()) > (byte) 0)
+                  logger.info {"Reading entry name ${index3}"}
+                var index4 = 0;
+                while (run {
+                    bytes[index4] = it.readByte()
+                    bytes[index4++] > 0
+                  })
                 {
-                  if (bytes[index4 - 1] == (byte) 3)
+                  if (bytes[index4 - 1].toInt() ==  3)
                   {
-                    input.Seek(-1L, SeekOrigin.Current);
-                    --index4;
-                    bytes[index4] = (byte) 0;
-                    if (TQDebug.ArcFileDebugLevel > 2)
-                    {
-                      TQDebug.DebugWriteLine("Null file - inactive?");
-                      break;
-                    }
-                    break;
+                    it.seek(it.filePointer-1)
+                    --index4
+                    bytes[index4] =  0
+                      logger.info ("Null file - inactive?")
+                    break
                   }
-                  if (index4 >= bytes.Length)
+                  if (index4 >= bytes.size)
                   {
-                    TQDebug.DebugWriteLine("ARCFile.ReadARCToC() Error - Buffer size of 2048 has been exceeded.");
-                    if (TQDebug.ArcFileDebugLevel > 2)
-                    {
-                      TQDebug.DebugWriteLine("Buffer contents:\n");
-                      for (int index5 = 0; index5 < index4; ++index5)
-                        TQDebug.DebugWrite(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "0x{0:X}", new object[1]
-                        {
-                          (object) bytes[index5]
-                        }));
-                      TQDebug.DebugWriteLine(string.Empty);
-                    }
+                    logger.debug("ARCFile.ReadARCToC() Error - Buffer size of 2048 has been exceeded.");
+//                    if (TQDebug.ArcFileDebugLevel > 2)
+//                    {
+//                      TQDebug.DebugWriteLine("Buffer contents:\n");
+//                      for (int index5 = 0; index5 < index4; ++index5)
+//                        TQDebug.DebugWrite(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "0x{0:X}", new object[1]
+//                        {
+//                          (object) bytes[index5]
+//                        }));
+//                      TQDebug.DebugWriteLine(string.Empty);
+//                    }
                   }
                 }
-                if (TQDebug.ArcFileDebugLevel > 2)
-                  logger.info "Read {0:n0} bytes for name.  Converting to string.", new object[1]
-                  {
-                    (object) index4
-                  }));
-                string recordId;
+                 logger.info {"Read ${index4} bytes for name.  Converting to string."}
+
+                var recordId:String
                 if (index4 >= 1)
                 {
-                  char[] chars = new char[asciiEncoding.GetCharCount(bytes, 0, index4 - 1)];
-                  asciiEncoding.GetChars(bytes, 0, index4 - 1, chars, 0);
-                  recordId = new string(chars);
+                  recordId = String(bytes.sliceArray(0..index4-1))
                 }
                 else
-                  recordId = string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Null File {0}", new object[1]
-                  {
-                    (object) index3
-                  });
-                arcDirEntryArray[index3].FileName = TQData.NormalizeRecordPath(recordId);
-                if (TQDebug.ArcFileDebugLevel > 2)
-                  logger.info "Name {0:n0} = '{1}'", new object[2]
-                  {
-                    (object) index3,
-                    (object) arcDirEntryArray[index3].FileName
-                  }));
+                  recordId =  "Null File ${index3}"
+                arcDirEntryArray[index3]?.FileName = TQData.NormalizeRecordPath(recordId);
+                  logger.info {"Name ${index3} = '${arcDirEntryArray[index3]?.FileName}'"}
               }
             }
-            Dictionary<string, ArcFile.ARCDirEntry> dictionary = new Dictionary<string, ArcFile.ARCDirEntry>(capacity);
-            if (TQDebug.ArcFileDebugLevel > 1)
-              TQDebug.DebugWriteLine("Creating Dictionary");
-            for (int index = 0; index < capacity; ++index)
+              logger.debug("Creating Dictionary");
+            for (index in 1 until capacity)
             {
-              if (arcDirEntryArray[index].IsActive)
-                dictionary.Add(arcDirEntryArray[index].FileName, arcDirEntryArray[index]);
+              if (arcDirEntryArray[index]?.IsActive() == true)
+                directoryEntries[arcDirEntryArray[index]!!.FileName] =  arcDirEntryArray[index]!!
             }
-            this.directoryEntries = dictionary;
-            if (TQDebug.ArcFileDebugLevel <= 0)
-              return;
-            TQDebug.DebugWriteLine("Exiting ARCFile.ReadARCToC()");
+            logger.info("Exiting ARCFile.ReadARCToC()");
           }
         }
-      }
-      catch (IOException ex)
-      {
-        if (!TQDebug.DebugEnabled)
-          TQDebug.DebugEnabled = true;
-        TQDebug.DebugWriteLine("ARCFile.ReadARCToC() - Error reading arcfile");
-        TQDebug.DebugWriteLine(ex.ToString());
-      }
-    }
+
+
+
 //
 //    public void Write(string baseFolder, string record, string destinationFileName)
 //    {
@@ -407,22 +331,22 @@ public class ArcFile(FileName:String) {
 //
 //    public int Count => this.directoryEntries.Count;
 
-     class ARCDirEntry(
-        FileName:String,
-        StorageType:Int,
-        FileOffset:Int,
-        CompressedSize:Int,
-        RealSize:Int,
-        Parts:List<ArcFile.ARCPartEntry>,) {
+     data class ARCDirEntry(
+       val StorageType:Int,
+       val FileOffset:Int,
+       val CompressedSize:Int,
+       val RealSize:Int,
+       var FileName:String = "",
+       val Parts:ArrayList<ARCPartEntry> = ArrayList(),) {
 
-//      public fun IsActive(): Boolean = this.StorageType == 1 || this.Parts != null
+      public fun IsActive(): Boolean = this.StorageType == 1 || (this.Parts != null && this.Parts.isNotEmpty())
     }
 
-     class ARCPartEntry
+     data class ARCPartEntry
       (
-        FileOffset:Int,
-        CompressedSize:Int,
-        RealSize:Int,
+        val FileOffset:Int,
+        val CompressedSize:Int,
+        val RealSize:Int,
     )
   }
 

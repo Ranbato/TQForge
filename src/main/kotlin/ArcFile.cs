@@ -196,18 +196,18 @@ namespace TQ_weaponsmith
       {
         using (FileStream input = new FileStream(this.FileName, FileMode.Open, FileAccess.Read))
         {
-          using (BinaryReader binaryReader = new BinaryReader((Stream) input))
+          using (InputStream InputStream = new InputStream((Stream) input))
           {
             if (TQDebug.ArcFileDebugLevel > 1)
               TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "File Length={0}", new object[1]
               {
                 (object) input.Length
               }));
-            if (binaryReader.ReadByte() != (byte) 65 || binaryReader.ReadByte() != (byte) 82 || binaryReader.ReadByte() != (byte) 67 || input.Length < 33L)
+            if (InputStream.ReadByte() != (byte) 65 || InputStream.ReadByte() != (byte) 82 || InputStream.ReadByte() != (byte) 67 || input.Length < 33L)
               return;
-            binaryReader.BaseStream.Seek(8L, SeekOrigin.Begin);
-            int capacity = binaryReader.ReadInt32();
-            int length1 = binaryReader.ReadInt32();
+            InputStream.BaseStream.Seek(8L, SeekOrigin.Begin);
+            int capacity = InputStream.ReadInt32();
+            int length1 = InputStream.ReadInt32();
             if (TQDebug.ArcFileDebugLevel > 1)
               TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "numEntries={0}, numParts={1}", new object[2]
               {
@@ -218,8 +218,8 @@ namespace TQ_weaponsmith
             ArcFile.ARCDirEntry[] arcDirEntryArray = new ArcFile.ARCDirEntry[capacity];
             if (TQDebug.ArcFileDebugLevel > 2)
               TQDebug.DebugWriteLine("Seeking to tocOffset location");
-            binaryReader.BaseStream.Seek(24L, SeekOrigin.Begin);
-            int offset = binaryReader.ReadInt32();
+            InputStream.BaseStream.Seek(24L, SeekOrigin.Begin);
+            int offset = InputStream.ReadInt32();
             if (TQDebug.ArcFileDebugLevel > 1)
               TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "tocOffset = {0}", new object[1]
               {
@@ -227,13 +227,13 @@ namespace TQ_weaponsmith
               }));
             if (input.Length < (long) (offset + 12))
               return;
-            binaryReader.BaseStream.Seek((long) offset, SeekOrigin.Begin);
+            InputStream.BaseStream.Seek((long) offset, SeekOrigin.Begin);
             for (int index = 0; index < length1; ++index)
             {
               arcPartEntryArray[index] = new ArcFile.ARCPartEntry();
-              arcPartEntryArray[index].FileOffset = binaryReader.ReadInt32();
-              arcPartEntryArray[index].CompressedSize = binaryReader.ReadInt32();
-              arcPartEntryArray[index].RealSize = binaryReader.ReadInt32();
+              arcPartEntryArray[index].FileOffset = InputStream.ReadInt32();
+              arcPartEntryArray[index].CompressedSize = InputStream.ReadInt32();
+              arcPartEntryArray[index].RealSize = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
               {
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "parts[{0}]", new object[1]
@@ -260,35 +260,35 @@ namespace TQ_weaponsmith
             for (int index1 = 0; index1 < capacity; ++index1)
             {
               arcDirEntryArray[index1] = new ArcFile.ARCDirEntry();
-              int num2 = binaryReader.ReadInt32();
+              int num2 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "StorageType={0}", new object[1]
                 {
                   (object) num2
                 }));
               arcDirEntryArray[index1].StorageType = num2;
-              arcDirEntryArray[index1].FileOffset = binaryReader.ReadInt32();
-              arcDirEntryArray[index1].CompressedSize = binaryReader.ReadInt32();
-              arcDirEntryArray[index1].RealSize = binaryReader.ReadInt32();
-              int num3 = binaryReader.ReadInt32();
+              arcDirEntryArray[index1].FileOffset = InputStream.ReadInt32();
+              arcDirEntryArray[index1].CompressedSize = InputStream.ReadInt32();
+              arcDirEntryArray[index1].RealSize = InputStream.ReadInt32();
+              int num3 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Crap2={0}", new object[1]
                 {
                   (object) num3
                 }));
-              int num4 = binaryReader.ReadInt32();
+              int num4 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Crap3={0}", new object[1]
                 {
                   (object) num4
                 }));
-              int num5 = binaryReader.ReadInt32();
+              int num5 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Crap4={0}", new object[1]
                 {
                   (object) num5
                 }));
-              int length2 = binaryReader.ReadInt32();
+              int length2 = InputStream.ReadInt32();
               if (length2 < 1)
               {
                 arcDirEntryArray[index1].Parts = (ArcFile.ARCPartEntry[]) null;
@@ -300,14 +300,14 @@ namespace TQ_weaponsmith
               }
               else
                 arcDirEntryArray[index1].Parts = new ArcFile.ARCPartEntry[length2];
-              int num6 = binaryReader.ReadInt32();
-              int num7 = binaryReader.ReadInt32();
+              int num6 = InputStream.ReadInt32();
+              int num7 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Filename Length={0}", new object[1]
                 {
                   (object) num7
                 }));
-              int num8 = binaryReader.ReadInt32();
+              int num8 = InputStream.ReadInt32();
               if (TQDebug.ArcFileDebugLevel > 2)
               {
                 TQDebug.DebugWriteLine(string.Format((IFormatProvider) CultureInfo.InvariantCulture, "Filename Offset={0}", new object[1]
@@ -356,7 +356,7 @@ namespace TQ_weaponsmith
                     (object) index3
                   }));
                 int index4 = 0;
-                while ((bytes[index4++] = binaryReader.ReadByte()) > (byte) 0)
+                while ((bytes[index4++] = InputStream.ReadByte()) > (byte) 0)
                 {
                   if (bytes[index4 - 1] == (byte) 3)
                   {

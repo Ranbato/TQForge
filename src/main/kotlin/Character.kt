@@ -1,77 +1,64 @@
-﻿// Decompiled with JetBrains decompiler
-// Type: TQ_weaponsmith.Character
-// Assembly: TQ_Blacksmith, Version=0.1.4.1, Culture=neutral, PublicKeyToken=null
-// MVID: 1CC9040D-95C6-4C54-B248-9D80684B2CA8
-// Assembly location: D:\Games\GOG Galaxy\Games\Titan Quest - Anniversary Edition\Downloads\Blacksmith\TQ_Blacksmith.exe
+﻿private val  beginBlockPattern = byteArrayOf(
 
-using System;
-using System.IO;
+  11,
+  0,
+  0,
+  0,
+  98,
+  101,
+  103,
+  105,
+  110,
+  95,
+  98,
+  108,
+  111,
+  99,
+  107
+)
+private val endBlockPattern = byteArrayOf(
 
-namespace TQ_weaponsmith
+  9,
+  0,
+  0,
+  0,
+  101,
+  110,
+  100,
+  95,
+  98,
+  108,
+  111,
+  99,
+  107
+)
+private val lateinit caracterName:String
+private val lateinit caracterFile:String
+private var rawData:ByteArray
+private var itemBlockStart:Int
+private var itemBlockEnd:Int
+private var equipmentBlockStart:Int
+private var equipmentBlockEnd:Int
+private var numberOfSacks:Int
+private var currentlyFocusedSackNumber:Int
+private var currentlySelectedSackNumber:Int
+private var equipmentCtrlIOStreamVersion:Int
+private val sacks:List<Sack>;
+private var equipmentSack:Sack;
+public var isModified = false
+
+public Character( name:String, filePath:String):Unit
 {
-  public class Character
-  {
-    private static byte[] beginBlockPattern = new byte[15]
-    {
-      (byte) 11,
-      (byte) 0,
-      (byte) 0,
-      (byte) 0,
-      (byte) 98,
-      (byte) 101,
-      (byte) 103,
-      (byte) 105,
-      (byte) 110,
-      (byte) 95,
-      (byte) 98,
-      (byte) 108,
-      (byte) 111,
-      (byte) 99,
-      (byte) 107
-    };
-    private static byte[] endBlockPattern = new byte[13]
-    {
-      (byte) 9,
-      (byte) 0,
-      (byte) 0,
-      (byte) 0,
-      (byte) 101,
-      (byte) 110,
-      (byte) 100,
-      (byte) 95,
-      (byte) 98,
-      (byte) 108,
-      (byte) 111,
-      (byte) 99,
-      (byte) 107
-    };
-    private string caracterName;
-    private string caracterFile;
-    private byte[] rawData;
-    private int itemBlockStart;
-    private int itemBlockEnd;
-    private int equipmentBlockStart;
-    private int equipmentBlockEnd;
-    private int numberOfSacks;
-    private int currentlyFocusedSackNumber;
-    private int currentlySelectedSackNumber;
-    private int equipmentCtrlIOStreamVersion;
-    private Sack[] sacks;
-    private Sack equipmentSack;
-    public bool isModified;
+  caracterName = name;
+  caracterFile = filePath;
+}
 
-    public Character(string name, string filePath)
-    {
-      this.caracterName = name;
-      this.caracterFile = filePath;
-    }
-
-    public void loadFile()
+public fun loadFile():Unit
     {
       using (FileStream input = new FileStream(this.caracterFile, FileMode.Open, FileAccess.Read))
       {
-        using (BinaryReader binaryReader = new BinaryReader((Stream) input))
-          this.rawData = binaryReader.ReadBytes((int) input.Length);
+        using (InputStream InputStream = new InputStream((Stream) input))
+          this.rawData = InputStream.Reads((int) input.Length);
       }
       try
       {
@@ -87,7 +74,7 @@ namespace TQ_weaponsmith
     {
       using (MemoryStream input = new MemoryStream(this.rawData, false))
       {
-        using (BinaryReader reader = new BinaryReader((Stream) input))
+        using (InputStream reader = new InputStream((Stream) input))
         {
           int num = 0;
           int start = 0;
@@ -198,7 +185,7 @@ namespace TQ_weaponsmith
       return -1;
     }
 
-    private void parseEquipmentBlock(int offset, BinaryReader reader)
+    private void parseEquipmentBlock(int offset, InputStream reader)
     {
       try
       {
@@ -218,7 +205,7 @@ namespace TQ_weaponsmith
       }
     }
 
-    private void parseItemBlock(int offset, BinaryReader reader)
+    private void parseItemBlock(int offset, InputStream reader)
     {
       try
       {
@@ -270,7 +257,7 @@ namespace TQ_weaponsmith
         }
         str1 = " Original file backed to BlaksmithBackup_Player.chr";
       }
-      byte[] buffer = this.Encode();
+      [] buffer = this.Encode();
       using (FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.Write))
         fileStream.Write(buffer, 0, buffer.Length);
       this.isModified = false;
@@ -278,23 +265,23 @@ namespace TQ_weaponsmith
       Logger.Log("Character data saved to " + fileName + str1);
     }
 
-    public byte[] Encode()
+    public [] Encode()
     {
-      byte[] sourceArray = this.EncodeItemData();
-      byte[] destinationArray = new byte[this.itemBlockStart + sourceArray.Length + (this.rawData.Length - this.itemBlockEnd)];
+      [] sourceArray = this.EncodeItemData();
+      [] destinationArray = new [this.itemBlockStart + sourceArray.Length + (this.rawData.Length - this.itemBlockEnd)];
       Array.Copy((Array) this.rawData, 0, (Array) destinationArray, 0, this.itemBlockStart);
       Array.Copy((Array) sourceArray, 0, (Array) destinationArray, this.itemBlockStart, sourceArray.Length);
       Array.Copy((Array) this.rawData, this.itemBlockEnd, (Array) destinationArray, this.itemBlockStart + sourceArray.Length, this.rawData.Length - this.itemBlockEnd);
       return destinationArray;
     }
 
-    private byte[] EncodeEquipmentData()
+    private [] EncodeEquipmentData()
     {
       int length;
-      byte[] buffer;
+      [] buffer;
       using (MemoryStream output = new MemoryStream(2048))
       {
-        using (BinaryWriter writer = new BinaryWriter((Stream) output))
+        using (OutputStream writer = new OutputStream((Stream) output))
         {
           TQData.writeCString(writer, "equipmentCtrlIOStreamVersion");
           writer.Write(this.equipmentCtrlIOStreamVersion);
@@ -305,18 +292,18 @@ namespace TQ_weaponsmith
       }
       if (length == buffer.Length)
         return buffer;
-      byte[] destinationArray = new byte[length];
+      [] destinationArray = new [length];
       Array.Copy((Array) buffer, (Array) destinationArray, length);
       return destinationArray;
     }
 
-    private byte[] EncodeItemData()
+    private [] EncodeItemData()
     {
       int length;
-      byte[] buffer;
+      [] buffer;
       using (MemoryStream output = new MemoryStream(2048))
       {
-        using (BinaryWriter writer = new BinaryWriter((Stream) output))
+        using (OutputStream writer = new OutputStream((Stream) output))
         {
           TQData.writeCString(writer, "numberOfSacks");
           writer.Write(this.numberOfSacks);
@@ -332,7 +319,7 @@ namespace TQ_weaponsmith
       }
       if (length == buffer.Length)
         return buffer;
-      byte[] destinationArray = new byte[length];
+      [] destinationArray = new [length];
       Array.Copy((Array) buffer, (Array) destinationArray, length);
       return destinationArray;
     }

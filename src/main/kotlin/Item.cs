@@ -640,7 +640,7 @@ namespace TQ_weaponsmith
       return obj;
     }
 
-    public void Encode(BinaryWriter writer)
+    public void Encode(OutputStream writer)
     {
       int stackSize = this.StackSize;
       int num1 = this.PositionX;
@@ -2820,7 +2820,7 @@ namespace TQ_weaponsmith
       this.setItemsString = (string) null;
     }
 
-    public void Parse(BinaryReader reader)
+    public void Parse(InputStream reader)
     {
       try
       {

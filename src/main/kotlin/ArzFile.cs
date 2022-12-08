@@ -118,8 +118,8 @@ namespace TQ_weaponsmith
       try
       {
         FileStream input = new FileStream(this.fileName, FileMode.Open, FileAccess.Read, FileShare.Read);
-        this.rawData = new BinaryReader((Stream) input).ReadBytes((int) input.Length);
-        BinaryReader reader = new BinaryReader((Stream) new MemoryStream(this.rawData, false));
+        this.rawData = new InputStream((Stream) input).ReadBytes((int) input.Length);
+        InputStream reader = new InputStream((Stream) new MemoryStream(this.rawData, false));
         try
         {
           int[] numArray = new int[6];
@@ -164,7 +164,7 @@ namespace TQ_weaponsmith
     private void ReadRecordTable(
       int pos,
       int numEntries,
-      BinaryReader reader,
+      InputStream reader,
       StreamWriter outStream)
     {
       this.recordInfo = new Dictionary<string, ArzFile.RecordInfo>((int) Math.Round((double) numEntries * 1.2));
@@ -179,7 +179,7 @@ namespace TQ_weaponsmith
       }
     }
 
-    private void ReadStringTable(int pos, BinaryReader reader, StreamWriter outStream)
+    private void ReadStringTable(int pos, InputStream reader, StreamWriter outStream)
     {
       reader.BaseStream.Seek((long) pos, SeekOrigin.Begin);
       int length = reader.ReadInt32();
@@ -203,7 +203,7 @@ namespace TQ_weaponsmith
 
       public RecordInfo() => this.RecordType = string.Empty;
 
-      public void Decode(BinaryReader inReader, int baseOffset, ArzFile arzFile)
+      public void Decode(InputStream inReader, int baseOffset, ArzFile arzFile)
       {
         this.idStringIndex = inReader.ReadInt32();
         this.RecordType = TQData.ReadCString(inReader);
@@ -238,14 +238,14 @@ namespace TQ_weaponsmith
           }));
         }
         DBRecord dbRecord = new DBRecord(this.ID, this.RecordType);
-        using (BinaryReader binaryReader = new BinaryReader((Stream) new MemoryStream(buffer, false)))
+        using (InputStream InputStream = new InputStream((Stream) new MemoryStream(buffer, false)))
         {
           int num2 = 0;
           while (num2 < num1)
           {
-            short dataType = binaryReader.ReadInt16();
-            short numberOfValues = binaryReader.ReadInt16();
-            int index1 = binaryReader.ReadInt32();
+            short dataType = InputStream.ReadInt16();
+            short numberOfValues = InputStream.ReadInt16();
+            int index1 = InputStream.ReadInt32();
             string variableName = arzFile.Getstring(index1);
             if (variableName == null)
             {
@@ -314,21 +314,21 @@ namespace TQ_weaponsmith
               {
                 case VariableDataType.Integer:
                 case VariableDataType.Boolean:
-                  int num3 = binaryReader.ReadInt32();
+                  int num3 = InputStream.ReadInt32();
                   variable[index2] = (object) num3;
                   break;
                 case VariableDataType.Float:
-                  float num4 = binaryReader.ReadSingle();
+                  float num4 = InputStream.ReadSingle();
                   variable[index2] = (object) num4;
                   break;
                 case VariableDataType.StringVar:
-                  int index3 = binaryReader.ReadInt32();
+                  int index3 = InputStream.ReadInt32();
                   string str1 = arzFile.Getstring(index3);
                   string str2 = str1 != null ? str1.Trim() : string.Empty;
                   variable[index2] = (object) str2;
                   break;
                 default:
-                  int num5 = binaryReader.ReadInt32();
+                  int num5 = InputStream.ReadInt32();
                   variable[index2] = (object) num5;
                   break;
               }

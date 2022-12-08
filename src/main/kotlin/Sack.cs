@@ -96,7 +96,7 @@ namespace TQ_weaponsmith
       this.IsModified = true;
     }
 
-    public void Encode(BinaryWriter writer)
+    public void Encode(OutputStream writer)
     {
       if (this.sackType != SackType.Equipment)
       {
@@ -155,7 +155,7 @@ namespace TQ_weaponsmith
 
     public static bool IsWeaponSlot(int equipmentSlot) => equipmentSlot >= 0 && equipmentSlot <= Sack.equipmentLocationOffsets.Length && Sack.equipmentLocationOffsets[equipmentSlot].X == Item.WeaponSlotIndicator;
 
-    public void Parse(BinaryReader reader)
+    public void Parse(InputStream reader)
     {
       try
       {
