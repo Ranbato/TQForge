@@ -1,4 +1,6 @@
-﻿private val  beginBlockPattern = byteArrayOf(
+﻿public class Character
+{
+private val  beginBlockPattern = byteArrayOf(
 
   11,
   0,
@@ -32,22 +34,22 @@ private val endBlockPattern = byteArrayOf(
   99,
   107
 )
-private val lateinit caracterName:String
-private val lateinit caracterFile:String
-private var rawData:ByteArray
-private var itemBlockStart:Int
-private var itemBlockEnd:Int
-private var equipmentBlockStart:Int
-private var equipmentBlockEnd:Int
-private var numberOfSacks:Int
-private var currentlyFocusedSackNumber:Int
-private var currentlySelectedSackNumber:Int
-private var equipmentCtrlIOStreamVersion:Int
-private val sacks:List<Sack>;
-private var equipmentSack:Sack;
+private val  caracterName:String
+private val  caracterFile:String
+private var rawData = ByteArray(0)
+private var itemBlockStart = -1
+private var itemBlockEnd = -1
+private var equipmentBlockStart = -1
+private var equipmentBlockEnd = -1
+private var numberOfSacks = 0
+private var currentlyFocusedSackNumber = 0
+private var currentlySelectedSackNumber:Int = -1
+private var equipmentCtrlIOStreamVersion:Int = 0
+private val sacks:List<Sack> = emptyList()
+private var equipmentSack:Sack = Sack()
 public var isModified = false
 
-public Character( name:String, filePath:String):Unit
+ constructor( name:String, filePath:String)
 {
   caracterName = name;
   caracterFile = filePath;
@@ -55,19 +57,15 @@ public Character( name:String, filePath:String):Unit
 
 public fun loadFile():Unit
     {
-      using (FileStream input = new FileStream(this.caracterFile, FileMode.Open, FileAccess.Read))
-      {
-        using (InputStream InputStream = new InputStream((Stream) input))
-          this.rawData = InputStream.Reads((int) input.Length);
-      }
-      try
-      {
-        this.parseRawData();
-      }
-      catch (ArgumentException ex)
-      {
-        throw;
-      }
+      val input = BufferedRandomAccessFile(caracterFile, "r")
+
+      val fileSize = input.length() as Int
+
+          this.rawData = ByteArray(fileSize)
+        input.readFully(rawData)
+
+
+        parseRawData();
     }
 
     private void parseRawData()
@@ -151,41 +149,41 @@ public fun loadFile():Unit
       }
     }
 
-    private int FindNextBlockDelim(int start)
+    private fun FindNextBlockDelim( start:Int):Int
     {
-      int index1 = 0;
-      int index2 = 0;
-      for (int index3 = start; index3 < this.rawData.Length; ++index3)
+      var index1 = 0;
+      var index2 = 0;
+      for ( index3 in start until rawData.size)
       {
-        if ((int) this.rawData[index3] == (int) Character.beginBlockPattern[index1])
-        {
-          ++index1;
-          if (index1 == Character.beginBlockPattern.Length)
+        if (rawData[index3] ==  beginBlockPattern[index1]){
+
+          ++index1
+          if (index1 == beginBlockPattern.size)
             return index3 + 1 - index1;
         }
         else if (index1 > 0)
         {
           index1 = 0;
-          if ((int) this.rawData[index3] == (int) Character.beginBlockPattern[index1])
+          if (rawData[index3] == beginBlockPattern[index1])
             ++index1;
         }
-        if ((int) this.rawData[index3] == (int) Character.endBlockPattern[index2])
+        if (rawData[index3] == endBlockPattern[index2])
         {
           ++index2;
-          if (index2 == Character.endBlockPattern.Length)
+          if (index2 == endBlockPattern.size)
             return index3 + 1 - index2;
         }
         else if (index2 > 0)
         {
           index2 = 0;
-          if ((int) this.rawData[index3] == (int) Character.endBlockPattern[index2])
+          if (rawData[index3] == endBlockPattern[index2])
             ++index2;
         }
       }
       return -1;
     }
 
-    private void parseEquipmentBlock(int offset, InputStream reader)
+    private fun parseEquipmentBlock(int offset, InputStream reader):Unit
     {
       try
       {

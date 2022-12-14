@@ -189,7 +189,7 @@ constructor(FileName:String){
           if (it.length()- it.filePointer <  (offset + 12))  return@use
           it.seek( offset)
 
-            for (index in 1..length1)
+            for (index in 0 until length1)
             {
               arcPartEntryArray[index] = ARCPartEntry( it.readInt(),  it.readInt(),  it.readInt());
               logger.debug {  "parts[{$index}]"}
@@ -202,7 +202,7 @@ constructor(FileName:String){
           logger.debug {   "fileNamesOffset = {$position}.  Seeking to {$num1} to read file record data."}
           it.seek( it.length() - num1);
 
-          for (index1 in 1..capacity)
+          for (index1 in 0 until capacity)
           {
             val num2 = it.readInt()
             arcDirEntryArray[index1] = ARCDirEntry(num2, it.readInt(), it.readInt(), it.readInt())
@@ -237,13 +237,13 @@ constructor(FileName:String){
 
             if (num2 != 1 && arcDirEntryArray[index1]?.IsActive()== true)
             {
-              for (index2 in 1..arcDirEntryArray[index1]!!.Parts!!.size)
+              for (index2 in 0 until arcDirEntryArray[index1]!!.Parts!!.size)
               arcDirEntryArray[index1]!!.Parts[index2] = arcPartEntryArray[index2 + num6]!!
             }
           }
             it.seek( position)
             var bytes =  ByteArray(2048)
-            for (index3 in 1 until capacity)
+            for (index3 in 0 until capacity)
             {
               if (arcDirEntryArray[index3]?.IsActive() == true)
               {
@@ -291,7 +291,7 @@ constructor(FileName:String){
               }
             }
               logger.debug("Creating Dictionary");
-            for (index in 1 until capacity)
+            for (index in 0 until capacity)
             {
               if (arcDirEntryArray[index]?.IsActive() == true)
                 directoryEntries[arcDirEntryArray[index]!!.FileName] =  arcDirEntryArray[index]!!
