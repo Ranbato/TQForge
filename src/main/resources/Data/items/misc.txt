@@ -1,0 +1,27 @@
+WeaponMelee_Axe=records\item\questitems\qi_sickleofkronos.dbr=Quest=tagQuestItem07=Sickle of Kronos
+WeaponMelee_Sword=records\xpack2\item\equipmentweapons\sword\surtrsword_nopickup.dbr=Quest=x2tagUWeapon024=Sword of the Glauberg Prince
+WeaponMelee_Axe=RECORDS\ITEM\MISCELLANEOUS\BOWLCHICKENFEED.DBR
+WeaponMelee_Mace=RECORDS\XPACK2\ITEM\EQUIPMENTWEAPONS\CLUB\Z_STONESWORD.DBR=Legendary=x2tagZWeapon001=The Sword in the Stone
+WeaponMelee_Axe=RECORDS\XPACK\ITEM\EQUIPMENTWEAPONS\AXE\Z_FRANCE01.DBR=Magical=xtagUWeapon024=Francisca
+
+ArmorProtective_Head=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\HELM\Z_TRACKSUIT.DBR=Epic=x2tagZArmor002=Headband
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\Z_TRACKSUIT.DBR=Epic=x2tagZArmor003=Sweat Bands
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\Z_TRACKSUIT.DBR=Epic=x2tagZArmor004=Track Pants
+ArmorProtective_UpperBody=records\xpack2\item\equipmentarmor\torso\z_tracksuit.dbr=x2tagZArmor004=Track Suit
+
+WeaponHunting_Spear=records\xpack2\item\equipmentweapons\spear\q_mistlespear_legendary.dbr=Quest=x2tagQuestItem02=Mistletoe of Nerthus
+WeaponMagical_Staff=records\xpack2\item\equipmentweapons\staff\mimerstaff_nopickup.dbr=Quest=x2tagUWeapon054=Carnyx Staff
+
+WeaponMagical_Staff=RECORDS\XPACK2\ITEM\EQUIPMENTWEAPONS\STAFF\MI_L_TROLL.DBR=Rare=x2tagMIWeapon031={^l}Troll's Branch
+WeaponMagical_Staff=RECORDS\XPACK2\ITEM\EQUIPMENTWEAPONS\STAFF\MI_L_FJORDMAGE.DBR=Rare=x2tagMIWeapon034={^l}Staff of the Deep
+
+WeaponMelee_Mace=RECORDS\XPACK\ITEM\EQUIPMENTWEAPONS\CLUB\Z_GERMANY01.DBR=Magical=xtagUWeapon055=Irminsul
+WeaponMelee_Mace=RECORDS\XPACK\ITEM\EQUIPMENTWEAPONS\CLUB\Z_US01.DBR=Magical=xtagUWeapon057=Tiberius’ Wrath
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\Z_US01.DBR=Magical=xtagUArmor079=Bracers of the Great Merchant
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\Z_US01.DBR=Magical=xtagUArmor054=Cuirass of the Great Merchant
+
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\Z_ASIA01.DBR=Magical=xtagUArmor052=Uwagi
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\Z_ASIA01.DBR=Magical=xtagUArmor077=Kurokote
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\Z_ASIA01.DBR=Magical=xtagUArmor105=Jika-tabi
+WeaponMelee_Sword=RECORDS\XPACK\ITEM\EQUIPMENTWEAPONS\SWORD\Z_ASIA01A.DBR=Magical=xtagUWeapon101=Katana
+WeaponMelee_Sword=RECORDS\XPACK\ITEM\EQUIPMENTWEAPONS\SWORD\Z_ASIA01B.DBR=Magical=xtagUWeapon102=Sai

@@ -1,8 +1,9 @@
 ﻿
-  public class Variable(Name:String ,dataType: VariableDataType ,  numberOfValues:Int)
+  public class Variable(val Name:String ,val DataType: VariableDataType , val numberOfValues:Int,
+    val string:Array<String?> = arrayOfNulls(numberOfValues)
+  )
   {
-    private lateinit var values: Array<String?>;
-    public fun  NumberOfValues (): Int = values.size
+    public fun  NumberOfValues (): Int = numberOfValues
 
 //    public object this[int index]
 //    {
@@ -10,14 +11,11 @@
 //      set => this.values[index] = value;
 //    }
 
-    init
-    {
-      this.values = arrayOfNulls<String>(numberOfValues)
-    }
 
-    public fun GetInt32(index:Int) :Int =  values[index]!!.toInt()
-    public fun GetSingle(index:Int) :Float =  values[index]!!.toFloat()
-    public fun GetString(index:Int) :String =  values[index]!!
+    public fun GetInt32(index:Int) :Int =  string[index]!!.toInt()
+    public fun GetSingle(index:Int) :Float =  string[index]!!.toFloat()
+    public fun GetString(index:Int) :String =  string[index]!!
+    public fun setString(index:Int, value:String):Unit { string[index] = value}
 //
 //    public override string ToString()
 //    {

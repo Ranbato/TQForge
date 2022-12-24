@@ -122,7 +122,7 @@ namespace TQ_weaponsmith
       this.itemScalePercent = "itemScalePercent";
     }
 
-    public string friendlyName() => Database.DB.GetFriendlyName(this.DescriptionTag);
+    public string friendlyName() => Database.GetFriendlyName(this.DescriptionTag);
 
     public string cleanName()
     {

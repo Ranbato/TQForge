@@ -1,0 +1,20 @@
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT01.DBR=Epic=xtagParchmentTitle01=Letter from Beastman Archer #783
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT02.DBR=Epic=xtagParchmentTitle02=Kar'tak's Journal
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT03.DBR=Epic=xtagParchmentTitle03=Gronk's Apology
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT04.DBR=Epic=xtagParchmentTitle04=An Entreaty
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT05.DBR=Epic=xtagParchmentTitle05=Form W-900
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT06.DBR=Epic=xtagParchmentTitle06=The Diary of Sorius
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT07.DBR=Epic=xtagParchmentTitle07=Letter to Cleo
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT08.DBR=Epic=xtagParchmentTitle08=Lamia Grocery List
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT09.DBR=Epic=xtagParchmentTitle09=Welcome to Undeath!
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT11.DBR=Epic=xtagParchmentTitle11=Letter From Troy
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT12.DBR=Epic=xtagParchmentTitle12=Recipe for Karkinos Bisque
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT13.DBR=Epic=xtagParchmentTitle13=Diary of a Teenage Maenad
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT14.DBR=Epic=xtagParchmentTitle14=Report from the Front
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT15.DBR=Epic=xtagParchmentTitle15=The Amazing Artius
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT16.DBR=Epic=xtagParchmentTitle16=Letter to Mummy
+ItemEquipment=RECORDS\XPACK\ITEM\PARCHMENTS\PARCHMENT17.DBR=Epic=xtagParchmentTitle17=Ode to the Night
+ItemEquipment=RECORDS\XPACK2\ITEM\MISCELLANEOUS\PARCHMENTS\PARCHMENT_X2A.DBR=Epic=x2tagParchmentTitle01=Behind the wall
+ItemEquipment=RECORDS\XPACK2\ITEM\MISCELLANEOUS\PARCHMENTS\PARCHMENT_X2B.DBR=Epic=x2tagParchmentTitle02=Actor's note
+ItemEquipment=RECORDS\XPACK2\ITEM\MISCELLANEOUS\PARCHMENTS\PARCHMENT_X2C.DBR=Epic=x2tagParchmentTitle03=Poet's jotting
+ItemEquipment=RECORDS\XPACK2\SCENERY\PRIMROSE\PRIMROSE_PARCHMENT01.DBR=Epic=x2tagParchmentTitleZZ=The Pieces

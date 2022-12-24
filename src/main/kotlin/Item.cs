@@ -79,7 +79,7 @@ namespace TQ_weaponsmith
       this.descriptionTag = descriptionTag;
     }
 
-    public string getFriendlyName() => Database.DB.GetFriendlyName(this.baseItemInfo.DescriptionTag);
+    public string getFriendlyName() => Database.GetFriendlyName(this.baseItemInfo.DescriptionTag);
 
     private static string CheckExtension(string itemId)
     {
@@ -344,7 +344,7 @@ namespace TQ_weaponsmith
                 {
                   (object) Database.HtmlColor(Item.GetColor(ItemStyle.Mundane))
                 });
-                str12 = Database.DB.GetFriendlyName(attribute.GetString(0));
+                str12 = Database.GetFriendlyName(attribute.GetString(0));
               }
               else
                 str12 = string.Empty;
@@ -376,7 +376,7 @@ namespace TQ_weaponsmith
               str12 = Item.GetSkillEffect(data, num, attribute, itemAttributesData9, str12, ref font);
             else if (upperInvariant2.EndsWith("DAMAGEQUALIFIER", StringComparison.OrdinalIgnoreCase))
             {
-              string str13 = Database.DB.GetFriendlyName("tagDamageAbsorptionTitle");
+              string str13 = Database.GetFriendlyName("tagDamageAbsorptionTitle");
               if (string.IsNullOrEmpty(str13))
                 str13 = "Protects Against :";
               if (flag)
@@ -386,8 +386,8 @@ namespace TQ_weaponsmith
               }
               string str14 = itemAttributesData9.FullAttribute.Remove(itemAttributesData9.FullAttribute.Length - 15);
               string str15 = str14.Substring(0, 1).ToUpperInvariant() + str14.Substring(1);
-              string friendlyName1 = Database.DB.GetFriendlyName("tagQualifyingDamage" + str15);
-              string friendlyName2 = Database.DB.GetFriendlyName("formatQualifyingDamage");
+              string friendlyName1 = Database.GetFriendlyName("tagQualifyingDamage" + str15);
+              string friendlyName2 = Database.GetFriendlyName("formatQualifyingDamage");
               string formatSpec = !string.IsNullOrEmpty(friendlyName2) ? ItemAttributes.ConvertFormat(friendlyName2) : "{     0}";
               font = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>", new object[1]
               {
@@ -423,7 +423,7 @@ namespace TQ_weaponsmith
             if (upperInvariant2 == "PETBONUSNAME")
             {
               string str18 = record.GetString("petBonusName", 0);
-              DBRecord recordFromFile = Database.DB.GetRecordFromFile(str18);
+              DBRecord recordFromFile = Database.GetRecordFromFile(str18);
               if (recordFromFile != null)
               {
                 this.GetAttributesFromRecord(recordFromFile, true, str18, results);
@@ -442,7 +442,7 @@ namespace TQ_weaponsmith
       int int32 = skillRecord.GetInt32("petLimit", 0);
       if (int32 > 1)
       {
-        string friendlyName = Database.DB.GetFriendlyName("SkillPetLimit");
+        string friendlyName = Database.GetFriendlyName("SkillPetLimit");
         string str = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName) ? ItemAttributes.ConvertFormat(friendlyName) : "{0} Summon Limit", new object[1]
         {
           (object) int32.ToString((IFormatProvider) CultureInfo.CurrentCulture)
@@ -454,13 +454,13 @@ namespace TQ_weaponsmith
         };
         results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray));
       }
-      DBRecord recordFromFile1 = Database.DB.GetRecordFromFile(skillRecord.GetString("spawnObjects", 0));
+      DBRecord recordFromFile1 = Database.GetRecordFromFile(skillRecord.GetString("spawnObjects", 0));
       if (recordFromFile1 == null)
         return;
-      string friendlyName1 = Database.DB.GetFriendlyName("SkillPetDescriptionHeading");
+      string friendlyName1 = Database.GetFriendlyName("SkillPetDescriptionHeading");
       string str1 = !string.IsNullOrEmpty(friendlyName1) ? ItemAttributes.ConvertFormat(friendlyName1) : "{0} Attributes:";
       string tagId1 = recordFromFile1.GetString("description", 0);
-      string friendlyName2 = Database.DB.GetFriendlyName(tagId1);
+      string friendlyName2 = Database.GetFriendlyName(tagId1);
       object[] objArray1 = new object[1]
       {
         (object) friendlyName2
@@ -472,7 +472,7 @@ namespace TQ_weaponsmith
         (object) str2
       };
       results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray2));
-      string friendlyName3 = Database.DB.GetFriendlyName("tagSkillPetTimeToLive");
+      string friendlyName3 = Database.GetFriendlyName("tagSkillPetTimeToLive");
       string str3 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName3) ? ItemAttributes.ConvertFormat(friendlyName3) : "Life Time {0} Seconds", new object[1]
       {
         (object) skillRecord.GetSingle("spawnObjectsTimeToLive", 0)
@@ -486,7 +486,7 @@ namespace TQ_weaponsmith
       float single1 = recordFromFile1.GetSingle("characterLife", 0);
       if ((double) single1 != 0.0)
       {
-        string friendlyName4 = Database.DB.GetFriendlyName("SkillPetDescriptionHealth");
+        string friendlyName4 = Database.GetFriendlyName("SkillPetDescriptionHealth");
         string str4 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName4) ? ItemAttributes.ConvertFormat(friendlyName4) : "{0}  Health", new object[1]
         {
           (object) single1
@@ -501,7 +501,7 @@ namespace TQ_weaponsmith
       float single2 = recordFromFile1.GetSingle("characterMana", 0);
       if ((double) single2 != 0.0)
       {
-        string friendlyName5 = Database.DB.GetFriendlyName("SkillPetDescriptionMana");
+        string friendlyName5 = Database.GetFriendlyName("SkillPetDescriptionMana");
         string str5 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName5) ? ItemAttributes.ConvertFormat(friendlyName5) : "{0}  Energy", new object[1]
         {
           (object) single2
@@ -514,7 +514,7 @@ namespace TQ_weaponsmith
         results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray5));
       }
       results.Add(string.Empty);
-      string friendlyName6 = Database.DB.GetFriendlyName("tagSkillPetAbilities");
+      string friendlyName6 = Database.GetFriendlyName("tagSkillPetAbilities");
       string str6 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName6) ? ItemAttributes.ConvertFormat(friendlyName6) : "{0} Abilities:", new object[1]
       {
         (object) "Pet"
@@ -531,7 +531,7 @@ namespace TQ_weaponsmith
       {
         if ((double) single4 == 0.0 || (double) single3 == (double) single4)
         {
-          string friendlyName7 = Database.DB.GetFriendlyName("SkillPetDescriptionDamageMinOnly");
+          string friendlyName7 = Database.GetFriendlyName("SkillPetDescriptionDamageMinOnly");
           string str7 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName7) ? ItemAttributes.ConvertFormat(friendlyName7) : "{0}  Damage", new object[1]
           {
             (object) single3
@@ -545,7 +545,7 @@ namespace TQ_weaponsmith
         }
         else
         {
-          string friendlyName8 = Database.DB.GetFriendlyName("SkillPetDescriptionDamageMinMax");
+          string friendlyName8 = Database.GetFriendlyName("SkillPetDescriptionDamageMinMax");
           string str8 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, !string.IsNullOrEmpty(friendlyName8) ? ItemAttributes.ConvertFormat(friendlyName8) : "{0} - {1}  Damage", new object[2]
           {
             (object) single3,
@@ -577,7 +577,7 @@ namespace TQ_weaponsmith
       }
       for (int index3 = 0; index3 < index1; ++index3)
       {
-        DBRecord recordFromFile2 = Database.DB.GetRecordFromFile(strArray[index3]);
+        DBRecord recordFromFile2 = Database.GetRecordFromFile(strArray[index3]);
         DBRecord record = (DBRecord) null;
         if (recordFromFile2 != null && recordFromFile2.GetString("Class", 0).ToUpperInvariant() != "SKILL_PASSIVE")
         {
@@ -591,18 +591,18 @@ namespace TQ_weaponsmith
             recordId = strArray[index3];
             tagId2 = skillRecord.GetString("skillDisplayName", 0);
             if (tagId2.Length > 0)
-              str10 = Database.DB.GetFriendlyName(tagId2);
+              str10 = Database.GetFriendlyName(tagId2);
           }
           else
           {
-            DBRecord recordFromFile3 = Database.DB.GetRecordFromFile(itemId);
+            DBRecord recordFromFile3 = Database.GetRecordFromFile(itemId);
             if (recordFromFile3 != null)
             {
               record = recordFromFile3;
               recordId = itemId;
               tagId2 = recordFromFile3.GetString("skillDisplayName", 0);
               if (tagId2.Length > 0)
-                str10 = Database.DB.GetFriendlyName(tagId2);
+                str10 = Database.GetFriendlyName(tagId2);
             }
           }
           if (str10.Length == 0)
@@ -902,7 +902,7 @@ namespace TQ_weaponsmith
         tagId = "DamageInfluenceRangeFormat";
       else if (data.Effect.Equals("defensiveBlock"))
         tagId = "DefenseBlock";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -938,7 +938,7 @@ namespace TQ_weaponsmith
       string tagId = "DamageSingleFormat";
       if (this.isInfluenceDamage(data.Effect))
         tagId = "DamageInfluenceSingleFormat";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -974,7 +974,7 @@ namespace TQ_weaponsmith
           tagId = "xtagArtifactClass01";
           goto default;
         case null:
-          string str = Database.MakeSafeForHtml(tagId == null ? "?Unknown Artifact Class?" : Database.DB.GetFriendlyName(tagId));
+          string str = Database.MakeSafeForHtml(tagId == null ? "?Unknown Artifact Class?" : Database.GetFriendlyName(tagId));
           return string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", new object[2]
           {
             (object) Database.HtmlColor(Item.GetColor(ItemStyle.Broken)),
@@ -1003,7 +1003,7 @@ namespace TQ_weaponsmith
         string str1 = Item.ClipColorTag(text1);
         object[] objArray1 = new object[3]
         {
-          (object) Convert.ToInt32(3f * Database.DB.Scale),
+          (object) Convert.ToInt32(3f * Database.Scale),
           (object) Database.HtmlColor(colorTag1),
           (object) str1
         };
@@ -1022,8 +1022,8 @@ namespace TQ_weaponsmith
                 tagId1 = "tagAnimalPart";
                 tagId2 = "tagAnimalPartRatio";
               }
-              string parameter1 = Database.DB.GetFriendlyName(tagId1) ?? "?Relic?";
-              string friendlyName = Database.DB.GetFriendlyName(tagId2);
+              string parameter1 = Database.GetFriendlyName(tagId1) ?? "?Relic?";
+              string friendlyName = Database.GetFriendlyName(tagId2);
               text2 = Item.Format(friendlyName != null ? ItemAttributes.ConvertFormat(friendlyName) : "?{0} - {1} / {2}?", (object) parameter1, (object) this.Number, (object) this.baseItemInfo.CompletedRelicLevel);
             }
             else
@@ -1031,7 +1031,7 @@ namespace TQ_weaponsmith
               string tagId = "tagRelicComplete";
               if (this.IsCharm)
                 tagId = "tagAnimalPartComplete";
-              text2 = Database.DB.GetFriendlyName(tagId) ?? "?Completed Relic/Charm?";
+              text2 = Database.GetFriendlyName(tagId) ?? "?Completed Relic/Charm?";
             }
             string text3 = Database.MakeSafeForHtml(text2);
             Color colorTag2 = this.GetColorTag(text3);
@@ -1051,7 +1051,7 @@ namespace TQ_weaponsmith
           if (this.IsFormulae)
           {
             string tagId3 = "xtagArtifactRecipe";
-            string str3 = Database.DB.GetFriendlyName(tagId3) ?? "Recipe";
+            string str3 = Database.GetFriendlyName(tagId3) ?? "Recipe";
             object[] objArray3 = new object[2]
             {
               (object) Database.HtmlColor(Item.GetColor(ItemStyle.Mundane)),
@@ -1059,7 +1059,7 @@ namespace TQ_weaponsmith
             };
             results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font><br>", objArray3));
             string tagId4 = "xtagArtifactReagents";
-            string friendlyName = Database.DB.GetFriendlyName(tagId4);
+            string friendlyName = Database.GetFriendlyName(tagId4);
             string str4 = Database.MakeSafeForHtml(Item.Format(friendlyName != null ? ItemAttributes.ConvertFormat(friendlyName) : "Required Reagents  ({0}/{1})", (object) 0, (object) 3));
             object[] objArray4 = new object[2]
             {
@@ -1072,7 +1072,7 @@ namespace TQ_weaponsmith
         if ((this.IsQuestItem || this.IsRelic || this.IsPotion || this.IsParchment || this.IsScroll) && this.baseItemInfo != null && this.baseItemInfo.StyleTag.Length > 0)
         {
           string styleTag = this.baseItemInfo.StyleTag;
-          string friendlyName = Database.DB.GetFriendlyName(styleTag);
+          string friendlyName = Database.GetFriendlyName(styleTag);
           if (friendlyName != null)
           {
             foreach (string wrapWord in Database.WrapWords(Database.MakeSafeForHtml(friendlyName), 30))
@@ -1093,15 +1093,15 @@ namespace TQ_weaponsmith
           }
         }
         if (this.baseItemInfo != null)
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.BaseItemId), filtering, this.BaseItemId, results);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.BaseItemId), filtering, this.BaseItemId, results);
         if (this.prefixInfo != null)
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.prefixID), filtering, this.prefixID, results);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.prefixID), filtering, this.prefixID, results);
         if (this.suffixInfo != null)
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.suffixID), filtering, this.suffixID, results);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.suffixID), filtering, this.suffixID, results);
         if (this.RelicInfo != null)
         {
           List<string> stringList = new List<string>();
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.relicID), filtering, this.relicID, stringList);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.relicID), filtering, this.relicID, stringList);
           if (stringList.Count > 0)
           {
             string str7 = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<hr color={0}>", new object[1]
@@ -1126,8 +1126,8 @@ namespace TQ_weaponsmith
                 tagId5 = "tagAnimalPart";
                 tagId6 = "tagAnimalPartRatio";
               }
-              string parameter1 = Database.DB.GetFriendlyName(tagId5) ?? "?Relic?";
-              string friendlyName = Database.DB.GetFriendlyName(tagId6);
+              string parameter1 = Database.GetFriendlyName(tagId5) ?? "?Relic?";
+              string friendlyName = Database.GetFriendlyName(tagId6);
               text5 = Item.Format(friendlyName != null ? ItemAttributes.ConvertFormat(friendlyName) : "?{0} - {1} / {2}?", (object) parameter1, (object) Math.Max(1, this.Var1), (object) this.RelicInfo.CompletedRelicLevel);
             }
             else
@@ -1135,7 +1135,7 @@ namespace TQ_weaponsmith
               string tagId = "tagRelicComplete";
               if (this.RelicInfo.ItemClass.ToUpperInvariant().Equals("ITEMCHARM"))
                 tagId = "tagAnimalPartComplete";
-              text5 = Database.DB.GetFriendlyName(tagId) ?? "?Completed Relic/Charm?";
+              text5 = Database.GetFriendlyName(tagId) ?? "?Completed Relic/Charm?";
             }
             string str9 = Database.MakeSafeForHtml(text5);
             object[] objArray6 = new object[2]
@@ -1150,11 +1150,11 @@ namespace TQ_weaponsmith
         if (this.IsArtifact && this.RelicBonusInfo != null)
         {
           List<string> stringList = new List<string>();
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.RelicBonusId), filtering, this.RelicBonusId, stringList);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.RelicBonusId), filtering, this.RelicBonusId, stringList);
           if (stringList.Count > 0)
           {
             string tagId = "xtagArtifactBonus";
-            string str10 = Database.MakeSafeForHtml(Database.DB.GetFriendlyName(tagId) ?? "Completion Bonus: ");
+            string str10 = Database.MakeSafeForHtml(Database.GetFriendlyName(tagId) ?? "Completion Bonus: ");
             results.Add(string.Empty);
             object[] objArray7 = new object[2]
             {
@@ -1168,13 +1168,13 @@ namespace TQ_weaponsmith
         if ((this.IsRelic || this.HasRelic) && this.RelicBonusInfo != null)
         {
           List<string> stringList = new List<string>();
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.RelicBonusId), filtering, this.RelicBonusId, stringList);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.RelicBonusId), filtering, this.RelicBonusId, stringList);
           if (stringList.Count > 0)
           {
             string tagId = "tagRelicBonus";
             if (this.IsCharm || this.HasRelic && this.RelicInfo.ItemClass.ToUpperInvariant().Equals("ITEMCHARM"))
               tagId = "tagAnimalPartcompleteBonus";
-            string str11 = Database.MakeSafeForHtml(Database.DB.GetFriendlyName(tagId) ?? "?Completed Relic/Charm Bonus:?");
+            string str11 = Database.MakeSafeForHtml(Database.GetFriendlyName(tagId) ?? "?Completed Relic/Charm Bonus:?");
             object[] objArray8 = new object[2]
             {
               (object) Database.HtmlColor(Item.GetColor(ItemStyle.Relic)),
@@ -1188,13 +1188,13 @@ namespace TQ_weaponsmith
         {
           List<string> stringList = new List<string>();
           string str12 = this.baseItemInfo.GetString("artifactName");
-          DBRecord recordFromFile = Database.DB.GetRecordFromFile(str12);
+          DBRecord recordFromFile = Database.GetRecordFromFile(str12);
           if (str12 != null)
           {
             this.GetAttributesFromRecord(recordFromFile, filtering, str12, stringList);
             if (stringList.Count > 0)
             {
-              string text6 = Database.DB.GetFriendlyName(recordFromFile.GetString("description", 0));
+              string text6 = Database.GetFriendlyName(recordFromFile.GetString("description", 0));
               if (string.IsNullOrEmpty(text6))
                 text6 = "?Unknown Artifact Name?";
               string str13 = Database.MakeSafeForHtml(text6);
@@ -1354,7 +1354,7 @@ namespace TQ_weaponsmith
       ref string font)
     {
       string tagId = "ItemAllSkillIncrement";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1388,12 +1388,12 @@ namespace TQ_weaponsmith
       if (string.IsNullOrEmpty(str))
         str = variableName;
       string parameter2 = (string) null;
-      DBRecord recordFromFile = Database.DB.GetRecordFromFile(str);
+      DBRecord recordFromFile = Database.GetRecordFromFile(str);
       if (recordFromFile != null)
       {
         string tagId = recordFromFile.GetString("skillDisplayName", 0);
         if (!string.IsNullOrEmpty(tagId))
-          parameter2 = Database.DB.GetFriendlyName(tagId);
+          parameter2 = Database.GetFriendlyName(tagId);
       }
       if (string.IsNullOrEmpty(parameter2))
       {
@@ -1404,7 +1404,7 @@ namespace TQ_weaponsmith
         };
         font = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>", objArray);
       }
-      string friendlyName = Database.DB.GetFriendlyName("ItemMasteryIncrement");
+      string friendlyName = Database.GetFriendlyName("ItemMasteryIncrement");
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1445,7 +1445,7 @@ namespace TQ_weaponsmith
       if (!string.IsNullOrEmpty(str))
       {
         string parameter2 = (string) null;
-        DBRecord recordFromFile1 = Database.DB.GetRecordFromFile(str);
+        DBRecord recordFromFile1 = Database.GetRecordFromFile(str);
         if (recordFromFile1 != null)
         {
           string itemId1 = recordFromFile1.GetString("buffSkillName", 0);
@@ -1453,33 +1453,33 @@ namespace TQ_weaponsmith
           {
             string tagId1 = recordFromFile1.GetString("skillDisplayName", 0);
             if (!string.IsNullOrEmpty(tagId1))
-              parameter2 = Database.DB.GetFriendlyName(tagId1);
+              parameter2 = Database.GetFriendlyName(tagId1);
             else if (recordFromFile1.GetString("Class", 0).Contains("PetModifier"))
             {
               string itemId2 = recordFromFile1.GetString("petSkillName", 0);
-              DBRecord recordFromFile2 = Database.DB.GetRecordFromFile(itemId2);
+              DBRecord recordFromFile2 = Database.GetRecordFromFile(itemId2);
               if (recordFromFile2 != null)
               {
                 string tagId2 = recordFromFile2.GetString("skillDisplayName", 0);
                 if (!string.IsNullOrEmpty(tagId2))
-                  parameter2 = Database.DB.GetFriendlyName(tagId2);
+                  parameter2 = Database.GetFriendlyName(tagId2);
               }
             }
           }
           else
           {
-            DBRecord recordFromFile3 = Database.DB.GetRecordFromFile(itemId1);
+            DBRecord recordFromFile3 = Database.GetRecordFromFile(itemId1);
             if (recordFromFile3 != null)
             {
               string tagId = recordFromFile3.GetString("skillDisplayName", 0);
               if (!string.IsNullOrEmpty(tagId))
-                parameter2 = Database.DB.GetFriendlyName(tagId);
+                parameter2 = Database.GetFriendlyName(tagId);
             }
           }
         }
         if (string.IsNullOrEmpty(parameter2))
           parameter2 = Path.GetFileNameWithoutExtension(str);
-        string friendlyName = Database.DB.GetFriendlyName("ItemSkillIncrement");
+        string friendlyName = Database.GetFriendlyName("ItemSkillIncrement");
         string formatSpec;
         if (string.IsNullOrEmpty(friendlyName))
         {
@@ -1514,13 +1514,13 @@ namespace TQ_weaponsmith
           string str1 = string.Empty;
           string str2 = string.Empty;
           if (this.baseItemInfo.StyleTag.Length > 0 && !this.IsPotion && !this.IsRelic && !this.IsScroll && !this.IsParchment && !this.IsQuestItem)
-            str1 = Database.DB.GetFriendlyName(this.baseItemInfo.StyleTag) + " ";
+            str1 = Database.GetFriendlyName(this.baseItemInfo.StyleTag) + " ";
           if (this.baseItemInfo.QualityTag.Length > 0)
-            str2 = Database.DB.GetFriendlyName(this.baseItemInfo.QualityTag) + " ";
+            str2 = Database.GetFriendlyName(this.baseItemInfo.QualityTag) + " ";
           object[] objArray1 = new object[2]
           {
             (object) Database.HtmlColor(Item.GetColor(ItemStyle.Rare)),
-            (object) (str1 + str2 + Database.DB.GetFriendlyName(this.baseItemInfo.DescriptionTag))
+            (object) (str1 + str2 + Database.GetFriendlyName(this.baseItemInfo.DescriptionTag))
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray1));
           object[] objArray2 = new object[2]
@@ -1529,7 +1529,7 @@ namespace TQ_weaponsmith
             (object) this.BaseItemId
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray2));
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.BaseItemId), filtering, this.BaseItemId, results, false);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.BaseItemId), filtering, this.BaseItemId, results, false);
         }
         if (results != null)
         {
@@ -1545,7 +1545,7 @@ namespace TQ_weaponsmith
           object[] objArray3 = new object[2]
           {
             (object) Database.HtmlColor(Item.GetColor(ItemStyle.Rare)),
-            (object) Database.DB.GetFriendlyName(this.prefixInfo.DescriptionTag)
+            (object) Database.GetFriendlyName(this.prefixInfo.DescriptionTag)
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray3));
           object[] objArray4 = new object[2]
@@ -1554,7 +1554,7 @@ namespace TQ_weaponsmith
             (object) this.prefixID
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray4));
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.prefixID), filtering, this.prefixID, results, false);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.prefixID), filtering, this.prefixID, results, false);
         }
         if (results != null)
         {
@@ -1570,7 +1570,7 @@ namespace TQ_weaponsmith
           object[] objArray5 = new object[2]
           {
             (object) Database.HtmlColor(Item.GetColor(ItemStyle.Rare)),
-            (object) Database.DB.GetFriendlyName(this.suffixInfo.DescriptionTag)
+            (object) Database.GetFriendlyName(this.suffixInfo.DescriptionTag)
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray5));
           object[] objArray6 = new object[2]
@@ -1579,7 +1579,7 @@ namespace TQ_weaponsmith
             (object) this.suffixID
           };
           results.Add(string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>{1}</font>", objArray6));
-          this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(this.suffixID), filtering, this.suffixID, results, false);
+          this.GetAttributesFromRecord(Database.GetRecordFromFile(this.suffixID), filtering, this.suffixID, results, false);
         }
         if (results != null)
         {
@@ -1598,7 +1598,7 @@ namespace TQ_weaponsmith
     {
       string parameter2 = (string) null;
       string parameter1 = (string) null;
-      string formatValue = Database.DB.GetFriendlyName("ChanceOfTag");
+      string formatValue = Database.GetFriendlyName("ChanceOfTag");
       if (string.IsNullOrEmpty(formatValue))
       {
         formatValue = "?{%.1f0}% Chance of?";
@@ -1617,7 +1617,7 @@ namespace TQ_weaponsmith
     private static string GetChanceModifier(int varNum, Variable modifierChanceVar)
     {
       string parameter1 = (string) null;
-      string friendlyName = Database.DB.GetFriendlyName("ChanceOfTag");
+      string friendlyName = Database.GetFriendlyName("ChanceOfTag");
       string formatSpec;
       if (friendlyName == null)
       {
@@ -1776,7 +1776,7 @@ namespace TQ_weaponsmith
     {
       string parameter1 = (string) null;
       string tagId = "Damage" + damageRatioData.FullAttribute.Substring(9, damageRatioData.FullAttribute.Length - 20) + "Ratio";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1794,23 +1794,23 @@ namespace TQ_weaponsmith
     public void GetDBData()
     {
       this.BaseItemId = Item.CheckExtension(this.BaseItemId);
-      this.baseItemInfo = Database.DB.GetInfo(this.BaseItemId);
+      this.baseItemInfo = Database.GetInfo(this.BaseItemId);
       this.prefixID = Item.CheckExtension(this.prefixID);
       this.suffixID = Item.CheckExtension(this.suffixID);
-      this.prefixInfo = Database.DB.GetInfo(this.prefixID);
-      this.suffixInfo = Database.DB.GetInfo(this.suffixID);
+      this.prefixInfo = Database.GetInfo(this.prefixID);
+      this.suffixInfo = Database.GetInfo(this.suffixID);
       this.relicID = Item.CheckExtension(this.relicID);
       this.RelicBonusId = Item.CheckExtension(this.RelicBonusId);
-      this.RelicInfo = Database.DB.GetInfo(this.relicID);
-      this.RelicBonusInfo = Database.DB.GetInfo(this.RelicBonusId);
+      this.RelicInfo = Database.GetInfo(this.relicID);
+      this.RelicBonusInfo = Database.GetInfo(this.RelicBonusId);
       if (this.baseItemInfo != null)
-        this.ItemBitmap = !this.IsRelic || this.IsRelicComplete ? Database.DB.LoadBitmap(this.baseItemInfo.Bitmap) : Database.DB.LoadBitmap(this.baseItemInfo.ShardBitmap);
+        this.ItemBitmap = !this.IsRelic || this.IsRelicComplete ? Database.LoadBitmap(this.baseItemInfo.Bitmap) : Database.LoadBitmap(this.baseItemInfo.ShardBitmap);
       if (this.ItemBitmap == null)
-        this.ItemBitmap = Database.DB.LoadBitmap("DefaultBitmap");
+        this.ItemBitmap = Database.LoadBitmap("DefaultBitmap");
       if (this.ItemBitmap != null)
       {
-        this.Width = Convert.ToInt32((float) this.ItemBitmap.Width * Database.DB.Scale / (float) Database.DB.ItemUnitSize);
-        this.Height = Convert.ToInt32((float) this.ItemBitmap.Height * Database.DB.Scale / (float) Database.DB.ItemUnitSize);
+        this.Width = Convert.ToInt32((float) this.ItemBitmap.Width * Database.Scale / (float) Database.ItemUnitSize);
+        this.Height = Convert.ToInt32((float) this.ItemBitmap.Height * Database.Scale / (float) Database.ItemUnitSize);
       }
       else
       {
@@ -1822,7 +1822,7 @@ namespace TQ_weaponsmith
     private static string GetDurationModifier(int varNum, Variable durationModifierVar)
     {
       string parameter1 = (string) null;
-      string friendlyName = Database.DB.GetFriendlyName("ImprovedTimeFormat");
+      string friendlyName = Database.GetFriendlyName("ImprovedTimeFormat");
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1840,7 +1840,7 @@ namespace TQ_weaponsmith
     private static string GetDurationRange(int varNum, Variable minDurVar, Variable maxDurVar)
     {
       string parameter1 = (string) null;
-      string friendlyName = Database.DB.GetFriendlyName("DamageFixedRangeFormatTime");
+      string friendlyName = Database.GetFriendlyName("DamageFixedRangeFormatTime");
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1859,7 +1859,7 @@ namespace TQ_weaponsmith
     {
       string parameter2 = (string) null;
       string parameter1 = (string) null;
-      string friendlyName = Database.DB.GetFriendlyName("DamageFixedSingleFormatTime");
+      string friendlyName = Database.GetFriendlyName("DamageFixedSingleFormatTime");
       string formatSpec;
       if (string.IsNullOrEmpty(friendlyName))
       {
@@ -1882,7 +1882,7 @@ namespace TQ_weaponsmith
       SortedList<string, Variable> requirements,
       Info itemInfo)
     {
-      DBRecord recordFromFile1 = Database.DB.GetRecordFromFile(itemInfo.ItemId);
+      DBRecord recordFromFile1 = Database.GetRecordFromFile(itemInfo.ItemId);
       if (recordFromFile1 == null)
         return;
       string str1 = "itemLevel";
@@ -1891,7 +1891,7 @@ namespace TQ_weaponsmith
         return;
       string stringValue1 = variable1.ToStringValue();
       string itemId = itemInfo.GetString("itemCostName");
-      DBRecord recordFromFile2 = Database.DB.GetRecordFromFile(itemId);
+      DBRecord recordFromFile2 = Database.GetRecordFromFile(itemId);
       if (recordFromFile2 == null)
         return;
       string requirementEquationPrefix = Item.GetRequirementEquationPrefix(itemInfo.ItemClass);
@@ -1949,13 +1949,13 @@ namespace TQ_weaponsmith
     {
       if (attributeData.FullAttribute.StartsWith("reagent", StringComparison.OrdinalIgnoreCase))
       {
-        DBRecord recordFromFile = Database.DB.GetRecordFromFile(variable.GetString(0));
+        DBRecord recordFromFile = Database.GetRecordFromFile(variable.GetString(0));
         if (recordFromFile != null)
         {
           string tagId = recordFromFile.GetString("description", 0);
           if (!string.IsNullOrEmpty(tagId))
           {
-            string friendlyName = Database.DB.GetFriendlyName(tagId);
+            string friendlyName = Database.GetFriendlyName(tagId);
             string formatSpec = "{0}";
             object[] objArray = new object[1]
             {
@@ -1969,7 +1969,7 @@ namespace TQ_weaponsmith
       }
       if (attributeData.FullAttribute.Equals("artifactCreationCost"))
       {
-        string formatSpec = ItemAttributes.ConvertFormat(Database.DB.GetFriendlyName("xtagArtifactCost"));
+        string formatSpec = ItemAttributes.ConvertFormat(Database.GetFriendlyName("xtagArtifactCost"));
         object[] objArray1 = new object[1]
         {
           (object) Database.HtmlColor(Item.GetColor(ItemStyle.Rare))
@@ -1993,7 +1993,7 @@ namespace TQ_weaponsmith
         return string.Empty;
       if (attributeList.Count > 1)
         tagId = "GlobalPercentChanceOfOneTag";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       string formatSpec;
       if (friendlyName == null)
       {
@@ -2026,7 +2026,7 @@ namespace TQ_weaponsmith
       string line,
       ref string font)
     {
-      DBRecord recordFromFile1 = Database.DB.GetRecordFromFile(variable.GetString(0));
+      DBRecord recordFromFile1 = Database.GetRecordFromFile(variable.GetString(0));
       if (recordFromFile1 == null)
         return line;
       results.Add(string.Empty);
@@ -2035,7 +2035,7 @@ namespace TQ_weaponsmith
         (object) Database.HtmlColor(Item.GetColor(ItemStyle.Mundane))
       };
       font = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>", objArray1);
-      string str1 = Database.DB.GetFriendlyName("tagItemGrantSkill");
+      string str1 = Database.GetFriendlyName("tagItemGrantSkill");
       if (string.IsNullOrEmpty(str1))
         str1 = "Grants Skill :";
       results.Add(font + str1 + "</font>");
@@ -2046,20 +2046,20 @@ namespace TQ_weaponsmith
         string tagId = recordFromFile1.GetString("skillDisplayName", 0);
         if (!string.IsNullOrEmpty(tagId))
         {
-          parameter1 = Database.DB.GetFriendlyName(tagId);
+          parameter1 = Database.GetFriendlyName(tagId);
           if (string.IsNullOrEmpty(parameter1))
             parameter1 = Path.GetFileNameWithoutExtension(variable.GetString(0));
         }
       }
       else
       {
-        DBRecord recordFromFile2 = Database.DB.GetRecordFromFile(itemId1);
+        DBRecord recordFromFile2 = Database.GetRecordFromFile(itemId1);
         if (recordFromFile2 != null)
         {
           string tagId = recordFromFile2.GetString("skillDisplayName", 0);
           if (!string.IsNullOrEmpty(tagId))
           {
-            parameter1 = Database.DB.GetFriendlyName(tagId);
+            parameter1 = Database.GetFriendlyName(tagId);
             if (string.IsNullOrEmpty(parameter1))
               parameter1 = Path.GetFileNameWithoutExtension(variable.GetString(0));
           }
@@ -2070,7 +2070,7 @@ namespace TQ_weaponsmith
       string itemId2 = record.GetString("itemSkillAutoController", 0);
       if (!string.IsNullOrEmpty(itemId2))
       {
-        DBRecord recordFromFile3 = Database.DB.GetRecordFromFile(itemId2);
+        DBRecord recordFromFile3 = Database.GetRecordFromFile(itemId2);
         if (recordFromFile3 != null)
           str2 = recordFromFile3.GetString("triggerType", 0);
       }
@@ -2107,7 +2107,7 @@ namespace TQ_weaponsmith
             break;
         }
       }
-      string parameter2 = string.IsNullOrEmpty(tagId1) ? string.Empty : Database.DB.GetFriendlyName(tagId1);
+      string parameter2 = string.IsNullOrEmpty(tagId1) ? string.Empty : Database.GetFriendlyName(tagId1);
       if (string.IsNullOrEmpty(parameter2))
       {
         object[] objArray2 = new object[1]
@@ -2141,7 +2141,7 @@ namespace TQ_weaponsmith
           {
             if (num == 0)
             {
-              string friendlyName = Database.DB.GetFriendlyName(str1);
+              string friendlyName = Database.GetFriendlyName(str1);
               object[] objArray = new object[2]
               {
                 (object) Database.HtmlColor(Item.GetColor(ItemStyle.Rare)),
@@ -2151,10 +2151,10 @@ namespace TQ_weaponsmith
             }
             else
             {
-              Info info = Database.DB.GetInfo(str1);
+              Info info = Database.GetInfo(str1);
               if (info != null)
               {
-                string str2 = "&nbsp;&nbsp;&nbsp;&nbsp;" + Database.DB.GetFriendlyName(info.DescriptionTag);
+                string str2 = "&nbsp;&nbsp;&nbsp;&nbsp;" + Database.GetFriendlyName(info.DescriptionTag);
                 object[] objArray = new object[2]
                 {
                   (object) Database.HtmlColor(Item.GetColor(ItemStyle.Common)),
@@ -2194,7 +2194,7 @@ namespace TQ_weaponsmith
         else
           labelColor = Database.HtmlColor(Item.GetColor(ItemStyle.Mundane));
       }
-      string labelAndColorFromTag = Database.DB.GetFriendlyName(labelTag);
+      string labelAndColorFromTag = Database.GetFriendlyName(labelTag);
       if (string.IsNullOrEmpty(labelAndColorFromTag))
       {
         labelAndColorFromTag = "?" + labelTag + "?";
@@ -2219,7 +2219,7 @@ namespace TQ_weaponsmith
       }
       else
       {
-        string friendlyName = Database.DB.GetFriendlyName(attributeTextTag);
+        string friendlyName = Database.GetFriendlyName(attributeTextTag);
         if (string.IsNullOrEmpty(friendlyName))
         {
           formatSpec = "{0:f1}% ?" + modifierData.FullAttribute + "?";
@@ -2237,7 +2237,7 @@ namespace TQ_weaponsmith
     private static string GetPetBonusName(ref string font)
     {
       string tagId = "xtagPetBonusNameAllPets";
-      string friendlyName = Database.DB.GetFriendlyName(tagId);
+      string friendlyName = Database.GetFriendlyName(tagId);
       if (string.IsNullOrEmpty(friendlyName))
       {
         string petBonusName = "?Bonus to All Pets:?";
@@ -2261,10 +2261,10 @@ namespace TQ_weaponsmith
     {
       if (record.GetString("Class", 0).ToUpperInvariant().StartsWith("SKILL_ATTACK", StringComparison.OrdinalIgnoreCase))
       {
-        string itemId = Database.DB.GetRecordFromFile(this.baseItemInfo.GetString("skillName")).GetString("spawnObjects", 0);
+        string itemId = Database.GetRecordFromFile(this.baseItemInfo.GetString("skillName")).GetString("spawnObjects", 0);
         if (string.IsNullOrEmpty(itemId))
           return varNum;
-        DBRecord recordFromFile = Database.DB.GetRecordFromFile(itemId);
+        DBRecord recordFromFile = Database.GetRecordFromFile(itemId);
         int num = 0;
         for (int index = 0; index < 17 && !(recordFromFile.GetString("skillName" + (object) index, 0) == recordId); ++index)
           ++num;
@@ -2289,16 +2289,16 @@ namespace TQ_weaponsmith
       {
         for (int index = 0; index < allStrings.Length; ++index)
         {
-          string parameter2 = Database.DB.GetFriendlyName(allStrings[index]);
+          string parameter2 = Database.GetFriendlyName(allStrings[index]);
           if (parameter2 == null)
           {
             allStrings[index] = allStrings[index] + "s";
-            parameter2 = Database.DB.GetFriendlyName(allStrings[index]);
+            parameter2 = Database.GetFriendlyName(allStrings[index]);
           }
           if (parameter2 == null)
             parameter2 = allStrings[index].Remove(allStrings[index].Length - 1);
           string tagId = d.FullAttribute.Substring(0, 1).ToUpperInvariant() + d.FullAttribute.Substring(1);
-          string friendlyName = Database.DB.GetFriendlyName(tagId);
+          string friendlyName = Database.GetFriendlyName(tagId);
           string formatSpec = friendlyName != null ? ItemAttributes.ConvertFormat(friendlyName) : tagId + " {0} {1}";
           if (line != null)
           {
@@ -2346,7 +2346,7 @@ namespace TQ_weaponsmith
         };
         font = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>", objArray);
       }
-      string formatValue = Database.DB.GetFriendlyName(tagId);
+      string formatValue = Database.GetFriendlyName(tagId);
       if (formatValue == null)
       {
         formatValue = "?" + tagId + "?";
@@ -2371,7 +2371,7 @@ namespace TQ_weaponsmith
         }
       }
       else
-        rawAttribute = Database.DB.VariableToStringNice(variable);
+        rawAttribute = Database.VariableToStringNice(variable);
       if (font == null)
       {
         object[] objArray = new object[1]
@@ -2429,21 +2429,21 @@ namespace TQ_weaponsmith
         SortedList<string, Variable> requirements = new SortedList<string, Variable>();
         if (this.baseItemInfo != null)
         {
-          Item.GetRequirementsFromRecord(requirements, Database.DB.GetRecordFromFile(this.BaseItemId));
+          Item.GetRequirementsFromRecord(requirements, Database.GetRecordFromFile(this.BaseItemId));
           this.GetDynamicRequirementsFromRecord(requirements, this.baseItemInfo);
         }
         if (this.prefixInfo != null)
-          Item.GetRequirementsFromRecord(requirements, Database.DB.GetRecordFromFile(this.prefixID));
+          Item.GetRequirementsFromRecord(requirements, Database.GetRecordFromFile(this.prefixID));
         if (this.suffixInfo != null)
-          Item.GetRequirementsFromRecord(requirements, Database.DB.GetRecordFromFile(this.suffixID));
+          Item.GetRequirementsFromRecord(requirements, Database.GetRecordFromFile(this.suffixID));
         if (this.RelicInfo != null)
-          Item.GetRequirementsFromRecord(requirements, Database.DB.GetRecordFromFile(this.relicID));
+          Item.GetRequirementsFromRecord(requirements, Database.GetRecordFromFile(this.relicID));
         if (this.IsFormulae && this.baseItemInfo != null)
         {
           string itemId = this.baseItemInfo.GetString("artifactName");
-          Item.GetRequirementsFromRecord(requirements, Database.DB.GetRecordFromFile(itemId));
+          Item.GetRequirementsFromRecord(requirements, Database.GetRecordFromFile(itemId));
         }
-        string friendlyName1 = Database.DB.GetFriendlyName("MeetsRequirement");
+        string friendlyName1 = Database.GetFriendlyName("MeetsRequirement");
         string formatSpec = friendlyName1 != null ? ItemAttributes.ConvertFormat(friendlyName1) : "?Required? {0}: {1:f0}";
         List<string> stringList = new List<string>();
         foreach (KeyValuePair<string, Variable> keyValuePair in requirements)
@@ -2456,7 +2456,7 @@ namespace TQ_weaponsmith
           }
           else
           {
-            string friendlyName2 = Database.DB.GetFriendlyName(keyValuePair.Key);
+            string friendlyName2 = Database.GetFriendlyName(keyValuePair.Key);
             if (friendlyName2 == null)
             {
               string str = "?" + keyValuePair.Key + "?";
@@ -2539,7 +2539,7 @@ namespace TQ_weaponsmith
       string itemId = this.baseItemInfo.GetString("itemSetName");
       if (string.IsNullOrEmpty(itemId))
         return (string[]) null;
-      DBRecord recordFromFile = Database.DB.GetRecordFromFile(itemId);
+      DBRecord recordFromFile = Database.GetRecordFromFile(itemId);
       if (recordFromFile == null)
         return (string[]) null;
       string[] allStrings = recordFromFile.GetAllStrings("setMembers");
@@ -2561,7 +2561,7 @@ namespace TQ_weaponsmith
     {
       if (string.IsNullOrEmpty(record.GetString("itemSkillAutoController", 0)) && !this.IsScroll)
         return;
-      DBRecord dbRecord = Database.DB.GetRecordFromFile(variable.GetString(0));
+      DBRecord dbRecord = Database.GetRecordFromFile(variable.GetString(0));
       string str1 = string.Empty;
       if (!this.IsScroll)
       {
@@ -2582,7 +2582,7 @@ namespace TQ_weaponsmith
           string tagId = dbRecord.GetString("skillBaseDescription", 0);
           if (tagId.Length > 0)
           {
-            string friendlyName1 = Database.DB.GetFriendlyName(tagId);
+            string friendlyName1 = Database.GetFriendlyName(tagId);
             if (friendlyName1.Length > 0)
             {
               foreach (string wrapWord in Database.WrapWords(Database.MakeSafeForHtml(friendlyName1), columns))
@@ -2596,7 +2596,7 @@ namespace TQ_weaponsmith
               }
               if (Item.ShowSkillLevel)
               {
-                string friendlyName2 = Database.DB.GetFriendlyName("MenuLevel");
+                string friendlyName2 = Database.GetFriendlyName("MenuLevel");
                 string formatSpec = !string.IsNullOrEmpty(friendlyName2) ? ItemAttributes.ConvertFormat(friendlyName2) : "Level:   {0}";
                 int int32 = record.GetInt32("itemSkillLevel", 0);
                 if (int32 > 0)
@@ -2616,13 +2616,13 @@ namespace TQ_weaponsmith
         }
         else
         {
-          DBRecord recordFromFile = Database.DB.GetRecordFromFile(str4);
+          DBRecord recordFromFile = Database.GetRecordFromFile(str4);
           if (recordFromFile != null)
           {
             string tagId = recordFromFile.GetString("skillBaseDescription", 0);
             if (!string.IsNullOrEmpty(tagId))
             {
-              foreach (string wrapWord in Database.WrapWords(Database.DB.GetFriendlyName(tagId), columns))
+              foreach (string wrapWord in Database.WrapWords(Database.GetFriendlyName(tagId), columns))
               {
                 object[] objArray = new object[2]
                 {
@@ -2633,7 +2633,7 @@ namespace TQ_weaponsmith
               }
               if (Item.ShowSkillLevel)
               {
-                string friendlyName = Database.DB.GetFriendlyName("MenuLevel");
+                string friendlyName = Database.GetFriendlyName("MenuLevel");
                 string formatSpec = !string.IsNullOrEmpty(friendlyName) ? ItemAttributes.ConvertFormat(friendlyName) : "Level:   {0}";
                 int int32 = record.GetInt32("itemSkillLevel", 0);
                 if (int32 > 0)
@@ -2661,7 +2661,7 @@ namespace TQ_weaponsmith
       if (dbRecord.GetString("Class", 0).ToUpperInvariant().Equals("SKILL_SPAWNPET"))
         this.ConvertPetStats(dbRecord, results);
       else if (!string.IsNullOrEmpty(str4))
-        this.GetAttributesFromRecord(Database.DB.GetRecordFromFile(str4), true, str4, results);
+        this.GetAttributesFromRecord(Database.GetRecordFromFile(str4), true, str4, results);
       else
         this.GetAttributesFromRecord(dbRecord, true, variable.GetString(0), results);
     }
@@ -2684,7 +2684,7 @@ namespace TQ_weaponsmith
         };
         font = string.Format((IFormatProvider) CultureInfo.CurrentCulture, "<font color={0}>", objArray);
       }
-      string formatValue = Database.DB.GetFriendlyName(tagId1);
+      string formatValue = Database.GetFriendlyName(tagId1);
       if (string.IsNullOrEmpty(formatValue))
       {
         formatValue = "?" + tagId1 + "?";
@@ -2707,7 +2707,7 @@ namespace TQ_weaponsmith
         tagId2 = "SkillDistanceFormat";
       if (!string.IsNullOrEmpty(tagId2))
       {
-        string friendlyName = Database.DB.GetFriendlyName(tagId2);
+        string friendlyName = Database.GetFriendlyName(tagId2);
         if (string.IsNullOrEmpty(friendlyName))
         {
           formatSpec = "?{0} {1}?";
@@ -2745,13 +2745,13 @@ namespace TQ_weaponsmith
 
     private int GetTriggeredSkillLevel(DBRecord record, string recordId, int varNum)
     {
-      DBRecord recordFromFile1 = Database.DB.GetRecordFromFile(this.baseItemInfo.ItemId);
+      DBRecord recordFromFile1 = Database.GetRecordFromFile(this.baseItemInfo.ItemId);
       if (recordFromFile1.GetString("itemSkillAutoController", 0) != null)
       {
         int int32 = recordFromFile1.GetInt32("itemSkillLevel", 0);
         if (record.GetString("Class", 0).ToUpperInvariant().StartsWith("SKILLBUFF", StringComparison.OrdinalIgnoreCase))
         {
-          DBRecord recordFromFile2 = Database.DB.GetRecordFromFile(this.baseItemInfo.GetString("itemSkillName"));
+          DBRecord recordFromFile2 = Database.GetRecordFromFile(this.baseItemInfo.GetString("itemSkillName"));
           if (recordFromFile2 != null && recordFromFile2.GetString("buffSkillName", 0) == recordId)
             varNum = Math.Max(int32, 1) - 1;
           return varNum;
@@ -2961,7 +2961,7 @@ namespace TQ_weaponsmith
         {
           if (this.prefixInfo != null)
           {
-            strArray[count] = Database.DB.GetFriendlyName(this.prefixInfo.DescriptionTag);
+            strArray[count] = Database.GetFriendlyName(this.prefixInfo.DescriptionTag);
             if (string.IsNullOrEmpty(strArray[count]))
               strArray[count] = this.prefixID;
           }
@@ -2977,19 +2977,19 @@ namespace TQ_weaponsmith
         {
           if (!string.IsNullOrEmpty(this.baseItemInfo.StyleTag) && !this.IsPotion && !this.IsRelic && !this.IsScroll && !this.IsParchment && !this.IsQuestItem)
           {
-            strArray[count] = Database.DB.GetFriendlyName(this.baseItemInfo.StyleTag);
+            strArray[count] = Database.GetFriendlyName(this.baseItemInfo.StyleTag);
             if (string.IsNullOrEmpty(strArray[count]))
               strArray[count] = this.baseItemInfo.StyleTag;
             ++count;
           }
           if (!string.IsNullOrEmpty(this.baseItemInfo.QualityTag))
           {
-            strArray[count] = Database.DB.GetFriendlyName(this.baseItemInfo.QualityTag);
+            strArray[count] = Database.GetFriendlyName(this.baseItemInfo.QualityTag);
             if (string.IsNullOrEmpty(strArray[count]))
               strArray[count] = this.baseItemInfo.QualityTag;
             ++count;
           }
-          strArray[count] = Database.DB.GetFriendlyName(this.baseItemInfo.DescriptionTag);
+          strArray[count] = Database.GetFriendlyName(this.baseItemInfo.DescriptionTag);
           if (string.IsNullOrEmpty(strArray[count]))
             strArray[count] = this.BaseItemId;
           ++count;
@@ -3003,7 +3003,7 @@ namespace TQ_weaponsmith
                 string tagId = "tagRelicBonus";
                 if (this.IsCharm)
                   tagId = "tagAnimalPartcompleteBonus";
-                string str = Database.DB.GetFriendlyName(tagId);
+                string str = Database.GetFriendlyName(tagId);
                 if (string.IsNullOrEmpty(str))
                   str = "Completion Bonus: ";
                 object[] objArray = new object[2]
@@ -3018,7 +3018,7 @@ namespace TQ_weaponsmith
                 string tagId = "tagRelicComplete";
                 if (this.IsCharm)
                   tagId = "tagAnimalPartComplete";
-                string str = Database.DB.GetFriendlyName(tagId);
+                string str = Database.GetFriendlyName(tagId);
                 if (string.IsNullOrEmpty(str))
                   str = "Completed";
                 strArray[count] = "(" + str + ")";
@@ -3033,10 +3033,10 @@ namespace TQ_weaponsmith
                 tagId1 = "tagAnimalPart";
                 tagId2 = "tagAnimalPartRatio";
               }
-              string parameter1 = Database.DB.GetFriendlyName(tagId1);
+              string parameter1 = Database.GetFriendlyName(tagId1);
               if (string.IsNullOrEmpty(parameter1))
                 parameter1 = "Relic";
-              string friendlyName = Database.DB.GetFriendlyName(tagId2);
+              string friendlyName = Database.GetFriendlyName(tagId2);
               string formatSpec = !string.IsNullOrEmpty(friendlyName) ? ItemAttributes.ConvertFormat(friendlyName) : "{0} - {1} / {2}";
               strArray[count] = "(" + Item.Format(formatSpec, (object) parameter1, (object) this.Number, (object) this.baseItemInfo.CompletedRelicLevel) + ")";
             }
@@ -3048,7 +3048,7 @@ namespace TQ_weaponsmith
             {
               string withoutExtension = Path.GetFileNameWithoutExtension(TQData.NormalizeRecordPath(this.RelicBonusId));
               string tagId = "xtagArtifactBonus";
-              string str = Database.DB.GetFriendlyName(tagId);
+              string str = Database.GetFriendlyName(tagId);
               if (string.IsNullOrEmpty(str))
                 str = "Completion Bonus: ";
               object[] objArray = new object[2]
@@ -3074,7 +3074,7 @@ namespace TQ_weaponsmith
         {
           if (this.suffixInfo != null)
           {
-            strArray[count] = Database.DB.GetFriendlyName(this.suffixInfo.DescriptionTag);
+            strArray[count] = Database.GetFriendlyName(this.suffixInfo.DescriptionTag);
             if (string.IsNullOrEmpty(strArray[count]))
               strArray[count] = this.suffixID;
           }
@@ -3089,7 +3089,7 @@ namespace TQ_weaponsmith
           strArray[count++] = Item.ItemWith;
         if (this.RelicInfo != null)
         {
-          strArray[count] = Database.DB.GetFriendlyName(this.RelicInfo.DescriptionTag);
+          strArray[count] = Database.GetFriendlyName(this.RelicInfo.DescriptionTag);
           if (string.IsNullOrEmpty(strArray[count]))
             strArray[count] = this.relicID;
         }
@@ -3524,7 +3524,7 @@ namespace TQ_weaponsmith
               str = str.Insert(9, "s");
             string path2 = str + "_formula";
             string itemId = Path.ChangeExtension(Path.Combine(path1, path2), Path.GetExtension(this.BaseItemId));
-            DBRecord recordFromFile = Database.DB.GetRecordFromFile(itemId);
+            DBRecord recordFromFile = Database.GetRecordFromFile(itemId);
             if (recordFromFile != null)
               tableId = recordFromFile.GetString("artifactBonusTableName", 0);
           }

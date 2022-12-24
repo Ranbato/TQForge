@@ -1,0 +1,204 @@
+#=== Rare
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_YERREN.DBR=Rare=tagMIArmor032={^l}Warchief's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_TIGERMANMELEE.DBR=Rare=tagMIArmor030={^l}Prowler's Legguards
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_VALKYRIE.DBR=Rare=x2tagMIArmor050={^l}Boots of the Valkyrie
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_NEANDERTHALMELEE.DBR=Rare=tagMIArmor027={^l}Marauder's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_MUMMY.DBR=Rare=tagMIArmor025={^l}Ceremonial Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_FORMICIDMAGE01.DBR=Rare=xtagMIArmor013={^l}Myrmigki Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_ANOURANMAGE.DBR=Rare=xtagMIArmor010={^l}Witch Doctor's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_EINHERJAR.DBR=Rare=x2tagMIArmor054={^l}Buskins of Valhöll
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_DRAUGR.DBR=Rare=x2tagMIArmor046={^l}Guards of the Restless King
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_TIGERMANMELEE.DBR=Rare=tagMIArmor030={^l}Prowler's Legguards
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_MELINOEMAGE.DBR=Rare=xtagMIArmor020={^l}Bloodborn Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_EMPUSAMAGE.DBR=Rare=xtagMIArmor012={^l}The Night Mistress's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_ALFR.DBR=Rare=x2tagMIArmor020={^l}Boots of Alfheim
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_ELDJOTUN.DBR=Rare=x2tagMIArmor024={^l}Blacksteel Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_FORMICIDMELEE02.DBR=Rare=xtagMIArmor016={^l}Myrmidon's Legplate
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_GIGANTESMELEE02.DBR=Rare=xtagUArmor137=Alcyoneus’ Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_DVERGRMELEE.DBR=Rare=x2tagMIArmor016={^l}Master Forge Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_ELDJOTUN.DBR=Rare=x2tagMIArmor024={^l}Blacksteel Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_FJORDMELEE.DBR=Rare=x2tagMIArmor008={^l}Icescale Guards
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_RATMANCHAMPION.DBR=Rare=tagMIArmor028={^l}The Rat's Track
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_WRAITH.DBR=Rare=tagMIArmor031={^l}Ethereal Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_GIGANTESMELEE.DBR=Rare=xtagMIArmor017={^l}Porphyrion's Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_EMPUSAMAGE.DBR=Rare=xtagMIArmor012={^l}The Night Mistress's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_FJORDMELEE.DBR=Rare=x2tagMIArmor008={^l}Icescale Guards
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_FJORDMAGE.DBR=Rare=x2tagMIArmor012={^l}Guards of the Deep
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_ELDJOTUN.DBR=Rare=x2tagMIArmor024={^l}Blacksteel Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_MACHAEMELEE.DBR=Rare=xtagMIArmor019={^l}Proioxis
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_NEANDERTHALMAGE.DBR=Rare=tagMIArmor026={^l}Shaman's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_GIGANTESMELEE.DBR=Rare=xtagMIArmor017={^l}Porphyrion's Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_MELINOEMAGE.DBR=Rare=xtagMIArmor020={^l}Bloodborn Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_FORMICIDMAGE02.DBR=Rare=xtagMIArmor014={^l}Ch'kra's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_DUNERAIDER.DBR=Rare=tagMIArmor023={^l}Windswept Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_DUNERAIDER.DBR=Rare=tagMIArmor023={^l}Windswept Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_FORMICIDMAGE02.DBR=Rare=xtagMIArmor014={^l}Ch'kra's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_ANOURANMAGE.DBR=Rare=xtagMIArmor010={^l}Witch Doctor's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_BANDARI.DBR=Rare=tagMIArmor022={^l}Bandari's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_DUNERAIDER.DBR=Rare=tagMIArmor023={^l}Windswept Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_NEANDERTHALMAGE.DBR=Rare=tagMIArmor026={^l}Shaman's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_NEANDERTHALMELEE.DBR=Rare=tagMIArmor027={^l}Marauder's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_RATMANCHAMPION.DBR=Rare=tagMIArmor028={^l}The Rat's Track
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_WRAITH.DBR=Rare=tagMIArmor031={^l}Ethereal Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_E_YERREN.DBR=Rare=tagMIArmor032={^l}Warchief's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_BANDARI.DBR=Rare=tagMIArmor022={^l}Bandari's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_MUMMY.DBR=Rare=tagMIArmor025={^l}Ceremonial Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_NEANDERTHALMAGE.DBR=Rare=tagMIArmor026={^l}Shaman's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_NEANDERTHALMELEE.DBR=Rare=tagMIArmor027={^l}Marauder's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_TIGERMANMELEE.DBR=Rare=tagMIArmor030={^l}Prowler's Legguards
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_L_WRAITH.DBR=Rare=tagMIArmor031={^l}Ethereal Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_BANDARI.DBR=Rare=tagMIArmor022={^l}Bandari's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_MUMMY.DBR=Rare=tagMIArmor025={^l}Ceremonial Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_RATMANCHAMPION.DBR=Rare=tagMIArmor028={^l}The Rat's Track
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\MI_N_YERREN.DBR=Rare=tagMIArmor032={^l}Warchief's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_DRAUGR.DBR=Rare=x2tagMIArmor046={^l}Guards of the Restless King
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_DVERGRMELEE.DBR=Rare=x2tagMIArmor016={^l}Master Forge Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor028={^l}Wraps of the Chosen
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_VALKYRIE.DBR=Rare=x2tagMIArmor050={^l}Boots of the Valkyrie
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor021={^l}Gog
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_FORMICIDMELEE02.DBR=Rare=xtagMIArmor016={^l}Myrmidon's Legplate
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_FJORDMELEE.DBR=Rare=x2tagMIArmor008={^l}Icescale Guards
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_FJORDMAGE.DBR=Rare=x2tagMIArmor012={^l}Guards of the Deep
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_VALKYRIE.DBR=Rare=x2tagMIArmor050={^l}Boots of the Valkyrie
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor021={^l}Gog
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_ANOURANMELEE.DBR=Rare=xtagMIArmor011={^l}Batrachos Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_FORMICIDMAGE01.DBR=Rare=xtagMIArmor013={^l}Myrmigki Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_FORMICIDMAGE02.DBR=Rare=xtagMIArmor014={^l}Ch'kra's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_KERESMAGE.DBR=Rare=xtagMIArmor018={^l}Leggings of Ker
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_MACHAEMELEE.DBR=Rare=xtagMIArmor019={^l}Proioxis
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_MELINOEMAGE.DBR=Rare=xtagMIArmor020={^l}Bloodborn Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_ANOURANMAGE.DBR=Rare=xtagMIArmor010={^l}Witch Doctor's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_ANOURANMELEE.DBR=Rare=xtagMIArmor011={^l}Batrachos Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_GIGANTESMELEE02.DBR=Rare=xtagUArmor137=Alcyoneus’ Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_KERESMAGE.DBR=Rare=xtagMIArmor018={^l}Leggings of Ker
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_MACHAEMELEE.DBR=Rare=xtagMIArmor019={^l}Proioxis
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_ANOURANMELEE.DBR=Rare=xtagMIArmor011={^l}Batrachos Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_EMPUSAMAGE.DBR=Rare=xtagMIArmor012={^l}The Night Mistress's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_FORMICIDMAGE01.DBR=Rare=xtagMIArmor013={^l}Myrmigki Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_FORMICIDMELEE02.DBR=Rare=xtagMIArmor016={^l}Myrmidon's Legplate
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_GIGANTESMELEE.DBR=Rare=xtagMIArmor017={^l}Porphyrion's Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_GIGANTESMELEE02.DBR=Rare=xtagUArmor137=Alcyoneus’ Legplates
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_KERESMAGE.DBR=Rare=xtagMIArmor018={^l}Leggings of Ker
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor021={^l}Gog
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_TROLL.DBR=Rare=x2tagMIArmor004={^l}Bonebreaker Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_ALFR.DBR=Rare=x2tagMIArmor020={^l}Boots of Alfheim
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_TROLL.DBR=Rare=x2tagMIArmor004={^l}Bonebreaker Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_TROLL.DBR=Rare=x2tagMIArmor004={^l}Bonebreaker Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_E_YERREN.DBR=Rare=x2tagMIArmor039={^l}Bear Rider's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_DRAUGR.DBR=Rare=x2tagMIArmor046={^l}Guards of the Restless King
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_EINHERJAR.DBR=Rare=x2tagMIArmor054={^l}Buskins of Valhöll
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_FJORDMAGE.DBR=Rare=x2tagMIArmor012={^l}Guards of the Deep
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor028={^l}Wraps of the Chosen
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_L_YERREN.DBR=Rare=x2tagMIArmor039={^l}Bear Rider's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_ALFR.DBR=Rare=x2tagMIArmor020={^l}Boots of Alfheim
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_DVERGRMELEE.DBR=Rare=x2tagMIArmor016={^l}Master Forge Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_EINHERJAR.DBR=Rare=x2tagMIArmor054={^l}Buskins of Valhöll
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor028={^l}Wraps of the Chosen
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\MI_N_YERREN.DBR=Rare=x2tagMIArmor039={^l}Bear Rider's Leggings
+
+#=== Epic
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_N_EPEIUS'GREAVES.DBR=Epic=tagUArmor147=Epeius' Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_WARDEN'SCHARGE.DBR=Epic=tagUArmor162=Warden's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_N_GREAVESOFMARATHON.DBR=Epic=tagUArmor148=Greaves of Marathon
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\USM_E_ADEPT'SREGALIA.DBR=Epic=tagUArmor182=Adept's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_N_MEDIANGREAVES.DBR=Epic=tagUArmor150=Persian Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_SHADOWGUARD.DBR=Epic=tagUArmor160=Shadow's Flight
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_E_NEBUCHADNEZZAR'SGREAVES.DBR=Epic=tagUArmor143=Nebuchadnezzar's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_ARMOROFTHEIMMORTALGUARD.DBR=Epic=tagUArmor165=Apple Bearer's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\UM_E_LORATIANGREAVES.DBR=Epic=tagUArmor141=Loratian Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_N_001.DBR=Epic=xtagUArmor081=Dienekes' Iron Boots
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_BABYLONIANRAIMENT.DBR=Epic=tagUArmor172=Babylonian Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\Z_SLEUTH01.DBR=Epic=xtagUArmor095=Detective's Spats
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\US_N_SUCELLUS.DBR=Epic=x2tagUArmor020=Sucellus Legguards
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_HUNTER'SARMOR.DBR=Epic=tagUArmor158=Hunter's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_PRIDEOFTHEJADEPALACE.DBR=Epic=tagUArmor179=Jade Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_ROGUE'SCOVER.DBR=Epic=tagUArmor159=Rogue's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_RAMSES'ROYALARMOR.DBR=Epic=tagUArmor180=Ramses' Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\USM_N_NECROMANCER'SHABILIMENT.DBR=Epic=tagUArmor177=Necromancer's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_THEBANPANOPLY.DBR=Epic=tagUArmor181=Theban Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_SAFEGUARDOFTHEMANTIS.DBR=Epic=tagUArmor169=Mantis Stride
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_THESPHINX.DBR=Epic=tagUArmor152=Greaves of the Sphinx
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\UM_E_CHARON'SFUNERALWRAPPINGS.DBR=Epic=tagUArmor140=Charon's Funeral Wrappings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\UM_E_TAKLAMAKANLEGGINGS.DBR=Epic=tagUArmor144=Taklamakan Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\USM_N_ORACLE'SGARMENTS.DBR=Epic=tagUArmor185=Oracle's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_ARMOROFTROY.DBR=Epic=tagUArmor153=Greaves of Troy
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_ASPECTOFTHEWILD.DBR=Epic=tagUArmor154=Speed of the Wild
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_FIREWALKER'SSUIT.DBR=Epic=tagUArmor157=Greaves of the Firewalker
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_LEGENDOFFUXI.DBR=Epic=tagUArmor176=Fu Xi's Bindings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_TEMPEST.DBR=Epic=tagUArmor161=Greaves of the Tempest
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_WARRIOR'SPANOPLY.DBR=Epic=tagUArmor163=Warrior's Buskin
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_GEBELTJAUTI.DBR=Epic=tagUArmor405=Silent Runners
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_IMPERIALRAIMENT.DBR=Epic=tagUArmor173=Imperial Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_LABYRINTHINEARMOR.DBR=Epic=tagUArmor174=Labyrinthine Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_LAZARUSARMOR.DBR=Epic=tagUArmor175=Lazarus Plate Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_N_OBSIDIANARMOR.DBR=Epic=tagUArmor178=Obsidian Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_N_ARDENTGREAVES.DBR=Epic=tagUArmor146=Ardent Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_N_JUNGLEROOTGREAVES.DBR=Epic=tagUArmor149=Jungleroot Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_N_002.DBR=Epic=xtagUArmor088=Penelope's Slippers
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_E_05.DBR=Epic=x2tagUArmor087=Divitiacus' Protective Weave
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\USM_E_001.DBR=Epic=xtagUArmor102=Dreamweaver's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\US_N_BRENNUS.DBR=Epic=x2tagUArmor018=Brennus' Striped Pants
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_N_001.DBR=Epic=xtagUArmor087=Seerwraps
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_N_003.DBR=Epic=xtagUArmor089=Runeweave Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\USM_N_001.DBR=Epic=xtagUArmor103=Wraps of Erebus
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\US_E_002.DBR=Epic=xtagUArmor099=Diomedes' Buskin
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\US_E_004.DBR=Epic=xtagUArmor097=Harbinger's Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\US_N_001.DBR=Epic=xtagUArmor098=Shade Stalkers
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_N_002.DBR=Epic=xtagUArmor082=Royal Cavalryman's Boots
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\Z_COWBOY01.DBR=Epic=xtagUArmor107=Tarwater's Kickers
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\Z_PIRATE01.DBR=Epic=xtagUArmor108=Blackbeard's Booties
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\Z_SANTA01.DBR=Epic=xtagUArmor106=Santa's Boots
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\LE_NEW\SECRETO_GREAVES.DBR=Epic=tagSetSecretoLegs=Prometheus Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_N_02.DBR=Epic=x2tagUArmor089=Seidhmadr Wraps
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_E_04.DBR=Epic=x2tagUArmor086=Völva's Hardened Wraps
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_N_01.DBR=Epic=x2tagUArmor088=Thialfi's Studded Shins
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_N_03.DBR=Epic=x2tagUArmor090=Fine Gallic Boots
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_N_04.DBR=Epic=x2tagUArmor091=Britomaris' Defiance
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_N_05.DBR=Epic=x2tagUArmor092=Sirona's Leggings
+
+#=== Legendary
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_E_001.DBR=Legendary=xtagUArmor083=Barbarian's Spiked Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_CRYSTALLINEARRAY.DBR=Legendary=tagUArmor156=Crystalline Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_E_BONEARMOR.DBR=Legendary=tagUArmor155=Bone Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_ETERNALWARDOFTARTARUS.DBR=Legendary=tagUArmor410=Unyielding Shackles of Tartarus
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_ALEXANDER'SPANOPLY.DBR=Legendary=tagUArmor151=Alexander's Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\USM_L_FREYJA.DBR=Legendary=x2tagUArmor011=Boots of Freyja
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_E_BELLEROPHON'SLEGGINGS.DBR=Legendary=tagUArmor139=Bellerophon's Leggings
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_E_02.DBR=Legendary=x2tagUArmor084=Thracian Shin Guards
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_L_04.DBR=Legendary=x2tagUArmor082=Discs of Mani
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_HUOQUBING'SRELICS.DBR=Legendary=tagUArmor168=Huo Qubing's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\USM_L_ARCHMAGE'SREGALIA.DBR=Legendary=tagUArmor184=Archmage's Leggings
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_TRACKER'SARMOR.DBR=Legendary=tagUArmor171=Tracker's Leg Guard
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\USM_E_VESTMENTSOFTHEBATTLEMAGE.DBR=Legendary=tagUArmor183=Battlemage Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_ABYSSALARMOR.DBR=Legendary=tagUArmor164=Abyssal Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_ASSASSIN'SCOVER.DBR=Legendary=tagUArmor166=Assassin's Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_CONQUEROR'SPANOPLY.DBR=Legendary=tagUArmor167=Conqueror's Buskin
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\US_L_NEAMEANLIONHIDE.DBR=Legendary=tagUArmor170=Greaves of the Nemean Lion
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_E_ATHENA'SBATTLEGREAVES.DBR=Legendary=tagUArmor138=Athena's Battle Greaves
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_E_MURKCRAWLERS.DBR=Legendary=tagUArmor142=Murk Crawlers
+ArmorProtective_LowerBody=RECORDS\ITEM\EQUIPMENTGREAVES\U_L_HERMES'TALARIA.DBR=Legendary=tagUArmor145=Hermes' Talaria
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_L_001.DBR=Legendary=xtagUArmor085=Legguards of the Flameborn
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_L_03.DBR=Legendary=x2tagUArmor081=Trollwrestler Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_E_03.DBR=Legendary=x2tagUArmor085=Belisama's Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_L_002.DBR=Legendary=xtagUArmor086=Greaves of the Argonauts
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_L_02.DBR=Legendary=x2tagUArmor080=Hervor's Fine Steel
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_E_001.DBR=Legendary=xtagUArmor090=Sleepwalker's Stride
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_E_002.DBR=Legendary=xtagUArmor091=Chthonic Legwraps
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_E_003.DBR=Legendary=xtagUArmor092=Leggings of the Defiled
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_L_001.DBR=Legendary=xtagUArmor093=Night-terror Wraps
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\UM_L_002.DBR=Legendary=xtagUArmor094=Demonskin Walkers
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\USM_L_001.DBR=Legendary=xtagUArmor101=Plouton's Wraps
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\USM_L_002.DBR=Legendary=xtagUArmor104=Pillars of Carnus
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\US_L_001.DBR=Legendary=xtagUArmor096=Legionnaire's Buskin
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\US_L_002.DBR=Legendary=xtagUArmor100=Poseidon's Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\GREAVES\U_E_002.DBR=Legendary=xtagUArmor084=Hespera's Greaves
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\USM_E_SHADE.DBR=Legendary=x2tagUArmor024=The Path of Mortals
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\USM_L_ALLFATHER.DBR=Legendary=x2tagUArmor006=Boots of the Allfather
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_E_01.DBR=Legendary=x2tagUArmor083=Trunks of Mogon
+ArmorProtective_LowerBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\GREAVES\U_L_01.DBR=Legendary=x2tagUArmor079=Esus' Travelling Boots
+
+
+Revenant 
+Soldier's Legplate
+ 
+Wraps of the Chosen

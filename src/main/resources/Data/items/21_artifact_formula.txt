@@ -1,0 +1,84 @@
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_CARNYX_FORMULA.DBR=Common=x2tagFormulaDescription009=Arcane Formula ~ Carnyx
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_SPHEREOFETERNITY_FORMULA.DBR=Common=xtagFormulaDescription047=Arcane Formula ~ Sphere of Eternity
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_CRYSTALTEAR_FORMULA.DBR=Common=xtagFormulaDescription019=Arcane Formula ~ Crystal Tear
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_IKONOFZEUS_FORMULA.DBR=Common=xtagFormulaDescription073=Arcane Formula ~ Ikon of Zeus
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_EBONYGLOBE_FORMULA.DBR=Common=xtagFormulaDescription030=Arcane Formula ~ Ebony Globe
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_ARCANEMIRROR_FORMULA.DBR=Common=xtagFormulaDescription058=Arcane Formula ~ Arcane Mirror
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_CONQUERORSMARK_FORMULA.DBR=Common=xtagFormulaDescription053=Arcane Formula ~ Conqueror's Mark
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_LYREOFAPOLLO_FORMULA.DBR=Common=xtagFormulaDescription074=Arcane Formula ~ Lyre of Apollo
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_SOULPRISM_FORMULA.DBR=Common=xtagFormulaDescription038=Arcane Formula ~ Soul Prism
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_TOUCHOFTHEFOOL_FORMULA.DBR=Common=xtagFormulaDescription010=Arcane Formula ~ Touch of the Fool
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_EYEOFTHEHEAVENS_FORMULA.DBR=Common=xtagFormulaDescription042=Arcane Formula ~ Eye of the Heavens
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_THUNDERFIST_FORMULA.DBR=Common=xtagFormulaDescription032=Arcane Formula ~ Thunderfist
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_CRIMSONVIPER_FORMULA.DBR=Common=xtagFormulaDescription050=Arcane Formula ~ Crimson Viper
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_EYEOFRA_FORMULA.DBR=Common=xtagFormulaDescription071=Arcane Formula ~ Eye of Ra
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_APPLESOFIDUN_FORMULA.DBR=Common=x2tagFormulaDescription001=Arcane Formula ~ Apples of Idun
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_HANDOFGAEA_FORMULA.DBR=Common=xtagFormulaDescription051=Arcane Formula ~ Hand of Gaia
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_LIONHEART_FORMULA.DBR=Common=xtagFormulaDescription045=Arcane Formula ~ Lionheart
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_HEARTOFEARTH_FORMULA.DBR=Common=xtagFormulaDescription052=Arcane Formula ~ Heart of Earth
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_SPIRITBLIGHT_FORMULA.DBR=Common=xtagFormulaDescription024=Arcane Formula ~ Spirit Blight
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_DARKCORE_FORMULA.DBR=Common=xtagFormulaDescription022=Arcane Formula ~ Dark Core
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_MIGHTOFHEPHAESTUS_FORMULA.DBR=Common=xtagFormulaDescription062=Arcane Formula ~ Might of Hephaestus
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_TOTEMOFBAST_FORMULA.DBR=Common=xtagFormulaDescription069=Arcane Formula ~ Sigil of Bast
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_DEATHRATTLE_FORMULA.DBR=Common=xtagFormulaDescription002=Arcane Formula ~ Deathrattle
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SEIDRBONES_FORMULA.DBR=Common=x2tagFormulaDescription008=Arcane Formula ~ Seidr Bones
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_SHADOWVEIL_FORMULA.DBR=Common=xtagFormulaDescription040=Arcane Formula ~ Shadow Veil
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_STARHEART_FORMULA.DBR=Common=xtagFormulaDescription006=Arcane Formula ~ Star Heart
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_EFFIGYOFSKYFIRE_FORMULA.DBR=Common=xtagFormulaDescription046=Arcane Formula ~ Effigy of Skyfire
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_CHAOSCUBE_FORMULA.DBR=Common=xtagFormulaDescription011=Arcane Formula ~ Chaos Cube
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_ELEMENTALRAGE_FORMULA.DBR=Common=xtagFormulaDescription056=Arcane Formula ~ Elemental Rage
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_BLOODRAGE_FORMULA.DBR=Common=xtagFormulaDescription018=Arcane Formula ~ Bloodrage
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_TONGUEOFFLAME_FORMULA.DBR=Common=xtagFormulaDescription031=Arcane Formula ~ Tongue of Flame
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_KNOTOFISIS_FORMULA.DBR=Common=xtagFormulaDescription065=Arcane Formula ~ Knot of Isis
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_CROSIEROFOSIRIS_FORMULA.DBR=Common=xtagFormulaDescription064=Arcane Formula ~ Crosier of Osiris
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_PHYLACTERYOFSHADOWS_FORMULA.DBR=Common=xtagFormulaDescription023=Arcane Formula ~ Phylactery of Shadows
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_FURYOFTHEAGES_FORMULA.DBR=Common=xtagFormulaDescription041=Arcane Formula ~ Fury of the Ages
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_SUMMONERSTOTEM_FORMULA.DBR=Common=xtagFormulaDescription028=Arcane Formula ~ Summoner's Totem
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_BLOODOFARES_FORMULA.DBR=Common=xtagFormulaDescription063=Arcane Formula ~ Blood of Ares
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_CRESCENTMOONOFARTEMIS_FORMULA.DBR=Common=xtagFormulaDescription059=Arcane Formula ~ Crescent Moon of Artemis
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_DEMETERSBOUNTY_FORMULA.DBR=Common=xtagFormulaDescription061=Arcane Formula ~ Demeter's Bounty
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_POSEIDONSNET_FORMULA.DBR=Common=xtagFormulaDescription060=Arcane Formula ~ Poseidon's Net
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_DRAGONTONGUE_FORMULA.DBR=Common=xtagFormulaDescription043=Arcane Formula ~ Dragontongue
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_FINALBREATH_FORMULA.DBR=Common=xtagFormulaDescription049=Arcane Formula ~ Final Breath
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_LACEOFCELERITY_FORMULA.DBR=Common=xtagFormulaDescription048=Arcane Formula ~ Blood Gem
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_SANDSOFKRONOS_FORMULA.DBR=Common=xtagFormulaDescription044=Arcane Formula ~ Kingslayer
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_EARTHENTALISMAN_FORMULA.DBR=Common=xtagFormulaDescription025=Arcane Formula ~ Earthen Talisman
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_EMERALDQUILL_FORMULA.DBR=Common=xtagFormulaDescription020=Arcane Formula ~ Emerald Quill
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_JADETOTEM_FORMULA.DBR=Common=xtagFormulaDescription021=Arcane Formula ~ Jade Idol
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_NEXUSOFINSANITY_FORMULA.DBR=Common=xtagFormulaDescription027=Arcane Formula ~ Nexus of Insanity
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_RAVENSSHADOW_FORMULA.DBR=Common=xtagFormulaDescription026=Arcane Formula ~ Raven's Shadow
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_TOMEOFTRANSFIGURATION_FORMULA.DBR=Common=xtagFormulaDescription029=Arcane Formula ~ Tome of Transfiguration
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_GOLDENEYEOFSUNWUKONG_FORMULA.DBR=Common=xtagFormulaDescription066=Arcane Formula ~ Golden Eye of Sun Wukong
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_MARDUKSTABLETOFDESTINY_FORMULA.DBR=Common=xtagFormulaDescription070=Arcane Formula ~ Marduk's Tablet of Destiny
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_MORPHEUSDREAMWEB_FORMULA.DBR=Common=xtagFormulaDescription068=Arcane Formula ~ Morpheus' Dreamweb
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_STAROFISHTAR_FORMULA.DBR=Common=xtagFormulaDescription075=Arcane Formula ~ Star of Ishtar
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_TALISMANOFTHEJADEEMPEROR_FORMULA.DBR=Common=xtagFormulaDescription067=Arcane Formula ~ Talisman of the Jade Emperor
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_DA_THOTHSGLORY_FORMULA.DBR=Legendary=xtagFormulaDescription072=Arcane Formula ~ Thoth's Glory
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_DOXAKALO_FORMULA.DBR=Legendary=xtagFormulaDescription055=Arcane Formula ~ Glorybringer
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_TOTEMOFTHEPOLYMATH_FORMULA.DBR=Common=xtagFormulaDescription057=Arcane Formula ~ Symbol of the Polymath
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_TYRANTSFIST_FORMULA.DBR=Common=xtagFormulaDescription054=Arcane Formula ~ Tyrant's Fist
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_EFFIGYOFTHEPANTHER_FORMULA.DBR=Legendary=xtagFormulaDescription033=Arcane Formula ~ Effigy of the Panther
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_ETHEREALVEIL_FORMULA.DBR=Common=xtagFormulaDescription036=Arcane Formula ~ Ethereal Veil
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_MAIDENSKISS_FORMULA.DBR=Common=xtagFormulaDescription035=Arcane Formula ~ Maiden's Kiss
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\L_LA_SILVERHEART_FORMULA.DBR=Legendary=xtagFormulaDescription034=Arcane Formula ~ Silver Heart
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_BOOKOFDREAMS_FORMULA.DBR=Legendary=xtagFormulaDescription037=Arcane Formula ~ Book of Dreams
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_DRUIDICWREATH_FORMULA.DBR=Common=xtagFormulaDescription039=Arcane Formula ~ Druidic Wreath
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_AMBERFLASK_FORMULA.DBR=Common=xtagFormulaDescription005=Arcane Formula ~ Amber Flask
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_CINDERBOLT_FORMULA.DBR=Common=xtagFormulaDescription013=Arcane Formula ~ Cinderbolt
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_LEAFSONG_FORMULA.DBR=Common=xtagFormulaDescription012=Arcane Formula ~ Leafsong
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_MOLTENORB_FORMULA.DBR=Common=xtagFormulaDescription003=Arcane Formula ~ Molten Orb
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_PALEMOON_FORMULA.DBR=Common=xtagFormulaDescription008=Arcane Formula ~ Pale Moon
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_RAZORCLAW_FORMULA.DBR=Common=xtagFormulaDescription015=Arcane Formula ~ Razor Claw
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SCROLLOFONEIROS_FORMULA.DBR=Legendary=xtagFormulaDescription001=Arcane Formula ~ Scroll of Oneiros
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SHROUDOFETERNALNIGHT_FORMULA.DBR=Legendary=xtagFormulaDescription007=Arcane Formula ~ Shroud of Eternal Night
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SKYFIREPENDANT_FORMULA.DBR=Common=xtagFormulaDescription009=Arcane Formula ~ Skyfire Pendant
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SONGOFTHESERPENT_FORMULA.DBR=Common=xtagFormulaDescription016=Arcane Formula ~ Song of the Serpent
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SOULSHIVER_FORMULA.DBR=Common=xtagFormulaDescription014=Arcane Formula ~ Soul Shiver
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_SUNSTONE_FORMULA.DBR=Common=xtagFormulaDescription017=Arcane Formula ~ Sunstone
+ItemArtifactFormula=RECORDS\XPACK\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_WRAITHGUARD_FORMULA.DBR=Common=xtagFormulaDescription004=Arcane Formula ~ Wraithguard
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\E_DA_WHEELOFTARANIS_FORMULA.DBR=Common=x2tagFormulaDescription002=Arcane Formula ~ Wheel of Taranis
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\E_GA_GJALLARHORN_FORMULA.DBR=Common=x2tagFormulaDescription004=Arcane Formula ~ Gjallarhorn
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\E_LA_SINGASTEINN_FORMULA.DBR=Common=x2tagFormulaDescription006=Arcane Formula ~ Singasteinn
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\L_GA_GAMBANTEINN_FORMULA.DBR=Common=x2tagFormulaDescription003=Arcane Formula ~ Gambanteinn
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\N_GA_DVALINSIMULACRUM_FORMULA.DBR=Legendary=x2tagFormulaDescription005=Arcane Formula ~ Dvalinn's Simulacrum
+ItemArtifactFormula=RECORDS\XPACK2\ITEM\ARTIFACTS\ARCANEFORMULAE\N_LA_GOLDENBELT_FORMULA.DBR=Common=x2tagFormulaDescription007=Arcane Formula ~ Golden Belt

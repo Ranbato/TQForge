@@ -1,0 +1,36 @@
+﻿
+  object DBClasses
+  {
+    private val classes = listOf<String>(
+
+      "ARMORJEWELRY_AMULET",
+      "ARMORJEWELRY_BRACELET",
+      "ARMORJEWELRY_RING",
+      "ARMORPROTECTIVE_FOREARM",
+      "ARMORPROTECTIVE_HEAD",
+      "ARMORPROTECTIVE_LOWERBODY",
+      "ARMORPROTECTIVE_UPPERBODY",
+      "ITEMARTIFACT",
+      "ITEMARTIFACTFORMULA",
+      "ITEMCHARM",
+      "ITEMEQUIPMENT",
+      "ITEMRELIC",
+      "PROJECTILEARROWLIKE",
+      "QUESTITEM",
+      "WEAPONARMOR_SHIELD",
+      "WEAPONHUNTING_BOW",
+      "WEAPONHUNTING_RANGEDONEHAND",
+      "WEAPONHUNTING_SPEAR",
+      "WEAPONMAGICAL_STAFF",
+      "WEAPONMELEE_AXE",
+      "WEAPONMELEE_MACE",
+      "WEAPONMELEE_SWORD",
+      "ONESHOT_SCROLL",
+      "LOOTRANDOMIZER",
+      "LOOTRANDOMIZERTABLE"
+    )
+
+    public fun getClasses() = classes
+    }
+
+

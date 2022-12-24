@@ -1,0 +1,4 @@
+GameSaveLocation=C:\\Users\\ranba\\Documents\\My Games\\Titan Quest - Immortal Throne
+GameInstallLocation=D:\\Games\\GOG Galaxy\\Games\\Titan Quest - Anniversary Edition
+detailLogs=False
+helpShown=True

@@ -1,20 +1,15 @@
 ﻿
-  public enum class ItemClass(value:String)
+  public enum class ItemClass
   {
-    None("None"),
-    Lesser("Lesser"),
-    Greater("Greater"),
-    Divine("Divine"),
-    Normal("Normal"),
-    Epic("Epic"),
-    Legendary("Legendary"),
-    Rare("Rare"),
-    Magical("Magical"),
-    Quest("Quest");
+    None,
+    Lesser,
+    Greater,
+    Divine,
+    Normal,
+    Epic,
+    Legendary,
+    Rare,
+    Magical,
+    Quest;
 
-
-    fun getStringVal(itemClass: ItemClass): String {
-        return itemClass.value;
-      }
-        fun getByVal(value: String):ItemClass? = ItemClass.values().find { it.value == value }
 }

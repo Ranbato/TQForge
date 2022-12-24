@@ -1,6 +1,5 @@
-﻿import java.io.File
-import java.io.FileNotFoundException
-import java.io.RandomAccessFile
+﻿import java.io.*
+import java.nio.ByteBuffer
 
 private val logger = mu.KotlinLogging.logger {}
 public object TQData
@@ -19,35 +18,70 @@ public object TQData
       writer.write(bytes)
     }
 
-    public fun readCString( reader: RandomAccessFile):String
+    public fun writeCString(writer: OutputStream, value:String):Unit
     {
-      val num = reader.readInt();
+      val bytes = value.toByteArray(Charsets.ISO_8859_1)
+      writer.write(bytes)
+    }
+
+    public fun readCString( reader: ByteBuffer, offset:Int):String
+    {
+      val num = reader.getInt(offset)
+      val bytes = ByteArray(num)
+      reader.get(bytes);
+      return String(bytes,Charsets.ISO_8859_1)
+    }
+    public fun readCString( array: ByteArray):String
+    {
+      return readCString(ByteArrayInputStream(array))
+    }
+
+    public fun readCString( reader: InputStream):String
+    {
+      val num = DataInputStream(reader).readInt()
       val bytes = ByteArray(num)
       reader.read(bytes);
       return String(bytes,Charsets.ISO_8859_1)
+
+
     }
 
-    public fun validateNextString( value:String,  reader:RandomAccessFile):Boolean
+//    private fun getInt(buffer: ByteArray, offset:Int = 0):Int {
+//      return buffer[offset+0].toInt() and 0xFF or
+//              (buffer[offset+1].toInt() and 0xFF shl 8) or
+//              (buffer[offset+2].toInt() and 0xFF shl 16) or
+//              (buffer[offset+3].toInt() and 0xFF shl 24)
+//    }
+//    public fun validateNextString( value:String,  reader:B):Boolean
+//    {
+//      val str = readCString(reader);
+//      if (str.uppercase() == value.uppercase()) {
+//        return true
+//      }
+//      logger.debug{"Error reading file at position ${reader.filePointer -  str.length - 4L}.  Expecting $value.  Got $str"}
+//      return false;
+//    }
+
+    public fun validateNextString( value:String,  reader: DataInputStream):Boolean
     {
       val str = readCString(reader);
       if (str.uppercase() == value.uppercase()) {
         return true
       }
-      logger.debug{"Error reading file at position ${reader.filePointer -  str.length - 4L}.  Expecting $value.  Got $str"}
+      logger.debug{"Error reading data at from buffer.  Expecting $value.  Got $str"}
       return false;
     }
-
 
     public fun loadCharacterList():List<String>
     {
       characterNameList.clear()
       try
       {
-        val directories = File(Config.getSaveLocation() + "\\SaveData\\Main").listFiles { file -> file.name[0] == '_' && file.isDirectory })
+        val directories = File(Config.getSaveLocation() + "\\SaveData\\Main").listFiles { file -> file.name[0] == '_' && file.isDirectory }
         if (directories == null || directories.isEmpty()) {
           return emptyList()
         }
-        var tempList = MutableList(directories.size)
+        var tempList = mutableListOf<String>()
         directories.forEach {
           tempList.add(it.name.substring(1))
           logger.debug{"Character found: ${it.name.substring(1)}"}
@@ -69,7 +103,7 @@ public object TQData
 
         character.loadFile();
 
-//          Logger.Log("Error: Unable to load character weaponSmith data: " + ex.ToString());
+         // logger.error{"Error: Unable to load character $playerName data: ${ex.ToString()}"}
       return character;
     }
 
@@ -78,7 +112,7 @@ public object TQData
       if (chrName == null)
         return null;
 
-      val character1 = characterList.find { it.characterName == chrName }
+      val character1 = characterList.find { it.caracterName == chrName }
 
       if (character1 != null) {
         return character1;

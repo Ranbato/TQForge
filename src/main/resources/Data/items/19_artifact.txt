@@ -1,0 +1,84 @@
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_BOOKOFDREAMS.DBR=Legendary=xtagArtifactDescription037=Book of Dreams
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_WRAITHGUARD.DBR=Legendary=xtagArtifactDescription004=Wraithguard
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_DEATHRATTLE.DBR=Legendary=xtagArtifactDescription002=Deathrattle
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_KNOTOFISIS.DBR=Legendary=xtagArtifactDescription065=Knot of Isis
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_SPHEREOFETERNITY.DBR=Legendary=xtagArtifactDescription047=Sphere of Eternity
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_ARCANEMIRROR.DBR=Legendary=xtagArtifactDescription058=Arcane Mirror
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_MARDUKSTABLETOFDESTINY.DBR=Legendary=xtagArtifactDescription070=Marduk's Tablet of Destiny
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_TOTEMOFBAST.DBR=Legendary=xtagArtifactDescription069=Sigil of Bast
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_STARHEART.DBR=Legendary=xtagArtifactDescription006=Star Heart
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_PHYLACTERYOFSHADOWS.DBR=Legendary=xtagArtifactDescription023=Phylactery of Shadows
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_MORPHEUSDREAMWEB.DBR=Legendary=xtagArtifactDescription068=Morpheus' Dreamweb
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_TOTEMOFTHEPOLYMATH.DBR=Legendary=xtagArtifactDescription057=Symbol of the Polymath
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SUNSTONE.DBR=Legendary=xtagArtifactDescription017=Sunstone
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_ELEMENTALRAGE.DBR=Legendary=xtagArtifactDescription056=Elemental Rage
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_JADETOTEM.DBR=Legendary=xtagArtifactDescription021=Jade Idol
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_EARTHENTALISMAN.DBR=Legendary=xtagArtifactDescription025=Earthen Talisman
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_ETHEREALVEIL.DBR=Legendary=xtagArtifactDescription036=Ethereal Veil
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_SANDOFKRONOS.DBR=Legendary=xtagArtifactDescription044=Kingslayer
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_CRESCENTMOONOFARTEMIS.DBR=Legendary=xtagArtifactDescription059=Crescent Moon of Artemis
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_EFFIGYOFSKYFIRE.DBR=Legendary=xtagArtifactDescription046=Effigy of Skyfire
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_TYRANTSFIST.DBR=Legendary=xtagArtifactDescription054=Tyrant's Fist
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_LYREOFAPOLLO.DBR=Legendary=xtagArtifactDescription074=Lyre of Apollo
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_PALEMOON.DBR=Legendary=xtagArtifactDescription008=Pale Moon
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_TALISMANOFTHEJADEEMPEROR.DBR=Legendary=xtagArtifactDescription067=Talisman of the Jade Emperor
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_RAZORCLAW.DBR=Legendary=xtagArtifactDescription015=Razor Claw
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_THUNDERFIST.DBR=Legendary=xtagArtifactDescription032=Thunderfist
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\L_DA_APPLESOFIDUN.DBR=Legendary=x2tagArtifactDescription001=Apples of Idun
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_EYEOFRA.DBR=Legendary=xtagArtifactDescription071=Eye of Ra
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_THOTHSGLORY.DBR=Legendary=xtagArtifactDescription072=Thoth's Glory
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_BLOODRAGE.DBR=Legendary=xtagArtifactDescription018=Bloodrage
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_TOMEOFTRANSFIGURATION.DBR=Legendary=xtagArtifactDescription029=Tome of Transfiguration
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\E_GA_GJALLARHORN.DBR=Legendary=x2tagArtifactDescription004=Gjallarhorn
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_HEARTOFEARTH.DBR=Legendary=xtagArtifactDescription052=Heart of Earth
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_DRUIDICWREATH.DBR=Legendary=xtagArtifactDescription039=Druidic Wreath
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_CHAOSCUBE.DBR=Legendary=xtagArtifactDescription011=Chaos Cube
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_CRYSTALTEAR.DBR=Legendary=xtagArtifactDescription019=Crystal Tear
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\L_GA_GAMBANTEINN.DBR=Legendary=x2tagArtifactDescription003=Gambanteinn
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_BLOODOFARES.DBR=Legendary=xtagArtifactDescription063=Blood of Ares
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_CROSIEROFOSIRIS.DBR=Legendary=xtagArtifactDescription064=Crosier of Osiris
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_DEMETERSBOUNTY.DBR=Legendary=xtagArtifactDescription061=Demeter's Bounty
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_MIGHTOFHEPHAESTUS.DBR=Legendary=xtagArtifactDescription062=Might of Hephaestus
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_DA_POSEIDONSNET.DBR=Legendary=xtagArtifactDescription060=Poseidon's Net
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_CRIMSONVIPER.DBR=Legendary=xtagArtifactDescription050=Crimson Viper
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_DRAGONTONGUE.DBR=Legendary=xtagArtifactDescription043=Dragontongue
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_FINALBREATH.DBR=Legendary=xtagArtifactDescription049=Final Breath
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_HANDOFGAEA.DBR=Legendary=xtagArtifactDescription051=Hand of Gaia
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_LACEOFCELERITY.DBR=Legendary=xtagArtifactDescription048=Blood Gem
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_GA_LIONHEART.DBR=Legendary=xtagArtifactDescription045=Lionheart
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_DARKCORE.DBR=Legendary=xtagArtifactDescription022=Dark Core
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_EBONYGLOBE.DBR=Legendary=xtagArtifactDescription030=Ebony Globe
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_EMERALDQUILL.DBR=Legendary=xtagArtifactDescription020=Emerald Quill
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_NEXUSOFINSANITY.DBR=Legendary=xtagArtifactDescription027=Nexus of Insanity
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_RAVENSSHADOW.DBR=Legendary=xtagArtifactDescription026=Raven's Shadow
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_SPIRITBLIGHT.DBR=Legendary=xtagArtifactDescription024=Spirit Blight
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\E_LA_SUMMONERSTOTEM.DBR=Legendary=xtagArtifactDescription028=Summoner's Totem
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_GOLDENEYEOFSUNWUKONG.DBR=Legendary=xtagArtifactDescription066=Golden Eye of Sun Wukong
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_IKONOFZEUS.DBR=Legendary=xtagArtifactDescription073=Ikon of Zeus
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_DA_STAROFISHTAR.DBR=Legendary=xtagArtifactDescription075=Star of Ishtar
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_CONQUERORSMARK.DBR=Legendary=xtagArtifactDescription053=Conqueror's Mark
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_GA_DOXAKALO.DBR=Legendary=xtagArtifactDescription055=Glorybringer
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_EFFIGYOFTHEPANTHER.DBR=Legendary=xtagArtifactDescription033=Effigy of the Panther
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_MAIDENSKISS.DBR=Legendary=xtagArtifactDescription035=Maiden's Kiss
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_SILVERHEART.DBR=Legendary=xtagArtifactDescription034=Silver Heart
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\L_LA_TONGUEOFFLAME.DBR=Legendary=xtagArtifactDescription031=Tongue of Flame
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_EYEOFTHEHEAVENS.DBR=Legendary=xtagArtifactDescription042=Eye of the Heavens
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_FURYOFTHEAGES.DBR=Legendary=xtagArtifactDescription041=Fury of the Ages
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_SHADOWVEIL.DBR=Legendary=xtagArtifactDescription040=Shadow Veil
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_GA_SOULPRISM.DBR=Legendary=xtagArtifactDescription038=Soul Prism
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_AMBERFLASK.DBR=Legendary=xtagArtifactDescription005=Amber Flask
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_CINDERBOLT.DBR=Legendary=xtagArtifactDescription013=Cinderbolt
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_LEAFSONG.DBR=Legendary=xtagArtifactDescription012=Leafsong
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_MOLTENORB.DBR=Legendary=xtagArtifactDescription003=Molten Orb
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SCROLLOFONEIROS.DBR=Legendary=xtagArtifactDescription001=Scroll of Oneiros
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SHROUDOFETERNALNIGHT.DBR=Legendary=xtagArtifactDescription007=Shroud of Eternal Night
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SKYFIREPENDANT.DBR=Legendary=xtagArtifactDescription009=Skyfire Pendant
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SONGOFTHESERPENT.DBR=Legendary=xtagArtifactDescription016=Song of the Serpent
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_SOULSHIVER.DBR=Legendary=xtagArtifactDescription014=Soul Shiver
+ItemArtifact=RECORDS\XPACK\ITEM\ARTIFACTS\N_LA_TOUCHOFTHEFOOL.DBR=Legendary=xtagArtifactDescription010=Touch of the Fool
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\E_DA_WHEELOFTARANIS.DBR=Legendary=x2tagArtifactDescription002=Wheel of Taranis
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\E_LA_SINGASTEINN.DBR=Legendary=x2tagArtifactDescription006=Singasteinn
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\N_GA_DVALINSIMULACRUM.DBR=Legendary=x2tagArtifactDescription005=Dvalinn's Simulacrum
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\N_LA_CARNYX.DBR=Legendary=x2tagArtifactDescription009=Carnyx
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\N_LA_GOLDENBELT.DBR=Legendary=x2tagArtifactDescription007=Golden Belt
+ItemArtifact=RECORDS\XPACK2\ITEM\ARTIFACTS\N_LA_SEIDRBONES.DBR=Legendary=x2tagArtifactDescription008=Seidr Bones

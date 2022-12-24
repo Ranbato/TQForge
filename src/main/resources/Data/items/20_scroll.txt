@@ -1,0 +1,58 @@
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01X_CYCLOPS.DBR==xtagScroll050=Scroll of the Cyclops
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_ARMAGEDDON.DBR==xtagScroll039=Divine Scroll of Armageddon
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_UNBROKENFORTITUDE.DBR==xtagScroll058=Greater Scroll of Unbroken Fortitude
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02X_EARTHQUAKE.DBR==xtagScroll028=Greater Scroll of the Earthquake
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\02_SVEFNTHORN.DBR==x2tagScrollName11=Divine Scroll of the Svefnthorn
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\01_PERSUASION.DBR==x2tagScrollName02=Scroll of Persuasion
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_FRENZY.DBR==xtagScroll030=Divine Scroll of Frenzy
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_STORMWITCHES.DBR==xtagScroll056=Greater Scroll of the Storm Witches
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_UNBROKENFORTITUDE.DBR==xtagScroll012=Scroll of Unbroken Fortitude
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\03_SUNSBLESSING.DBR==x2tagScrollName13=Divine Scroll of the Sun's Blessing
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_ELEMENTALSHIELDING.DBR==xtagScroll047=Scroll of Elemental Shielding
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01X_ARCANEPOWER.DBR==xtagScroll014=Scroll of Arcane Power
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01X_WARRIORSSONG.DBR==xtagScroll005=Scroll of the Warrior's Song
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\01_BLOODRAGE.DBR==x2tagScrollName05=Scroll of Bloodrage
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\02_PERSUASION.DBR==x2tagScrollName07=Greater Scroll of Persuasion
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02X_NECROMANCER.DBR==xtagScroll025=Greater Scroll of the Necromancer
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_ARCHMAGESFURY.DBR==xtagScroll053=Divine Scroll of the Archmage's Fury
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_BREAKINGWHEEL.DBR==xtagScroll029=Divine Scroll of the Breaking Wheel
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\01_SUNSBLESSING.DBR==x2tagScrollName03=Scroll of the Sun's Blessing
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\03_PERSUASION.DBR==x2tagScrollName12=Divine Scroll of Persuasion
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\03_SVEFNTHORN.DBR==x2tagScrollName11=Divine Scroll of the Svefnthorn
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_STORMWITCHES.DBR==xtagScroll055=Scroll of the Storm Witches
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02X_DJINNI.DBR==xtagScroll052=Greater Scroll of the Djinn
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01X_SKYSRAGE.DBR==xtagScroll013=Scroll of the Sky's Rage
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01X_VULNERABILITY.DBR==xtagScroll010=Scroll of Vulnerability
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_BREAKINGWHEEL.DBR==xtagScroll001=Scroll of the Breaking Wheel
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_CRUSHINGVORTEX.DBR==xtagScroll044=Scroll of the Crushing Vortex
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_FRAILTY.DBR==xtagScroll009=Scroll of Frailty
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_FRENZY.DBR==xtagScroll002=Scroll of Frenzy
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_ICENOVA.DBR==xtagScroll063=Scroll of the Ice Nova
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\01_UNBREAKABLEALLIANCE.DBR==xtagScroll060=Scroll of the Stalwart Alliance
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02X_VAMPIRISM.DBR==xtagScroll024=Greater Scroll of Vampirism
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02X_VENGEANCE.DBR==xtagScroll051=Greater Scroll of Vengeance
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_BREAKINGWHEEL.DBR==xtagScroll015=Greater Scroll of the Breaking Wheel
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_CRUSHINGVORTEX.DBR==xtagScroll045=Greater Scroll of the Crushing Vortex
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_ELEMENTALSHIELDING.DBR==xtagScroll048=Greater Scroll of Elemental Shielding
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_FRAILTY.DBR==xtagScroll023=Greater Scroll of Frailty
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_FRENZY.DBR==xtagScroll016=Greater Scroll of Frenzy
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_ICENOVA.DBR==xtagScroll064=Greater Scroll of the Ice Nova
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\02_UNBREAKABLEALLIANCE.DBR==xtagScroll061=Greater Scroll of the Stalwart Alliance
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_ARROWDANCER.DBR==xtagScroll054=Divine Scroll of the Arrow Dancer
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_BEHEMOTH.DBR==xtagScroll040=Divine Scroll of the Behemoth
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_MADDENEDGOD.DBR==xtagScroll042=Divine Scroll of the Maddened God
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03X_MAGEBANE.DBR==xtagScroll043=Divine Scroll of Magebane
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_CRUSHINGVORTEX.DBR==xtagScroll046=Divine Scroll of the Crushing Vortex
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_ELEMENTALSHIELDING.DBR==xtagScroll049=Divine Scroll of Elemental Shielding
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_FRAILTY.DBR==xtagScroll037=Divine Scroll of Frailty
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_ICENOVA.DBR==xtagScroll065=Divine Scroll of the Ice Nova
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_STORMWITCHES.DBR==xtagScroll057=Divine Scroll of the Storm Witches
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_UNBREAKABLEALLIANCE.DBR==xtagScroll062=Divine Scroll of the Stalwart Alliance
+OneShot_Scroll=RECORDS\XPACK\ITEM\SCROLLS\03_UNBROKENFORTITUDE.DBR==xtagScroll059=Divine Scroll of Unbroken Fortitude
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\02_BLOODRAGE.DBR==x2tagScrollName10=Greater Scroll of Bloodrage
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\01_PRIMALCHAOS.DBR==x2tagScrollName04=Scroll of Primal Chaos
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\01_SVEFNTHORN.DBR==x2tagScrollName01=Scroll of the Svefnthorn
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\02_PRIMALCHAOS.DBR==x2tagScrollName09=Greater Scroll of Primal Chaos
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\02_SUNSBLESSING.DBR==x2tagScrollName08=Greater Scroll of the Sun's Blessing
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\03_BLOODRAGE.DBR==x2tagScrollName15=Divine Scroll of Bloodrage
+OneShot_Scroll=RECORDS\XPACK2\ITEM\SCROLLS\03_PRIMALCHAOS.DBR==x2tagScrollName14=Divine Scroll of Primal Chaos

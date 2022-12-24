@@ -47,17 +47,23 @@ private val logger = mu.KotlinLogging.logger {}
     public var areResourcesLoaded = false
     private var isInitialized = true
 
+
     public fun getSaveLocation():String = properties["GameSaveLocation"] as String
-    public fun getInstallLocation():String = properties["GameInstallLocation"] as String
+    public val installLocation:String
+      get() = properties["GameInstallLocation"] as String
     public fun getDetailLogs():Boolean = properties["detailLogs"] as Boolean
     public fun getHelpShown():Boolean = properties["helpShown"] as Boolean
 
-    private val properties = mapOf<String,String>(
+    private val properties = mutableMapOf<String,String>(
       "GameSaveLocation" to FileSystemView.getFileSystemView().defaultDirectory.path + "\\My Games\\Titan Quest - Immortal Throne",
              "GameInstallLocation" to "",
               "detailLogs" to false.toString(),
               "helpShown" to false.toString()
     ).toProperties()
+
+    init {
+      loadFromFile()
+    }
 
 
     public fun saveConfig():Unit
@@ -71,7 +77,7 @@ private val logger = mu.KotlinLogging.logger {}
       val file = File(FILENAME)
         if (file.exists())
         {
-          val prop = Properties()
+
           properties.load(file.reader())
         }
         else

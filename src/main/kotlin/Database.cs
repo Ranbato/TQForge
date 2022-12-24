@@ -383,7 +383,7 @@ namespace TQ_weaponsmith
         if (ItemType.Formula == type && classification != ItemClass.None)
         {
           string itemId = inf.GetString("artifactName");
-          DBRecord recordFromFile = Database.DB.GetRecordFromFile(itemId);
+          DBRecord recordFromFile = Database.GetRecordFromFile(itemId);
           if (string.IsNullOrEmpty(itemId))
             return false;
           string upperInvariant = recordFromFile.GetString("artifactClassification", 0).ToUpperInvariant();

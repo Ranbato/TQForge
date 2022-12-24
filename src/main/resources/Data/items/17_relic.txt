@@ -1,0 +1,123 @@
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_WODANSWISDOM.DBR=Common=x2tagRelicName017=Embodiment of Wodan's Wisdom
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_SETSBETRAYAL.DBR=Common=tagRelicName034=Essence of Set's Betrayal
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_DONARSHAMMER.DBR=Common=x2tagRelicName011=Embodiment of Donar's Hammer
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_AEGISOFATHENA.DBR=Common=tagRelicName015=Embodiment of the Aegis of Athena
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_CERNUNNOSMAJESTY.DBR=Common=x2tagRelicName001=Essence of Cernunnos' Majesty
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_STEWOFELDHRIMNIR.DBR=Common=x2tagRelicName025=Incarnation of the Stew of Eldhrimnir
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_LIGHTOFBELENUS.DBR=Common=x2tagRelicName022=Incarnation of the Light of Belenus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_CHILLOFTARTARUS.DBR=Common=xtagRelicName018=Incarnation of the Chill of Tartarus
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_ANKHOFISIS.DBR=Common=tagRelicName048=Incarnation of the Ankh of Isis
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_AEGISOFATHENA.DBR=Common=tagRelicName026=Incarnation of the Aegis of Athena
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_UDJATOFHORUS.DBR=Common=tagRelicName045=Embodiment of the Udjat of Horus
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_YENLOWANGSBLOODLETTING.DBR=Common=tagRelicName064=Embodiment of Yen-Lo-Wang's Bloodletting
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_ZEUSTHUNDERBOLT.DBR=Common=tagRelicName001=Essence of Zeus' Thunderbolt
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_ANUBISWRATH.DBR=Common=tagRelicName035=Essence of Anubis' Wrath
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_ARTEMISBOWSTRING.DBR=Common=tagRelicName014=Embodiment of Artemis' Bowstring
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_HERACLESMIGHT.DBR=Common=tagRelicName010=Essence of Herakles' Might
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_DJEDOFOSIRIS.DBR=Common=tagRelicName038=Essence of the Djed of Osiris
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_GUANYUSGRACE.DBR=Common=tagRelicName053=Essence of Guan-Yu's Grace
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_DIONYSUSWINESKIN.DBR=Common=tagRelicName030=Incarnation of Dionysus' Wineskin
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_DRAGONKINGSDOMAIN.DBR=Common=tagRelicName058=Essence of the Domain of the Dragon-Kings
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_ARTEMISBOWSTRING.DBR=Common=tagRelicName003=Essence of Artemis' Bowstring
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_BLADEOFTHANATOS.DBR=Common=xtagRelicName003=Essence of the Blade of Thanatos
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_NERTHUSMISTLETOE.DBR=Common=x2tagRelicName027=Incarnation of the Power of Nerthus
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_PROMETHEUSFLAME.DBR=Common=tagRelicName005=Essence of Prometheus' Flame
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_CHILLOFTARTARUS.DBR=Common=xtagRelicName011=Embodiment of the Chill of Tartarus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_SHADEOFHEKTOR.DBR=Common=xtagRelicName014=Embodiment of the Shade of Hector
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_PERSEPHONESTEARS.DBR=Common=xtagRelicName001=Essence of Persephone's Tears
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_EPONASHORSES.DBR=Common=x2tagRelicName012=Embodiment of Epona's Horses
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_PERSEPHONESTEARS.DBR=Common=xtagRelicName015=Incarnation of Persephone's Tears
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_GOLDENFLEECE.DBR=Common=tagRelicName018=Embodiment of the Golden Fleece
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_OGMIOSELOQUENCE.DBR=Common=x2tagRelicName014=Embodiment of Ogmios' Eloquence
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_CUNNINGOFODDYSEUS.DBR=Common=xtagRelicName002=Essence of the Cunning of Odysseus
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_NERTHUSMISTLETOE.DBR=Common=x2tagRelicName009=Essence of the Power of Nerthus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_SHADEOFHEKTOR.DBR=Common=xtagRelicName021=Incarnation of the Shade of Hector
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_AEGISOFATHENA.DBR=Common=tagRelicName004=Essence of the Aegis of Athena
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_ARCHIMEDESMIRROR.DBR=Common=tagRelicName011=Essence of Archimedes' Mirror
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_DIONYSUSWINESKIN.DBR=Common=tagRelicName008=Essence of Dionysus' Wineskin
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_GOLDENFLEECE.DBR=Common=tagRelicName007=Essence of the Golden Fleece
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_HECATESCRESCENT.DBR=Common=tagRelicName006=Essence of Hecate's Crescent
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_HERMESSANDAL.DBR=Common=tagRelicName009=Essence of Hermes' Sandal
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT1_VALOROFACHILLES.DBR=Common=tagRelicName002=Essence of the Valor of Achilles
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_AMUNRASGLORY.DBR=Common=tagRelicName037=Essence of Amun-Ra's Glory
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_ANKHOFISIS.DBR=Common=tagRelicName036=Essence of the Ankh of Isis
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT2_UDJATOFHORUS.DBR=Common=tagRelicName039=Essence of the Udjat of Horus
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_CODEOFHAMMURABI.DBR=Common=tagRelicName057=Essence of the Code of Hammurabi
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_JADEEMPERORSSERENITY.DBR=Common=tagRelicName055=Essence of the Jade Emperor's Serenity
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_LINEZHASGUILE.DBR=Common=tagRelicName052=Essence of Li-Nezha's Guile
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_MONKEYKINGSTRICKERY.DBR=Common=tagRelicName054=Essence of the Monkey King's Trickery
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_SHENNONGSDARKMEDICINE.DBR=Common=tagRelicName059=Essence of Shen-Nong's Dark Medicine
+ItemRelic=RECORDS\ITEM\RELICS\01_ACT3_YENLOWANGSBLOODLETTING.DBR=Common=tagRelicName056=Essence of Yen-Lo-Wang's Bloodletting
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_ARCHIMEDESMIRROR.DBR=Common=tagRelicName022=Embodiment of Archimedes' Mirror
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_DIONYSUSWINESKIN.DBR=Common=tagRelicName019=Embodiment of Dionysus' Wineskin
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_HECATESCRESCENT.DBR=Common=tagRelicName017=Embodiment of Hecate's Crescent
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_HERACLESMIGHT.DBR=Common=tagRelicName021=Embodiment of Herakles' Might
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_HERMESSANDAL.DBR=Common=tagRelicName020=Embodiment of Hermes' Sandal
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_PROMETHEUSFLAME.DBR=Common=tagRelicName016=Embodiment of Prometheus' Flame
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_VALOROFACHILLES.DBR=Common=tagRelicName013=Embodiment of the Valor of Achilles
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT1_ZEUSTHUNDERBOLT.DBR=Common=tagRelicName012=Embodiment of Zeus' Thunderbolt
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_AMUNRASGLORY.DBR=Common=tagRelicName043=Embodiment of Amun-Ra's Glory
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_ANKHOFISIS.DBR=Common=tagRelicName042=Embodiment of the Ankh of Isis
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_ANUBISWRATH.DBR=Common=tagRelicName041=Embodiment of Anubis' Wrath
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_DJEDOFOSIRIS.DBR=Common=tagRelicName044=Embodiment of the Djed of Osiris
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT2_SETSBETRAYAL.DBR=Common=tagRelicName040=Embodiment of Set's Betrayal
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_CODEOFHAMMURABI.DBR=Common=tagRelicName065=Embodiment of the Code of Hammurabi
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_DRAGONKINGSDOMAIN.DBR=Common=tagRelicName066=Embodiment of the Domain of the Dragon-Kings
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_GUANYUSGRACE.DBR=Common=tagRelicName061=Embodiment of Guan-Yu's Grace
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_JADEEMPERORSSERENITY.DBR=Common=tagRelicName063=Embodiment of the Jade Emperor's Serenity
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_LINEZHASGUILE.DBR=Common=tagRelicName060=Embodiment of Li-Nezha's Guile
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_MONKEYKINGSTRICKERY.DBR=Common=tagRelicName062=Embodiment of the Monkey King's Trickery
+ItemRelic=RECORDS\ITEM\RELICS\02_ACT3_SHENNONGSDARKMEDICINE.DBR=Common=tagRelicName067=Embodiment of Shen-Nong's Dark Medicine
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_ARCHIMEDESMIRROR.DBR=Common=tagRelicName033=Incarnation of Archimedes' Mirror
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_ARTEMISBOWSTRING.DBR=Common=tagRelicName025=Incarnation of Artemis' Bowstring
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_GOLDENFLEECE.DBR=Common=tagRelicName029=Incarnation of the Golden Fleece
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_HECATESCRESCENT.DBR=Common=tagRelicName028=Incarnation of Hecate's Crescent
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_HERACLESMIGHT.DBR=Common=tagRelicName032=Incarnation of Herakles' Might
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_HERMESSANDAL.DBR=Common=tagRelicName031=Incarnation of Hermes' Sandal
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_PROMETHEUSFLAME.DBR=Common=tagRelicName027=Incarnation of Prometheus' Flame
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_VALOROFACHILLES.DBR=Common=tagRelicName024=Incarnation of the Valor of Achilles
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT1_ZEUSTHUNDERBOLT.DBR=Common=tagRelicName023=Incarnation of Zeus' Thunderbolt
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_AMUNRASGLORY.DBR=Common=tagRelicName049=Incarnation of Amun-Ra's Glory
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_ANUBISWRATH.DBR=Common=tagRelicName047=Incarnation of Anubis' Wrath
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_DJEDOFOSIRIS.DBR=Common=tagRelicName050=Incarnation of the Djed of Osiris
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_SETSBETRAYAL.DBR=Common=tagRelicName046=Incarnation of Set's Betrayal
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT2_UDJATOFHORUS.DBR=Common=tagRelicName051=Incarnation of the Udjat of Horus
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_CODEOFHAMMURABI.DBR=Common=tagRelicName073=Incarnation of the Code of Hammurabi
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_DRAGONKINGSDOMAIN.DBR=Common=tagRelicName074=Incarnation of the Domain of the Dragon-Kings
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_GUANYUSGRACE.DBR=Common=tagRelicName069=Incarnation of Guan-Yu's Grace
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_JADEEMPERORSSERENITY.DBR=Common=tagRelicName071=Incarnation of the Jade Emperor's Serenity
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_LINEZHASGUILE.DBR=Common=tagRelicName068=Incarnation of Li-Nezha's Guile
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_MONKEYKINGSTRICKERY.DBR=Common=tagRelicName070=Incarnation of the Monkey King's Trickery
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_SHENNONGSDARKMEDICINE.DBR=Common=tagRelicName075=Incarnation of Shen-Nong's Dark Medicine
+ItemRelic=RECORDS\ITEM\RELICS\03_ACT3_YENLOWANGSBLOODLETTING.DBR=Common=tagRelicName072=Incarnation of Yen-Lo-Wang's Bloodletting
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_SIGURDSCOURAGE.DBR=Common=x2tagRelicName015=Embodiment of Sigurd's Courage
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_OGMIOSELOQUENCE.DBR=Common=x2tagRelicName005=Essence of Ogmios' Eloquence
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_IRONWILLOFAJAX.DBR=Common=xtagRelicName019=Incarnation of the Iron Will of Ajax
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_CHILLOFTARTARUS.DBR=Common=xtagRelicName004=Essence of the Chill of Tartarus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_IRONWILLOFAJAX.DBR=Common=xtagRelicName005=Essence of the Iron Will of Ajax
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_RAGEOFARES.DBR=Common=xtagRelicName006=Essence of the Rage of Ares
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\01_ACT4_SHADEOFHEKTOR.DBR=Common=xtagRelicName007=Essence of the Shade of Hector
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_BLADEOFTHANATOS.DBR=Common=xtagRelicName010=Embodiment of the Blade of Thanatos
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_CUNNINGOFODDYSEUS.DBR=Common=xtagRelicName009=Embodiment of the Cunning of Odysseus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_IRONWILLOFAJAX.DBR=Common=xtagRelicName012=Embodiment of the Iron Will of Ajax
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_PERSEPHONESTEARS.DBR=Common=xtagRelicName008=Embodiment of Persephone's Tears
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\02_ACT4_RAGEOFARES.DBR=Common=xtagRelicName013=Embodiment of the Rage of Ares
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_BLADEOFTHANATOS.DBR=Common=xtagRelicName017=Incarnation of the Blade of Thanatos
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_CUNNINGOFODDYSEUS.DBR=Common=xtagRelicName016=Incarnation of the Cunning of Odysseus
+ItemRelic=RECORDS\XPACK\ITEM\RELICS\03_ACT4_RAGEOFARES.DBR=Common=xtagRelicName020=Incarnation of the Rage of Ares
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_SIGURDSCOURAGE.DBR=Common=x2tagRelicName024=Incarnation of Sigurd's Courage
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_CERNUNNOSMAJESTY.DBR=Common=x2tagRelicName019=Incarnation of Cernunnos' Majesty
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_NERTHUSMISTLETOE.DBR=Common=x2tagRelicName018=Embodiment of the Power of Nerthus
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_DONARSHAMMER.DBR=Common=x2tagRelicName002=Essence of Donar's Hammer
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_EPONASHORSES.DBR=Common=x2tagRelicName003=Essence of Epona's Horses
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_LIGHTOFBELENUS.DBR=Common=x2tagRelicName004=Essence of the Light of Belenus
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_SIGURDSCOURAGE.DBR=Common=x2tagRelicName006=Essence of Sigurd's Courage
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_STEWOFELDHRIMNIR.DBR=Common=x2tagRelicName007=Essence of the Stew of Eldhrimnir
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\01_ACT5_WODANSWISDOM.DBR=Common=x2tagRelicName008=Essence of Wodan's Wisdom
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_CERNUNNOSMAJESTY.DBR=Common=x2tagRelicName010=Embodiment of Cernunnos' Majesty
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_LIGHTOFBELENUS.DBR=Common=x2tagRelicName013=Embodiment of the Light of Belenus
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\02_ACT5_STEWOFELDHRIMNIR.DBR=Common=x2tagRelicName016=Embodiment of the Stew of Eldhrimnir
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_DONARSHAMMER.DBR=Common=x2tagRelicName020=Incarnation of Donar's Hammer
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_EPONASHORSES.DBR=Common=x2tagRelicName021=Incarnation of Epona's Horses
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_OGMIOSELOQUENCE.DBR=Common=x2tagRelicName023=Incarnation of Ogmios' Eloquence
+ItemRelic=RECORDS\XPACK2\ITEM\RELICS\03_ACT5_WODANSWISDOM.DBR=Common=x2tagRelicName026=Incarnation of Wodan's Wisdom

@@ -120,7 +120,7 @@ namespace TQ_weaponsmith
       this.mainForm.suffixComboBox.ValueMember = "value";
       this.mainForm.itemSelectImagePanel.Controls.Clear();
       this.mainForm.ItemListBox.Items.Clear();
-      this.mainForm.miscButton.BackgroundImage = (Image) Database.DB.LoadBitmap("Items\\QuestItems\\UIBitmaps\\qi_axesickle.tex");
+      this.mainForm.miscButton.BackgroundImage = (Image) Database.LoadBitmap("Items\\QuestItems\\UIBitmaps\\qi_axesickle.tex");
       this.mainForm.prefixComboBox.Tag = (object) this.mainForm.prefixTextBox;
       this.mainForm.suffixComboBox.Tag = (object) this.mainForm.suffixTextBox;
     }
@@ -148,7 +148,7 @@ namespace TQ_weaponsmith
     public void selectItem(Info inf)
     {
       this.itemInfo = inf;
-      this.mainForm.pictureBox.Image = (Image) Database.DB.LoadBitmap(inf.Bitmap);
+      this.mainForm.pictureBox.Image = (Image) Database.LoadBitmap(inf.Bitmap);
       this.mainForm.selectItemWP.SubTitle = "Selected Item: " + inf.cleanName();
     }
 
@@ -182,7 +182,7 @@ namespace TQ_weaponsmith
           case ItemType.Parchment:
           case ItemType.Misc:
             arg.NextPageIndex = 3;
-            this.filteredInfo = Database.DB.getInfos(this.itemType, ItemClass.None);
+            this.filteredInfo = Database.getInfos(this.itemType, ItemClass.None);
             this.populateItemsList();
             break;
         }
@@ -208,13 +208,13 @@ namespace TQ_weaponsmith
             this.mainForm.itemNameLabel.ForeColor = this.legendaryColor;
             this.itemClassification = ItemClass.Divine;
           }
-          this.filteredInfo = Database.DB.getInfos(this.itemType, this.itemClassification);
+          this.filteredInfo = Database.getInfos(this.itemType, this.itemClassification);
         }
         else if (ItemType.Scroll == this.itemType || ItemType.Charm == this.itemType || ItemType.Relic == this.itemType)
         {
           this.mainForm.itemNameLabel.ForeColor = Color.White;
           this.itemClassification = !this.mainForm.MIRadioButton.Checked ? (!this.mainForm.epicRadioButton.Checked ? ItemClass.Legendary : ItemClass.Epic) : ItemClass.Normal;
-          this.filteredInfo = Database.DB.getInfos(this.itemType, this.itemClassification);
+          this.filteredInfo = Database.getInfos(this.itemType, this.itemClassification);
         }
         else if (ItemType.Ring == this.itemType || ItemType.Amulet == this.itemType)
         {
@@ -228,7 +228,7 @@ namespace TQ_weaponsmith
             this.mainForm.itemNameLabel.ForeColor = this.legendaryColor;
             this.itemClassification = ItemClass.Legendary;
           }
-          this.filteredInfo = Database.DB.getInfos(this.itemType, this.itemClassification);
+          this.filteredInfo = Database.getInfos(this.itemType, this.itemClassification);
         }
         else
         {
@@ -247,7 +247,7 @@ namespace TQ_weaponsmith
             this.itemClassification = ItemClass.Legendary;
             this.mainForm.itemNameLabel.ForeColor = this.legendaryColor;
           }
-          this.filteredInfo = Database.DB.getInfos(this.itemType, this.itemClassification);
+          this.filteredInfo = Database.getInfos(this.itemType, this.itemClassification);
         }
         this.populateItemsList();
         if (this.itemInfo != null)
@@ -258,7 +258,7 @@ namespace TQ_weaponsmith
       else if (arg.CurrentPageIndex == 3)
       {
         this.mainForm.itemNameLabel.Text = this.itemInfo.cleanName();
-        this.mainForm.previewItemPictureBox.BackgroundImage = (Image) Database.DB.LoadBitmap(this.itemInfo.Bitmap);
+        this.mainForm.previewItemPictureBox.BackgroundImage = (Image) Database.LoadBitmap(this.itemInfo.Bitmap);
         if (ItemType.Quest == this.itemType || ItemType.Parchment == this.itemType || ItemType.Formula == this.itemType || ItemType.Scroll == this.itemType || ItemType.Misc == this.itemType)
         {
           arg.NextPageIndex = 5;
@@ -288,8 +288,8 @@ namespace TQ_weaponsmith
           this.item.completeRelic(this.itemInfo.CompletedRelicLevel);
           this.item.GetDBData();
           this.mainForm.suffixComboBox.Enabled = true;
-          this.populateAffix(this.mainForm.prefixComboBox, this.mainForm.prefixTextBox, Database.DB.getPrefixes(this.itemType));
-          this.populateAffix(this.mainForm.suffixComboBox, this.mainForm.suffixTextBox, Database.DB.getSuffixes(this.itemType), false);
+          this.populateAffix(this.mainForm.prefixComboBox, this.mainForm.prefixTextBox, Database.getPrefixes(this.itemType));
+          this.populateAffix(this.mainForm.suffixComboBox, this.mainForm.suffixTextBox, Database.getSuffixes(this.itemType), false);
         }
         else
         {
@@ -298,8 +298,8 @@ namespace TQ_weaponsmith
           this.item.completeRelic(this.itemInfo.CompletedRelicLevel);
           this.item.GetDBData();
           this.mainForm.suffixComboBox.Enabled = true;
-          this.populateAffix(this.mainForm.prefixComboBox, this.mainForm.prefixTextBox, Database.DB.getPrefixes(this.itemType));
-          this.populateAffix(this.mainForm.suffixComboBox, this.mainForm.suffixTextBox, Database.DB.getSuffixes(this.itemType), false);
+          this.populateAffix(this.mainForm.prefixComboBox, this.mainForm.prefixTextBox, Database.getPrefixes(this.itemType));
+          this.populateAffix(this.mainForm.suffixComboBox, this.mainForm.suffixTextBox, Database.getSuffixes(this.itemType), false);
         }
       }
       else if (arg.CurrentPageIndex == 4)
@@ -544,7 +544,7 @@ namespace TQ_weaponsmith
       {
         Button button = new Button();
         button.Tag = (object) info;
-        Bitmap bitmap = Database.DB.LoadBitmap(info.Bitmap);
+        Bitmap bitmap = Database.LoadBitmap(info.Bitmap);
         if (bitmap == null)
         {
           Logger.Debug("AWS: bitmap Not found for : " + info.ItemId + " bmLocation:" + info.Bitmap);
@@ -578,7 +578,7 @@ namespace TQ_weaponsmith
       int num = 0;
       foreach (Info info in this.filteredInfo)
       {
-        Bitmap bitmap = Database.DB.LoadBitmap(info.Bitmap);
+        Bitmap bitmap = Database.LoadBitmap(info.Bitmap);
         if (bitmap == null)
         {
           Logger.Debug("AWS: bitmap Not found for : " + info.ItemId + " bmLocation:" + info.Bitmap);
@@ -613,7 +613,7 @@ namespace TQ_weaponsmith
     public string[] getAttributeDesc(string id)
     {
       List<string> results = new List<string>();
-      this.item.GetAttributesFromRecord(Database.DB.GetRecordFromFile(id), true, id, results);
+      this.item.GetAttributesFromRecord(Database.GetRecordFromFile(id), true, id, results);
       string[] attributeDesc = new string[results.Count];
       for (int index = 0; index < results.Count; ++index)
       {

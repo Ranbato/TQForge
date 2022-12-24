@@ -1,5 +1,5 @@
 ﻿
-  public enum class SackType
+  enum class SackType
   {
     Sack,
     Stash,
@@ -7,6 +7,6 @@
     Player,
     Vault,
     Trash,
-    TransferStash,
+    TransferStash
   }
 

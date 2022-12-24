@@ -28,12 +28,12 @@ namespace TQ_weaponsmith
     private void loadResources()
     {
       Database.DB = new Database();
-      Database.DB.AutoDetectLanguage = true;
-      Database.DB.TQLanguage = "en";
+      Database.AutoDetectLanguage = true;
+      Database.TQLanguage = "en";
       try
       {
-        Database.DB.LoadDBFile();
-        Database.DB.LoadAllItems();
+        Database.LoadDBFile();
+        Database.LoadAllItems();
         TQData.loadCharacterList();
         Config.areResourcesLoaded = true;
       }

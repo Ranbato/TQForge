@@ -1,0 +1,223 @@
+SHIELD=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dex_01.dbr=tagSuffix103=of the Winds
+SHIELD=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+SHIELD=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_DA%Protect_01.dbr=tagSuffix088=of Refuge
+ARM=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+ARM=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Guile_01.dbr=tagSuffix120=of Guile
+ARM=Rare=24=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Glade_Armor_01.dbr=tagSuffix117=of the Glade
+ARM=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Gryphon_02.dbr=tagSuffix118=of the Gryphon
+ARM=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Gryphon_03.dbr=tagSuffix118=of the Gryphon
+ARM=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Gryphon_04.dbr=tagSuffix118=of the Gryphon
+ARM=Rare=4=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Gryphon_01.dbr=tagSuffix118=of the Gryphon
+HEAD=Rare=8=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_02.dbr=xtagSuffix008=of Solace
+HEAD=Rare=10=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%xp%elementalResist_02.dbr=xtagSuffix011=of Renown
+HEAD=Rare=26=Records\Item\LootMagicalAffixes\Suffix\Default\Defensive_StunResist_01.dbr=tagSuffix053=of Stability
+HEAD=Rare=22=Records\Item\LootMagicalAffixes\Suffix\Default\Defensive_StunResist_02.dbr=tagSuffix052=of Solidity
+HEAD=Rare=8=records\item\lootmagicalaffixes\suffix\default\rare_mammoth_01.dbr=tagPrefix145=of the Mammoth
+HEAD=Rare=10=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_03.dbr=xtagSuffix009=of Respite
+HEAD=Rare=8=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%xp%elementalResist_03.dbr=xtagSuffix012=of Legends
+HEAD=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_01.dbr=xtagSuffix007=of Succor
+HEAD=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%xp%elementalResist_01.dbr=xtagSuffix010=of Glory
+HEAD=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_01.dbr=tagSuffix084=of Foresight
+HEAD=Rare=10=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_02.dbr=tagSuffix085=of Augury
+HEAD=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%cooldown%mana_01.dbr=xtagSuffix018=of the Magus
+HEAD=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_03.dbr=tagSuffix086=of Divination
+LEG=Rare=24=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Glade_LegArmor_01.dbr=tagSuffix117=of the Glade
+LEG=Rare=26=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pegasus_01.dbr=tagSuffix119=of the Pegasus
+LEG=Rare=14=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ResistMobilityImpairment_02.dbr=xtagSuffix033=of the Unconstrained
+LEG=Rare=10=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ResistMobilityImpairment_03.dbr=xtagSuffix034=of the Unshackled
+LEG=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedRun%Pierce_01.dbr=tagSuffix105=of the Hunt
+LEG=Rare=14=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ResistMobilityImpairment_01.dbr=xtagSuffix032=of the Unhindered
+AXE=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+AXE=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+AXE=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+AXE=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Dmg%Str-LifeRegen_01.dbr=tagSuffix087=of Reckless Power
+AXE=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+AXE=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+AXE=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+AXE=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+AXE=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+AXE=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_01.dbr=tagSuffix060=of Mayhem
+AXE=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_02.dbr=tagSuffix061=of Chaos
+AXE=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_03.dbr=tagSuffix062=of Havoc
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+AXE=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+AXE=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+AXE=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+AXE=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+SPEAR=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+SPEAR=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+SPEAR=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_02.dbr=tagSuffix061=of Chaos
+SPEAR=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_03.dbr=tagSuffix062=of Havoc
+SPEAR=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_03.dbr=tagSuffix096=of the Hawk
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_04.dbr=tagSuffix097=of the Falcon
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+SPEAR=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+SPEAR=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+SPEAR=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+SPEAR=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+SPEAR=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dex_01.dbr=tagSuffix103=of the Winds
+SPEAR=Rare=3=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_05.dbr=tagSuffix098=of the Eagle
+SPEAR=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+SPEAR=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+SPEAR=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_01.dbr=tagSuffix060=of Mayhem
+SPEAR=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_01.dbr=tagSuffix094=of the Osprey
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_02.dbr=tagSuffix095=of the Owl
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+SPEAR=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+SPEAR=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+SPEAR=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+SPEAR=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+TORSO=Rare=8=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_02.dbr=xtagSuffix008=of Solace
+TORSO=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_HealthManaTotaldmg_01.dbr=xtagSuffix001=of Champions
+TORSO=Rare=24=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_PierceRet%Life_01.dbr=tagSuffix099=of the Wilds
+TORSO=Rare=22=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_DA%Protect_01.dbr=tagSuffix088=of Refuge
+TORSO=Rare=16=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_DA%Protect_02.dbr=tagSuffix089=of Asylum
+TORSO=Rare=24=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Glade_Armor_01.dbr=tagSuffix117=of the Glade
+TORSO=Rare=10=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_03.dbr=xtagSuffix009=of Respite
+TORSO=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_HealthManaTotaldmg_03.dbr=xtagSuffix003=of the Gods
+TORSO=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_DA%Protect_03.dbr=tagSuffix090=of Sanctuary
+TORSO=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_HealthManaTotaldmg_02.dbr=xtagSuffix002=of Heroes
+TORSO=Rare=8=records\item\lootmagicalaffixes\suffix\default\rare_mammoth_01.dbr=tagPrefix145=of the Mammoth
+TORSO=Rare=6=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_ChancetoResistAll_01.dbr=xtagSuffix007=of Succor
+SWORD=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+SWORD=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+SWORD=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+SWORD=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Dmg%Str-LifeRegen_01.dbr=tagSuffix087=of Reckless Power
+SWORD=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+SWORD=Rare=22=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+SWORD=Rare=22=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+SWORD=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_01.dbr=tagSuffix060=of Mayhem
+SWORD=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_01.dbr=tagSuffix094=of the Osprey
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_02.dbr=tagSuffix095=of the Owl
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+SWORD=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+SWORD=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+SWORD=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+SWORD=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+SWORD=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+SWORD=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_02.dbr=tagSuffix061=of Chaos
+SWORD=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_03.dbr=tagSuffix062=of Havoc
+SWORD=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_03.dbr=tagSuffix096=of the Hawk
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_04.dbr=tagSuffix097=of the Falcon
+SWORD=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+SWORD=Rare=3=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_05.dbr=tagSuffix098=of the Eagle
+STAFF=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+STAFF=Rare=5=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_04.dbr=tagSuffix074=of the Tempest
+STAFF=Rare=27=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+STAFF=Rare=27=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+STAFF=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+STAFF=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+STAFF=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_01.dbr=tagSuffix084=of Foresight
+STAFF=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+STAFF=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+STAFF=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+STAFF=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+STAFF=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+STAFF=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+STAFF=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+STAFF=Rare=10=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_02.dbr=tagSuffix085=of Augury
+STAFF=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_03.dbr=tagSuffix086=of Divination
+STAFF=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+STAFF=Rare=5=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_04.dbr=tagSuffix070=of Brimstone
+STAFF=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+STAFF=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+STAFF=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+STAFF=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_04.dbr=tagSuffix057=of Winter
+RING=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_01.dbr=tagSuffix094=of the Osprey
+RING=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_02.dbr=tagSuffix095=of the Owl
+RING=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+RING=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+RING=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+RING=Rare=8=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%chanceOf%life_01.dbr=xtagSuffix017=of Smiting
+CLUB=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+CLUB=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+CLUB=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+CLUB=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Dmg%Str-LifeRegen_01.dbr=tagSuffix087=of Reckless Power
+CLUB=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+CLUB=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+CLUB=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+CLUB=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+CLUB=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+CLUB=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_02.dbr=tagSuffix061=of Chaos
+CLUB=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_03.dbr=tagSuffix062=of Havoc
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%DamageStun_01.dbr=tagSuffix060=of Mayhem
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+CLUB=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+CLUB=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+CLUB=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+CLUB=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+CLUB=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_03.dbr=tagSuffix069=of Sulfur
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_01.dbr=tagSuffix071=of Thunder
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_02.dbr=tagSuffix072=of Lightning
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Lightning_03.dbr=tagSuffix073=of the Storm
+BOW=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+BOW=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_02.dbr=tagSuffix076=of Devouring
+BOW=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_01.dbr=tagSuffix094=of the Osprey
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_02.dbr=tagSuffix095=of the Owl
+BOW=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_03.dbr=tagSuffix096=of the Hawk
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_04.dbr=tagSuffix097=of the Falcon
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_01.dbr=tagSuffix054=of Frost
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_02.dbr=tagSuffix055=of Ice
+BOW=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_betrayer_01.dbr=tagSuffix121=of the Betrayer
+BOW=Rare=18=records\item\lootmagicalaffixes\suffix\default\rare_siren_01.dbr=tagSuffix116=of the Siren
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Cold_03.dbr=tagSuffix056=of Rime
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_01.dbr=tagSuffix067=of Fire
+BOW=Rare=7=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_+%Fire_02.dbr=tagSuffix068=of Flame
+BOW=Rare=5=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_03.dbr=xtagSuffix006=of Nightmares
+BOW=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%life+%Stun_01.dbr=xtagSuffix013=of Harrowing
+BOW=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_03.dbr=xtagSuffix016=of Torture
+BOW=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dodge_01.dbr=tagSuffix104=of Trickery
+BOW=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedRun%Pierce_01.dbr=tagSuffix105=of the Hunt
+BOW=Rare=12=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAttack%Dex_01.dbr=tagSuffix103=of the Winds
+BOW=Rare=4=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_02.dbr=xtagSuffix005=of Torment
+BOW=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_02.dbr=xtagSuffix015=of Agony
+BOW=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_-%speedBleedDmg%Bleed_01.dbr=xtagSuffix014=of Pain
+BOW=Rare=3=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_LifeDmgReducedResist_01.dbr=xtagSuffix004=of Terror
+BOW=Rare=3=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Pierce%Pierce_05.dbr=tagSuffix098=of the Eagle
+AMULET=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAll_01.dbr=tagSuffix100=of the Cat
+AMULET=Rare=10=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAll_02.dbr=tagSuffix101=of the Lynx
+AMULET=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_SpeedAll_03.dbr=tagSuffix102=of the Tiger
+AMULET=Rare=13=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_01.dbr=tagSuffix084=of Foresight
+AMULET=Rare=10=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_02.dbr=tagSuffix085=of Augury
+AMULET=Rare=6=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_%Int%Energy_03.dbr=tagSuffix086=of Divination
+AMULET=Rare=8=Records\Item\LootMagicalAffixes\Suffix\Default\Offensive_Damage%LifeLeech_01.dbr=tagSuffix075=of Feasting
+AMULET=Rare=11=Records\Item\LootMagicalAffixes\Suffix\Default\Rare_Guile_01.dbr=tagSuffix120=of Guile
+AMULET=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_%chanceOf%life_01.dbr=xtagSuffix017=of Smiting
+AMULET=Rare=9=Records\XPack\Item\LootMagicalAffixes\Suffix\Default\Rare_PetBonus_%totalDmg%DmgToLife_01.dbr=xtagSuffix024=of Convocation
+LEG=Rare=15=RECORDS\XPACK\ITEM\LOOTMAGICALAFFIXES\SUFFIX\DEFAULT\DEFENSIVE_RESISTSLOW_02.DBR=xtagSuffix030=of Momentum

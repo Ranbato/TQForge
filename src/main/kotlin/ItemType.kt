@@ -26,10 +26,17 @@
    Shield("WeaponArmor_Shield"),
    Thrown("WeaponHunting_RangedOneHand");
 
-    fun getStringVal(itemType: ItemType): String {
-      return itemType.value;
-    }
-      fun getByVal(value: String):ItemType? = ItemType.values().find { it.value == value }
+    fun getStringVal(): String {
+      return this.value;
     }
 
+  // getByVal and fromVal are equivalent methods, don't need both
+   fun getByVal(value: String):ItemType? = ItemType.values().find { it.value == value }
+
+   companion object {
+    private val map = ItemType.values().associateBy(ItemType::value)
+    fun fromVal(type: String) = map[type]
+   }
+
+  }
 

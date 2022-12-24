@@ -1,5 +1,17 @@
-﻿public class Character
-{
+import utils.ByteBufferBackedInputStream
+import java.io.ByteArrayOutputStream
+import java.io.File
+import java.io.DataInputStream
+import java.io.ObjectOutputStream
+import java.nio.ByteBuffer
+import java.nio.ByteOrder
+import java.nio.channels.FileChannel
+import java.nio.file.Files
+
+
+private val logger = mu.KotlinLogging.logger {}
+
+class Character constructor(val caracterName:String, val caracterFile:String) {
 private val  beginBlockPattern = byteArrayOf(
 
   11,
@@ -34,80 +46,75 @@ private val endBlockPattern = byteArrayOf(
   99,
   107
 )
-private val  caracterName:String
-private val  caracterFile:String
-private var rawData = ByteArray(0)
-private var itemBlockStart = -1
-private var itemBlockEnd = -1
-private var equipmentBlockStart = -1
-private var equipmentBlockEnd = -1
-private var numberOfSacks = 0
-private var currentlyFocusedSackNumber = 0
-private var currentlySelectedSackNumber:Int = -1
-private var equipmentCtrlIOStreamVersion:Int = 0
-private val sacks:List<Sack> = emptyList()
+//private var rawData:ByteArray
+private var itemBlockStart:Int =0
+private var itemBlockEnd:Int =0
+private var equipmentBlockStart:Int =0
+private var equipmentBlockEnd:Int =0
+private var numberOfSacks:Int =0
+private var currentlyFocusedSackNumber:Int =0
+private var currentlySelectedSackNumber:Int=0
+private var equipmentCtrlIOStreamVersion:Int=0
+private val sacks:MutableList<Sack> = mutableListOf()
 private var equipmentSack:Sack = Sack()
 public var isModified = false
+  private var rawData:ByteBuffer = ByteBuffer.allocate(0)
 
- constructor( name:String, filePath:String)
-{
-  caracterName = name;
-  caracterFile = filePath;
-}
+
 
 public fun loadFile():Unit
     {
-      val input = BufferedRandomAccessFile(caracterFile, "r")
+      val file = File(caracterFile)
+        try {
 
-      val fileSize = input.length() as Int
+            rawData = FileChannel.open(file.toPath()).map(FileChannel.MapMode.READ_ONLY,0,file.length())
+            rawData.order( ByteOrder.LITTLE_ENDIAN);
+            //rawData.load()
 
-          this.rawData = ByteArray(fileSize)
-        input.readFully(rawData)
+//            rawData = Files.readAllBytes(file.toPath())
 
-
-        parseRawData();
+            this.parseRawData();
+        }catch(ex:Exception){
+            logger.error { "Error opening file $caracterFile ${ex.message}" }
+        }
     }
 
-    private void parseRawData()
+    private fun parseRawData():Unit
     {
-      using (MemoryStream input = new MemoryStream(this.rawData, false))
-      {
-        using (InputStream reader = new InputStream((Stream) input))
-        {
-          int num = 0;
-          int start = 0;
-          int offset1 = 0;
-          int offset2 = 0;
-          bool flag1 = false;
-          bool flag2 = false;
-          int nextBlockDelim;
-          while ((!flag1 || !flag2) && (nextBlockDelim = this.FindNextBlockDelim(start)) != -1)
+          var num = 0;
+          var start = 0;
+          var offset1 = 0;
+          var offset2 = 0;
+          var flag1 = false;
+          var flag2 = false;
+          var nextBlockDelim = 0
+          while (run { nextBlockDelim = FindNextBlockDelim( start)
+              (!flag1 || !flag2) && nextBlockDelim != -1})
           {
-            if ((int) this.rawData[nextBlockDelim] == (int) Character.beginBlockPattern[0])
+            if ( rawData[nextBlockDelim] ==  beginBlockPattern[0])
             {
               ++num;
-              int offset3 = nextBlockDelim + Character.beginBlockPattern.Length + 4;
-              input.Seek((long) offset3, SeekOrigin.Begin);
-              string upperInvariant = TQData.readCString(reader).ToUpperInvariant();
-              start = (int) input.Position;
-              string str;
-              if (upperInvariant.Equals("BEGIN_BLOCK"))
+              val offset3 = nextBlockDelim + beginBlockPattern.size + 4;
+              val upperInvariant = TQData.readCString(rawData,offset3).uppercase()
+              start = offset3 + upperInvariant.length +1
+              var str:String
+              if (upperInvariant == "BEGIN_BLOCK")
               {
-                str = "(NONAME)";
-                start -= Character.beginBlockPattern.Length;
+                str = "(NONAME)"
+                start -= beginBlockPattern.size
               }
-              else if (upperInvariant.Equals("END_BLOCK"))
+              else if (upperInvariant == "END_BLOCK")
               {
-                str = "(NONAME)";
-                start -= Character.endBlockPattern.Length;
+                str = "(NONAME)"
+                start -= endBlockPattern.size;
               }
-              else if (upperInvariant.Equals("ITEMPOSITIONSSAVEDASGRIDCOORDS"))
+              else if (upperInvariant == "ITEMPOSITIONSSAVEDASGRIDCOORDS")
               {
                 start += 4;
                 offset1 = start;
                 flag1 = true;
               }
-              else if (upperInvariant.Equals("USEALTERNATE"))
+              else if (upperInvariant =="USEALTERNATE")
               {
                 start += 4;
                 offset2 = start;
@@ -117,47 +124,44 @@ public fun loadFile():Unit
             else
             {
               --num;
-              start = nextBlockDelim + Character.endBlockPattern.Length;
+              start = nextBlockDelim + endBlockPattern.size
             }
           }
           if (flag1)
           {
             try
             {
-              this.parseItemBlock(offset1, reader);
+              this.parseItemBlock(offset1);
             }
-            catch (ArgumentException ex)
+            catch ( ex:Exception)
             {
-              Logger.Debug("Error parsing player file Item Block - " + this.caracterName);
-              Logger.Debug(ex.ToString());
-              throw new ArgumentException("Error parsing player file Item Block- " + this.caracterFile, (Exception) ex);
+              logger.debug("Error parsing player file Item Block - $caracterName", ex)
+//              throw new ArgumentException("Error parsing player file Item Block- " + this.caracterFile, (Exception) ex);
             }
           }
           if (true)
             return;
           try
           {
-            this.parseEquipmentBlock(offset2, reader);
+            this.parseEquipmentBlock(offset2);
           }
-          catch (ArgumentException ex)
+          catch ( ex:Exception)
           {
-            Logger.Debug("Error parsing player file Item Block - " + this.caracterName);
-            Logger.Debug(ex.ToString());
-            throw new ArgumentException("Error parsing player file Item Block- " + this.caracterFile, (Exception) ex);
+            logger.debug("Error parsing player file Item Block - " + this.caracterName);
+            logger.debug(ex.toString());
           }
         }
-      }
-    }
 
-    private fun FindNextBlockDelim( start:Int):Int
+
+    private fun FindNextBlockDelim(start:Int):Int
     {
-      var index1 = 0;
-      var index2 = 0;
-      for ( index3 in start until rawData.size)
+      var index1 = 0
+      var index2 = 0
+      for ( index3 in start until rawData.limit() )
       {
-        if (rawData[index3] ==  beginBlockPattern[index1]){
-
-          ++index1
+        if (rawData[index3] == beginBlockPattern[index1])
+        {
+          ++index1;
           if (index1 == beginBlockPattern.size)
             return index3 + 1 - index1;
         }
@@ -183,167 +187,161 @@ public fun loadFile():Unit
       return -1;
     }
 
-    private fun parseEquipmentBlock(int offset, InputStream reader):Unit
+    private fun parseEquipmentBlock(offset:Int):Unit
     {
       try
       {
         this.equipmentBlockStart = offset;
-        reader.BaseStream.Seek((long) offset, SeekOrigin.Begin);
+        val reader = DataInputStream(ByteBufferBackedInputStream(rawData))
+        reader.skip(offset as Long)
         TQData.validateNextString("equipmentCtrlIOStreamVersion", reader);
-        this.equipmentCtrlIOStreamVersion = reader.ReadInt32();
-        this.equipmentSack = new Sack();
-        this.equipmentSack.SackType = SackType.Equipment;
+        this.equipmentCtrlIOStreamVersion = reader.readInt();
+        this.equipmentSack = Sack()
+        this.equipmentSack.sackType = SackType.Equipment;
         this.equipmentSack.IsImmortalThrone = true;
         this.equipmentSack.Parse(reader);
-        this.equipmentBlockEnd = (int) reader.BaseStream.Position;
+        this.equipmentBlockEnd =  reader.available() - offset
       }
-      catch (ArgumentException ex)
+      catch (ex:Exception )
       {
-        throw;
+        logger.error { "Error $ex" }
       }
     }
 
-    private void parseItemBlock(int offset, InputStream reader)
+    private fun parseItemBlock(offset:Int):Unit
     {
       try
       {
         this.itemBlockStart = offset;
-        reader.BaseStream.Seek((long) offset, SeekOrigin.Begin);
+        val reader = DataInputStream(ByteBufferBackedInputStream(rawData))
+        reader.skip(offset as Long)
         TQData.validateNextString("numberOfSacks", reader);
-        this.numberOfSacks = reader.ReadInt32();
+        this.numberOfSacks = reader.readInt();
         TQData.validateNextString("currentlyFocusedSackNumber", reader);
-        this.currentlyFocusedSackNumber = reader.ReadInt32();
+        this.currentlyFocusedSackNumber = reader.readInt();
         TQData.validateNextString("currentlySelectedSackNumber", reader);
-        this.currentlySelectedSackNumber = reader.ReadInt32();
-        this.sacks = new Sack[this.numberOfSacks];
-        for (int index = 0; index < this.numberOfSacks; ++index)
+        this.currentlySelectedSackNumber = reader.readInt();
+//        sacks. = Sack[this.numberOfSacks];
+        for (index in 0 until numberOfSacks)
         {
-          this.sacks[index] = new Sack();
-          this.sacks[index].SackType = SackType.Sack;
-          this.sacks[index].IsImmortalThrone = true;
-          this.sacks[index].Parse(reader);
+          val sack =  Sack();
+          sack.sackType = SackType.Sack;
+          sack.IsImmortalThrone = true;
+          sack.Parse(reader);
+          sacks[index] = sack
         }
-        this.itemBlockEnd = (int) reader.BaseStream.Position;
+        this.itemBlockEnd = reader.available() - offset
       }
-      catch (ArgumentException ex)
+      catch ( ex:java.lang.Exception)
       {
-        throw;
+        throw ex
       }
     }
 
-    public Sack CreateEmptySacks() => new Sack()
+    public fun CreateEmptySacks():Sack
     {
-      IsModified = false
-    };
+      isModified = false
+      return Sack()
 
-    public void emptyMainSack()
-    {
-      this.GetMainSack.EmptySack();
-      this.isModified = true;
     }
 
-    public void Save(string fileName, bool backup = false)
+    public fun emptyMainSack()
     {
-      string str1 = "";
+      GetMainSack().EmptySack();
+      isModified = true;
+    }
+
+    public fun Save( fileName:String, backup: Boolean = false):Unit
+    {
+      var str1 = "";
       if (backup)
       {
-        string str2 = Path.Combine(Path.GetDirectoryName(fileName), "BlaksmithBackup_Player.chr");
-        if (!File.Exists(str2))
+        val orig = File(fileName)
+        val dir = orig.parentFile
+        val str2 = File(dir, "BlaksmithBackup_Player.chr")
+        if (!str2.exists())
         {
-          Logger.Log("Save file backup created: " + str2);
-          File.Copy(fileName, str2);
+          logger.info("Save file backup created: $str2")
+          Files.copy(orig.toPath(), str2.toPath());
         }
         str1 = " Original file backed to BlaksmithBackup_Player.chr";
       }
-      [] buffer = this.Encode();
-      using (FileStream fileStream = new FileStream(fileName, FileMode.Create, FileAccess.Write))
-        fileStream.Write(buffer, 0, buffer.Length);
+      val buffer = Encode();
+      Files.write(File(fileName).toPath(),buffer)
       this.isModified = false;
-      this.GetMainSack.IsModified = false;
-      Logger.Log("Character data saved to " + fileName + str1);
+      this.GetMainSack().isModified = false;
+      logger.info("Character data saved to $fileName $str1");
     }
 
-    public [] Encode()
+     fun Encode():ByteArray
     {
-      [] sourceArray = this.EncodeItemData();
-      [] destinationArray = new [this.itemBlockStart + sourceArray.Length + (this.rawData.Length - this.itemBlockEnd)];
-      Array.Copy((Array) this.rawData, 0, (Array) destinationArray, 0, this.itemBlockStart);
-      Array.Copy((Array) sourceArray, 0, (Array) destinationArray, this.itemBlockStart, sourceArray.Length);
-      Array.Copy((Array) this.rawData, this.itemBlockEnd, (Array) destinationArray, this.itemBlockStart + sourceArray.Length, this.rawData.Length - this.itemBlockEnd);
-      return destinationArray;
+      val sourceArray = this.EncodeItemData();
+        val tempArray = ByteArray(rawData.limit() - this.itemBlockEnd)
+      var destinationArray = ByteArray(itemBlockStart + sourceArray.size + (rawData.limit() - this.itemBlockEnd))
+        rawData.get(destinationArray,0,itemBlockStart)
+      sourceArray.copyInto(destinationArray, 0,  this.itemBlockStart, sourceArray.size)
+      this.rawData.get(this.itemBlockEnd, destinationArray, itemBlockStart + sourceArray.size, this.rawData.limit() - this.itemBlockEnd)
+      return destinationArray
     }
 
-    private [] EncodeEquipmentData()
+    private fun EncodeEquipmentData():ByteArray
     {
-      int length;
-      [] buffer;
-      using (MemoryStream output = new MemoryStream(2048))
-      {
-        using (OutputStream writer = new OutputStream((Stream) output))
-        {
+      var length = 0
+      val output =  ByteArrayOutputStream(2048)
+
+        val writer = ObjectOutputStream(output)
           TQData.writeCString(writer, "equipmentCtrlIOStreamVersion");
-          writer.Write(this.equipmentCtrlIOStreamVersion);
+          writer.write(this.equipmentCtrlIOStreamVersion);
           this.equipmentSack.Encode(writer);
-          length = (int) output.Length;
-        }
-        buffer = output.GetBuffer();
+          length = output.size()
+
+        val buffer = output.toByteArray()
+
+      return if (length == buffer.size) {
+        buffer
+      } else {
+        buffer.copyOfRange(0, length)
       }
-      if (length == buffer.Length)
-        return buffer;
-      [] destinationArray = new [length];
-      Array.Copy((Array) buffer, (Array) destinationArray, length);
-      return destinationArray;
     }
 
-    private [] EncodeItemData()
+    private fun EncodeItemData():ByteArray
     {
-      int length;
-      [] buffer;
-      using (MemoryStream output = new MemoryStream(2048))
-      {
-        using (OutputStream writer = new OutputStream((Stream) output))
-        {
+      var length = 0
+      val output =  ByteArrayOutputStream(2048)
+
+      val writer = ObjectOutputStream(output)
           TQData.writeCString(writer, "numberOfSacks");
-          writer.Write(this.numberOfSacks);
+          writer.write(this.numberOfSacks);
           TQData.writeCString(writer, "currentlyFocusedSackNumber");
-          writer.Write(this.currentlyFocusedSackNumber);
+          writer.write(this.currentlyFocusedSackNumber);
           TQData.writeCString(writer, "currentlySelectedSackNumber");
-          writer.Write(this.currentlySelectedSackNumber);
-          for (int index = 0; index < this.numberOfSacks; ++index)
-            this.sacks[index].Encode(writer);
-          length = (int) output.Length;
+          writer.write(this.currentlySelectedSackNumber);
+          sacks.forEach { sack -> sack.Encode(writer) }
+
+          length =  output.size()
+
+        val buffer = output.toByteArray()
+
+        return if (length == buffer.size) {
+            buffer
+        } else {
+            buffer.copyOfRange(0, length)
         }
-        buffer = output.GetBuffer();
-      }
-      if (length == buffer.Length)
-        return buffer;
-      [] destinationArray = new [length];
-      Array.Copy((Array) buffer, (Array) destinationArray, length);
-      return destinationArray;
     }
 
-    public string CharacterName
-    {
-      get => this.caracterName;
-      set
-      {
-      }
+
+    public fun GetMainSack() = sacks[0]
+
+    public override fun equals(other: Any?): Boolean {
+        return if (other is Character) {
+            caracterName == other.caracterName
+        } else {
+            false
+        }
     }
 
-    public string FilePath
-    {
-      get => this.caracterFile;
-      set
-      {
-      }
-    }
+    public override fun hashCode(): Int = caracterName.hashCode()
 
-    public Sack GetMainSack => this.sacks != null ? this.sacks[0] : (Sack) null;
 
-    public override bool Equals(object obj) => obj != null && obj is Character other && this.Equals(other);
-
-    public override int GetHashCode() => this.caracterName.GetHashCode();
-
-    public bool Equals(Character other) => other != null && this.caracterName.Equals(other.CharacterName);
   }
-}
+

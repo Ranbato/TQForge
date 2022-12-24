@@ -1,0 +1,246 @@
+#=== Rare
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_DUNERAIDER.DBR=Rare=tagMIArmor004={^l}Windswept Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_ARACHNOS.DBR=Rare=tagMIArmor001={^l}Deathweaver's Armplates
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_REPTILIAN.DBR=Rare=tagMIArmor015={^l}Overseer's Crest
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_GORGONMELEE.DBR=Rare=tagMIArmor007={^l}Sentinel's Armbands
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_JACKALMANMELEE.DBR=Rare=tagMIArmor009={^l}Jackal's Wristguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_JACKALMANMAGE.DBR=Rare=tagMIArmor008={^l}Lupine Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_DUNERAIDER.DBR=Rare=tagMIArmor004={^l}Windswept Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_NEANDERTHALMAGE.DBR=Rare=tagMIArmor012={^l}Shaman's Coil
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_DJINN.DBR=Rare=tagMIArmor003={^l}Djinn's Shackles
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor009={^l}Lar
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_TROPICALARACHNOS.DBR=Rare=tagMIArmor019={^l}Exotic Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_MINOTAUR.DBR=Rare=tagMIArmor010={^l}Bracers of the Minotaur
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_JACKALMANMAGE.DBR=Rare=tagMIArmor008={^l}Lupine Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_KERESMAGE.DBR=Rare=xtagMIArmor005={^l}Coil of Ker
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_NEANDERTHALMAGE.DBR=Rare=tagMIArmor012={^l}Shaman's Coil
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_DJINN.DBR=Rare=tagMIArmor003={^l}Djinn's Shackles
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_BOARMAN.DBR=Rare=tagMIArmor081={^l}Enforcer's Bracer
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_BANDARI.DBR=Rare=tagMIArmor002={^l}Bandari's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_YERREN.DBR=Rare=tagMIArmor021={^l}Warchief's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_EMPUSAMAGE.DBR=Rare=xtagMIArmor003={^l}The Night Mistress' Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor009={^l}Lar
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_MELINOEMAGE.DBR=Rare=xtagMIArmor008={^l}Bloodborn Armbands
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_DJINN.DBR=Rare=tagMIArmor003={^l}Djinn's Shackles
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_FJORDMAGE.DBR=Rare=x2tagMIArmor011={^l}Bracelets of the Deep
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor027={^l}Rings of the Chosen
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_ALFR.DBR=Rare=x2tagMIArmor019={^l}Bracers of Alfheim
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_DRAUGR.DBR=Rare=x2tagMIArmor045={^l}Gauntlets of the Restless King
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_LAMIAMELEE.DBR=Rare=xtagMIArmor006={^l}Ismene's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_GOLDENSKELETON.DBR=Rare=tagMIArmor005={^l}Revenant Gauntlets
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_MUMMY.DBR=Rare=tagMIArmor011={^l}Ceremonial Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_TELKINE.DBR=Rare=tagMIArmor017={^l}Megalesios' Seal
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_TELKINE.DBR=Rare=tagMIArmor017={^l}Megalesios' Seal
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_YERREN.DBR=Rare=tagMIArmor021={^l}Warchief's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_GOLDENSKELETON.DBR=Rare=tagMIArmor005={^l}Revenant Gauntlets
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_TIGERMANMELEE.DBR=Rare=tagMIArmor018={^l}Prowler's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_RATMANCHAMPION.DBR=Rare=tagMIArmor014={^l}The Rat's Clap
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_KERESMAGE.DBR=Rare=xtagMIArmor005={^l}Coil of Ker
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_ARACHNOS.DBR=Rare=tagMIArmor001={^l}Deathweaver's Armplates
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_BANDARI.DBR=Rare=tagMIArmor002={^l}Bandari's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_BOARMAN.DBR=Rare=tagMIArmor081={^l}Enforcer's Bracer
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_DUNERAIDER.DBR=Rare=tagMIArmor004={^l}Windswept Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_GORGONARCHER.DBR=Rare=tagMIArmor006={^l}Stonebinder's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_GORGONMELEE.DBR=Rare=tagMIArmor007={^l}Sentinel's Armbands
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_JACKALMANMAGE.DBR=Rare=tagMIArmor008={^l}Lupine Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_MINOTAUR.DBR=Rare=tagMIArmor010={^l}Bracers of the Minotaur
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_MUMMY.DBR=Rare=tagMIArmor011={^l}Ceremonial Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_NEANDERTHALMAGE.DBR=Rare=tagMIArmor012={^l}Shaman's Coil
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_NEANDERTHALMELEE.DBR=Rare=tagMIArmor013={^l}Marauder's Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_RATMANCHAMPION.DBR=Rare=tagMIArmor014={^l}The Rat's Clap
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_SATYRMAGE.DBR=Rare=tagMIArmor016={^l}Charm of the Magi
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_TELKINE.DBR=Rare=tagMIArmor017={^l}Megalesios' Seal
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_TIGERMANMELEE.DBR=Rare=tagMIArmor018={^l}Prowler's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_E_WRAITH.DBR=Rare=tagMIArmor020={^l}Ethereal Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_BOARMAN.DBR=Rare=tagMIArmor081={^l}Enforcer's Bracer
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_GORGONARCHER.DBR=Rare=tagMIArmor006={^l}Stonebinder's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_GORGONMELEE.DBR=Rare=tagMIArmor007={^l}Sentinel's Armbands
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_JACKALMANMELEE.DBR=Rare=tagMIArmor009={^l}Jackal's Wristguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_MINOTAUR.DBR=Rare=tagMIArmor010={^l}Bracers of the Minotaur
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_NEANDERTHALMELEE.DBR=Rare=tagMIArmor013={^l}Marauder's Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_REPTILIAN.DBR=Rare=tagMIArmor015={^l}Overseer's Crest
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_SATYRMAGE.DBR=Rare=tagMIArmor016={^l}Charm of the Magi
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_TROPICALARACHNOS.DBR=Rare=tagMIArmor019={^l}Exotic Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_L_WRAITH.DBR=Rare=tagMIArmor020={^l}Ethereal Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_ARACHNOS.DBR=Rare=tagMIArmor001={^l}Deathweaver's Armplates
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_BANDARI.DBR=Rare=tagMIArmor002={^l}Bandari's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_GOLDENSKELETON.DBR=Rare=tagMIArmor005={^l}Revenant Gauntlets
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_GORGONARCHER.DBR=Rare=tagMIArmor006={^l}Stonebinder's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_JACKALMANMELEE.DBR=Rare=tagMIArmor009={^l}Jackal's Wristguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_MUMMY.DBR=Rare=tagMIArmor011={^l}Ceremonial Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_NEANDERTHALMELEE.DBR=Rare=tagMIArmor013={^l}Marauder's Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_RATMANCHAMPION.DBR=Rare=tagMIArmor014={^l}The Rat's Clap
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_REPTILIAN.DBR=Rare=tagMIArmor015={^l}Overseer's Crest
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_SATYRMAGE.DBR=Rare=tagMIArmor016={^l}Charm of the Magi
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_TIGERMANMELEE.DBR=Rare=tagMIArmor018={^l}Prowler's Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_TROPICALARACHNOS.DBR=Rare=tagMIArmor019={^l}Exotic Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_WRAITH.DBR=Rare=tagMIArmor020={^l}Ethereal Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\MI_N_YERREN.DBR=Rare=tagMIArmor021={^l}Warchief's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_TROGLODYTEMELEE.DBR=Rare=xtagMIArmor009={^l}Lar
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_ANOURANMELEE.DBR=Rare=xtagMIArmor002={^l}Batrachos Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_LAMIAMELEE.DBR=Rare=xtagMIArmor006={^l}Ismene's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_FJORDMELEE.DBR=Rare=x2tagMIArmor007={^l}Icescale Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_ANOURANMAGE.DBR=Rare=xtagMIArmor001={^l}Witch Doctor's Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_DRAUGR.DBR=Rare=x2tagMIArmor045={^l}Gauntlets of the Restless King
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_MACHAEMELEE.DBR=Rare=xtagMIArmor007={^l}Palioxis
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_DVERGRMELEE.DBR=Rare=x2tagMIArmor015={^l}Master Forge Armbands
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_GIGANTESMELEE.DBR=Rare=xtagMIArmor004={^l}Porphyrion's Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_ANOURANMELEE.DBR=Rare=xtagMIArmor002={^l}Batrachos Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor027={^l}Rings of the Chosen
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_YERREN.DBR=Rare=x2tagMIArmor038={^l}Bear Rider's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_TROLL.DBR=Rare=x2tagMIArmor003={^l}Bonebreaker Bracelets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_ANOURANMAGE.DBR=Rare=xtagMIArmor001={^l}Witch Doctor's Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_ANOURANMELEE.DBR=Rare=xtagMIArmor002={^l}Batrachos Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_EMPUSAMAGE.DBR=Rare=xtagMIArmor003={^l}The Night Mistress' Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_GIGANTESMELEE.DBR=Rare=xtagMIArmor004={^l}Porphyrion's Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_GIGANTESMELEE02.DBR=Rare=xtagUArmor136=Alcyoneus’ Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_LAMIAMELEE.DBR=Rare=xtagMIArmor006={^l}Ismene's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_MACHAEMELEE.DBR=Rare=xtagMIArmor007={^l}Palioxis
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_MELINOEMAGE.DBR=Rare=xtagMIArmor008={^l}Bloodborn Armbands
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_GIGANTESMELEE02.DBR=Rare=xtagUArmor136=Alcyoneus’ Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_KERESMAGE.DBR=Rare=xtagMIArmor005={^l}Coil of Ker
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_ANOURANMAGE.DBR=Rare=xtagMIArmor001={^l}Witch Doctor's Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_EMPUSAMAGE.DBR=Rare=xtagMIArmor003={^l}The Night Mistress' Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_GIGANTESMELEE.DBR=Rare=xtagMIArmor004={^l}Porphyrion's Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_GIGANTESMELEE02.DBR=Rare=xtagUArmor136=Alcyoneus’ Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_MACHAEMELEE.DBR=Rare=xtagMIArmor007={^l}Palioxis
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_MELINOEMAGE.DBR=Rare=xtagMIArmor008={^l}Bloodborn Armbands
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_EINHERJAR.DBR=Rare=x2tagMIArmor053={^l}Armguards of Valhöll
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_FJORDMELEE.DBR=Rare=x2tagMIArmor007={^l}Icescale Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_DVERGRMELEE.DBR=Rare=x2tagMIArmor015={^l}Master Forge Armbands
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_DVERGRMELEE.DBR=Rare=x2tagMIArmor015={^l}Master Forge Armbands
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_ELDJOTUN.DBR=Rare=x2tagMIArmor023={^l}Blacksteel Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_FJORDMAGE.DBR=Rare=x2tagMIArmor011={^l}Bracelets of the Deep
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_FJORDMELEE.DBR=Rare=x2tagMIArmor007={^l}Icescale Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_KELPIE.DBR=Rare=x2tagMIArmor031={^l}Kelpie Vambrace
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_E_YERREN.DBR=Rare=x2tagMIArmor038={^l}Bear Rider's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_ALFR.DBR=Rare=x2tagMIArmor019={^l}Bracers of Alfheim
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_DRAUGR.DBR=Rare=x2tagMIArmor045={^l}Gauntlets of the Restless King
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_EINHERJAR.DBR=Rare=x2tagMIArmor053={^l}Armguards of Valhöll
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_ELDJOTUN.DBR=Rare=x2tagMIArmor023={^l}Blacksteel Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_FJORDMAGE.DBR=Rare=x2tagMIArmor011={^l}Bracelets of the Deep
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_KELPIE.DBR=Rare=x2tagMIArmor031={^l}Kelpie Vambrace
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_L_TROLL.DBR=Rare=x2tagMIArmor003={^l}Bonebreaker Bracelets
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_ALFR.DBR=Rare=x2tagMIArmor019={^l}Bracers of Alfheim
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_EINHERJAR.DBR=Rare=x2tagMIArmor053={^l}Armguards of Valhöll
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_ELDJOTUN.DBR=Rare=x2tagMIArmor023={^l}Blacksteel Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_KELPIE.DBR=Rare=x2tagMIArmor031={^l}Kelpie Vambrace
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor027={^l}Rings of the Chosen
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_TROLL.DBR=Rare=x2tagMIArmor003={^l}Bonebreaker Bracelets
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\MI_N_YERREN.DBR=Rare=x2tagMIArmor038={^l}Bear Rider's Bracers
+
+#== Epic
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_N_NECROMANCER'SHABILIMENT.DBR=Epic=tagUArmor068=Deathcuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_OBSIDIANARMOR.DBR=Epic=tagUArmor134=Obsidian Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_PAPYRUSWINDING.DBR=Epic=tagUArmor060=Papyrus Winding
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_RAIMENTOFTHESTORM.DBR=Epic=tagUArmor065=Bracelets of Storms
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_SCHOLAR'SBANGLE.DBR=Epic=tagUArmor061=Scholar's Bangle
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_LAZARUSARMOR.DBR=Epic=tagUArmor132=Lazarus Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_ARMOROFTHEIMMORTALGUARD.DBR=Epic=tagUArmor123=Apple Bearer's Bracer
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\USM_N_001.DBR=Epic=xtagUArmor075=Armlets of Erebus
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_CRYSTALBRACELET.DBR=Epic=tagUArmor040=Crystal Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_THESPHINX.DBR=Epic=tagUArmor109=Bracers of the Sphinx
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_IMPERIALRAIMENT.DBR=Epic=tagUArmor131=Imperial Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_HUNTER'SARMOR.DBR=Epic=tagUArmor115=Hunter's Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_BONEBRACELET.DBR=Epic=tagUArmor055=Bone Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\U_N_THORNYBRACERS.DBR=Epic=tagUArmor107=Thorny Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_BRACELETOFILLUMINATION.DBR=Epic=tagUArmor037=Bracelet of Illumination
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_E_05.DBR=Epic=x2tagUArmor072=Nerthus Armbands
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\US_E_001.DBR=Epic=xtagUArmor071=Menelaus' Grip
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_001.DBR=Epic=xtagUArmor056=Gauntlets of Implacable Will
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_ARCANEBINDINGS.DBR=Epic=tagUArmor036=Arcane Bindings
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_BRACELETOFPAIN.DBR=Epic=tagUArmor038=Bracelet of Pain
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_ELEMENTALIST'SWRAPS.DBR=Epic=tagUArmor043=Elementalist's Wrap
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_HIEROPHANT'SWINDING.DBR=Epic=tagUArmor044=Hierophant's Winding
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_LETHARGY.DBR=Epic=tagUArmor045=Lethargy
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_NATHUS'BANE.DBR=Epic=tagUArmor046=Nathus' Bane
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_PYTHIA'SCLASP.DBR=Epic=tagUArmor048=Clasp of the Pythia
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_GLOWINGBANGLE.DBR=Epic=tagUArmor056=Glowing Bangle
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_HARMONY.DBR=Epic=tagUArmor057=Harmony
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_JADECLASP.DBR=Epic=tagUArmor058=Jade Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_N_MINDLASH.DBR=Epic=tagUArmor059=Mindlash
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_ADEPT'SREGALIA.DBR=Epic=tagUArmor062=Adept's Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_HABILIMENTSOFTHEDRUID.DBR=Epic=tagUArmor063=Druid's Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_PYROMANCER'SGUARD.DBR=Epic=tagUArmor064=Pyromancer's Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_UMBRALRAIMENT.DBR=Epic=tagUArmor066=Umbral Cuffs
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_N_ORACLE'SGARMENTS.DBR=Epic=tagUArmor069=Oracle's Winding
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_N_RONZER'SGIFT.DBR=Epic=tagUArmor070=The Frail
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_ARMOROFTROY.DBR=Epic=tagUArmor110=Bracers of Troy
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_ASPECTOFTHEWILD.DBR=Epic=tagUArmor111=Strength of the Wild
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_FIREWALKER'SSUIT.DBR=Epic=tagUArmor114=Bracers of the Firewalker
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_LEGENDOFFUXI.DBR=Epic=tagUArmor133=Fu Xi's Shackle
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_ROGUE'SCOVER.DBR=Epic=tagUArmor116=Rogue's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_SHADOWGUARD.DBR=Epic=tagUArmor117=Shadow's Touch
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_TEMPEST.DBR=Epic=tagUArmor118=Bracers of the Tempest
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_WARDEN'SCHARGE.DBR=Epic=tagUArmor120=Warden's Armguard
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_WARRIOR'SPANOPLY.DBR=Epic=tagUArmor121=Warrior's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_GEBELTJAUTI.DBR=Epic=tagUArmor404=Chaosbane
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_LABYRINTHINEARMOR.DBR=Epic=tagUArmor130=Labyrinthine Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_PRIDEOFTHEJADEPALACE.DBR=Epic=tagUArmor135=Jade Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_RAMSES'ROYALARMOR.DBR=Epic=tagUArmor136=Ramses' Coil
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_N_THEBANPANOPLY.DBR=Epic=tagUArmor137=Theban Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\U_N_BRACERSOFATLAS.DBR=Epic=tagUArmor106=Bracers of Atlas
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\US_N_001.DBR=Epic=xtagUArmor070=Death Touch
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_06.DBR=Epic=x2tagUArmor078=The Spoils
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_N_001.DBR=Epic=xtagUArmor060=Bracelet of Prophecy
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_N_002.DBR=Epic=xtagUArmor061=Coil of Visions
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_N_003.DBR=Epic=xtagUArmor062=Thaumaturgist's Winding
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\USM_E_001.DBR=Epic=xtagUArmor074=Dreamweaver's Coil
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\US_E_004.DBR=Epic=xtagUArmor069=Harbinger's Bracer
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\US_E_005.DBR=Epic=xtagUArmor072=Ordu Arm-guard
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_002.DBR=Epic=xtagUArmor057=Gloves of the Crimson Guard
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\Z_PIRATE01.DBR=Epic=xtagUArmor080=Blackbeard's Hook
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\Z_SANTA01.DBR=Epic=xtagUArmor078=Santa's Gloves
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\Z_SLEUTH01.DBR=Epic=xtagUArmor067=Detective's Gloves
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_03.DBR=Epic=x2tagUArmor075=Clasp Of The Mothers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_01.DBR=Epic=x2tagUArmor073=Thialfi's Studded Arms
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\US_N_BRENNUS.DBR=Epic=x2tagUArmor017=Brennus' Armbands
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\US_N_SUCELLUS.DBR=Epic=x2tagUArmor019=Sucellus Armguards
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_E_04.DBR=Epic=x2tagUArmor071=Ullr's Protectors
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_02.DBR=Epic=x2tagUArmor074=The Godi's Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_04.DBR=Epic=x2tagUArmor076=Blackwyrm Guards
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_N_05.DBR=Epic=x2tagUArmor077=Bormo's Arm Ring
+
+#== Legendary
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_E_002.DBR=Legendary=xtagUArmor064=Theurgist's Ward
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_TRACKER'SARMOR.DBR=Legendary=tagUArmor129=Tracker's Gloves
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_L_HEARTSONGBRACELET.DBR=Legendary=tagUArmor052=Heartsong Armlets
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_ASSASSIN'SCOVER.DBR=Legendary=tagUArmor124=Assassin's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_HUOQUBING'SRELICS.DBR=Legendary=tagUArmor127=Huo Qubing's Armguards
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_DIOGENES'WRAP.DBR=Legendary=tagUArmor041=Diogenes' Wrap
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\USM_E_SHADE.DBR=Legendary=x2tagUArmor023=The Past Deeds
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_L_02.DBR=Legendary=x2tagUArmor066=Hugin and Munin
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_NEMEANLIONHIDE.DBR=Legendary=tagUArmor128=Bracers of the Nemean Lion
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_COILOFRESILIENCE.DBR=Legendary=tagUArmor039=Coil of Resilience
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_DRAGON'SBREATH.DBR=Legendary=tagUArmor042=Dragon's Breath
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_PERMAFROSTBRACELET.DBR=Legendary=tagUArmor047=Permafrost Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_E_SCOURGEWRAP.DBR=Legendary=tagUArmor049=Scourge Wrap
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_L_BLACKPEARLBRACELET.DBR=Legendary=tagUArmor050=Black Pearl Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_L_BRACELETOFAMAN'DA.DBR=Legendary=tagUArmor051=Bracelets of Aman'Da
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_L_SENBI'SCLASP.DBR=Legendary=tagUArmor053=Senbi's Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\UM_L_TRUESILVERBRACELET.DBR=Legendary=tagUArmor054=Truesilver Bracelet
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_E_VESTMENTSOFTHEBATTLEMAGE.DBR=Legendary=tagUArmor119=Battlemage Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\USM_L_ARCHMAGE'SREGALIA.DBR=Legendary=tagUArmor067=Archmage's Clasp
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_BONEARMOR.DBR=Legendary=tagUArmor112=Bone Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_E_CRYSTALLINEARRAY.DBR=Legendary=tagUArmor113=Crystalline Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_ABYSSALARMOR.DBR=Legendary=tagUArmor122=Abyssal Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_ALEXANDER'SPANOPLY.DBR=Legendary=tagUArmor108=Alexander's Bracer
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_CHILDRENOFARES.DBR=Legendary=tagUArmor125=Phobos
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_CONQUEROR'SPANOPLY.DBR=Legendary=tagUArmor126=Conqueror's Bracers
+ArmorProtective_Forearm=RECORDS\ITEM\EQUIPMENTARMBAND\US_L_ETERNALWARDOFTARTARUS.DBR=Legendary=tagUArmor409=Inexorable Grip of Tartarus
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_E_003.DBR=Legendary=xtagUArmor065=Twisted Coil of the Parasite
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_L_01.DBR=Legendary=x2tagUArmor065=The Celtic Hounds
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_L_03.DBR=Legendary=x2tagUArmor067=Verdandi's Knots
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_E_02.DBR=Legendary=x2tagUArmor069=Jormungandr Guards
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_E_001.DBR=Legendary=xtagUArmor063=Silver Charm of Cassandra
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\UM_L_001.DBR=Legendary=xtagUArmor066=Entwined Mark of Calchas
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\USM_L_001.DBR=Legendary=xtagUArmor073=Plouton's Bracelet
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\USM_L_002.DBR=Legendary=xtagUArmor076=Grip of Carnus
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\US_L_001.DBR=Legendary=xtagUArmor068=Legionnaire's Gauntlets
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\U_L_001.DBR=Legendary=xtagUArmor058=Bracers of the Argonauts
+ArmorProtective_Forearm=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\ARMBAND\U_L_002.DBR=Legendary=xtagUArmor059=Gauntlets of the Necrolord
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_E_01.DBR=Legendary=x2tagUArmor068=Smertrios Bracers
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\USM_L_ALLFATHER.DBR=Legendary=x2tagUArmor005=Gloves of the Allfather
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\USM_L_FREYJA.DBR=Legendary=x2tagUArmor010=Armlets of Freyja
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\US_L_DONARSMIGHT.DBR=Legendary=x2tagUArmor013=Jarngreipnr
+ArmorProtective_Forearm=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\ARMBAND\U_E_03.DBR=Legendary=x2tagUArmor070=Grimhild's Serpents

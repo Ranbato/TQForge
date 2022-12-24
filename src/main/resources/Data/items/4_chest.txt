@@ -1,0 +1,385 @@
+#=== Rare
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_REPTILIAN.DBR=Rare=tagMIArmor070={^l}Overseer's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_SATYRBRUTE.DBR=Rare=tagMIArmor071={^l}Brute's Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_TELKINE.DBR=Rare=tagMIArmor072={^l}Megalesios' Veil
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_TIGERMANCHAMPION.DBR=Rare=tagMIArmor073={^l}Warlord's Coat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_YERREN.DBR=Rare=tagMIArmor078={^l}Warchief's Garb
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_WRAITH.DBR=Rare=tagMIArmor077={^l}Ethereal Cage
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_DUNERAIDERB.DBR=Rare=tagMIArmor080={^l}Windswept Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_JACKALMANMAGE.DBR=Rare=tagMIArmor061={^l}Lupine Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_TROPICALARACHNOS.DBR=Rare=tagMIArmor076={^l}Exotic Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_NEANDERTHALMELEE.DBR=Rare=tagMIArmor066={^l}Marauder's Girdle
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_MELINOEMAGE.DBR=Rare=xtagMIArmor047={^l}Bloodborn Girdle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_GORGONMELEE.DBR=Rare=tagMIArmor058={^l}Sentinel's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_NEANDERTHALMAGE.DBR=Rare=tagMIArmor065={^l}Shaman's Adornment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_GORGONARCHER.DBR=Rare=tagMIArmor057={^l}Stonebinder's Sash
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_REPTILIAN.DBR=Rare=tagMIArmor070={^l}Overseer's Mantle
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_ANOURANMAGE.DBR=Rare=xtagMIArmor035={^l}Witch Doctor's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_KERESMELEE.DBR=Rare=xtagMIArmor044={^l}Anaplekte's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_DUNERAIDER.DBR=Rare=tagMIArmor055={^l}Windswept Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_TIGERMANCHAMPION.DBR=Rare=tagMIArmor073={^l}Warlord's Coat
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_LAMIAMELEE.DBR=Rare=xtagMIArmor045={^l}Ismene's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_KERESMAGE.DBR=Rare=xtagMIArmor043={^l}Vestment of Ker
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_DRAGONIAN.DBR=Rare=tagMIArmor054={^l}Razorback Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_TIGERMANMELEE.DBR=Rare=tagMIArmor075={^l}Prowler's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_TROPICALARACHNOS.DBR=Rare=tagMIArmor076={^l}Exotic Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_JACKALMANMAGE.DBR=Rare=tagMIArmor061={^l}Lupine Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_ANOURANMAGE.DBR=Rare=xtagMIArmor035={^l}Witch Doctor's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_LAMIAMELEE.DBR=Rare=xtagMIArmor045={^l}Ismene's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_JACKALMANMAGE.DBR=Rare=tagMIArmor061={^l}Lupine Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_FORMICIDMELEE02.DBR=Rare=xtagMIArmor041={^l}Myrmidon's Chitin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_DUNERAIDERB.DBR=Rare=tagMIArmor080={^l}Windswept Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_ICHTHIANMELEE.DBR=Rare=tagMIArmor060={^l}Ichthian Aegis
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_DVERGRMELEE.DBR=Rare=x2tagMIArmor013={^l}Master Forge Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_BOARMAN.DBR=Rare=tagMIArmor052={^l}Enforcer's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_DRAUGR.DBR=Rare=x2tagMIArmor043={^l}Ring Mail of the Restless King
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_FJORDMELEE.DBR=Rare=x2tagMIArmor005={^l}Icescale Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_DVERGRMELEE.DBR=Rare=x2tagMIArmor013={^l}Master Forge Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_TROLLMAGE.DBR=Rare=x2tagMIArmor001b={^l}Bonecaster Shawl
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_MERFOLK.DBR=Rare=x2tagMIArmor035={^l}Triton Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_ALFR.DBR=Rare=x2tagMIArmor017={^l}Tunic of Alfheim
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_TELKINE.DBR=Rare=tagMIArmor072={^l}Megalesios' Veil
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_KERESMELEE.DBR=Rare=xtagMIArmor044={^l}Anaplekte's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_MINOTAUR.DBR=Rare=tagMIArmor063={^l}Breastplate of the Minotaur
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_YERREN.DBR=Rare=tagMIArmor078={^l}Warchief's Garb
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_YERREN.DBR=Rare=x2tagMIArmor037={^l}Bear Rider's Garb
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_EMPUSAMAGE.DBR=Rare=xtagMIArmor037={^l}The Night Mistress's Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_BANDITGREEK.DBR=Rare=x2tagMIArmor032={^l}Scironian Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_RATMANMELEE.DBR=Rare=tagMIArmor069={^l}Vagabond's Shirt
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_FORMICIDMAGE01.DBR=Rare=xtagMIArmor038={^l}Myrmigki Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_TROPICALARACHNOS.DBR=Rare=tagMIArmor076={^l}Exotic Armor
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_GIGANTESMELEE02.DBR=Rare=xtagUArmor135=Alcyoneus’ Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_TIGERMANMAGE.DBR=Rare=tagMIArmor074={^l}Bai Hu's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_NEANDERTHALMELEE.DBR=Rare=tagMIArmor066={^l}Marauder's Girdle
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_KELPIE.DBR=Rare=x2tagMIArmor029={^l}Kelpie Cuisse
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_RATMANARCHER.DBR=Rare=tagMIArmor067={^l}Quiver of N'Imh
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_FORMICIDMAGE02.DBR=Rare=xtagMIArmor039={^l}Ch'kra's Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_TIGERMANCHAMPION.DBR=Rare=tagMIArmor073={^l}Warlord's Coat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_GORGONMELEE.DBR=Rare=tagMIArmor058={^l}Sentinel's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_ICHTHIANMAGE.DBR=Rare=tagMIArmor059={^l}Ichthian Oracle's Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_ARACHNOS.DBR=Rare=tagMIArmor050={^l}Deathweaver's Chitin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_TIGERMANMAGE.DBR=Rare=tagMIArmor074={^l}Bai Hu's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_BANDARI.DBR=Rare=tagMIArmor051={^l}Bandari's Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_KERESMELEE.DBR=Rare=xtagMIArmor044={^l}Anaplekte's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_ARACHNOS.DBR=Rare=tagMIArmor050={^l}Deathweaver's Chitin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_BANDARI.DBR=Rare=tagMIArmor051={^l}Bandari's Corselet
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_BOARMAN.DBR=Rare=tagMIArmor052={^l}Enforcer's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_DUNERAIDERB.DBR=Rare=tagMIArmor080={^l}Windswept Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_GORGONARCHER.DBR=Rare=tagMIArmor057={^l}Stonebinder's Sash
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_ICHTHIANMELEE.DBR=Rare=tagMIArmor060={^l}Ichthian Aegis
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_JACKALMANMELEE.DBR=Rare=tagMIArmor062={^l}Jackal's Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_MINOTAUR.DBR=Rare=tagMIArmor063={^l}Breastplate of the Minotaur
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_MUMMY.DBR=Rare=tagMIArmor064={^l}Ceremonial Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_RATMANARCHER.DBR=Rare=tagMIArmor067={^l}Quiver of N'Imh
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_RATMANCHAMPION.DBR=Rare=tagMIArmor068={^l}The Rat's Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_REPTILIAN.DBR=Rare=tagMIArmor070={^l}Overseer's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_TIGERMANMAGE.DBR=Rare=tagMIArmor074={^l}Bai Hu's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_TIGERMANMELEE.DBR=Rare=tagMIArmor075={^l}Prowler's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_BANDARI.DBR=Rare=tagMIArmor051={^l}Bandari's Corselet
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_BOARMAN.DBR=Rare=tagMIArmor052={^l}Enforcer's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_DRAGONIAN.DBR=Rare=tagMIArmor054={^l}Razorback Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_DUNERAIDER.DBR=Rare=tagMIArmor055={^l}Windswept Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_GORGONARCHER.DBR=Rare=tagMIArmor057={^l}Stonebinder's Sash
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_ICHTHIANMAGE.DBR=Rare=tagMIArmor059={^l}Ichthian Oracle's Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_JACKALMANMELEE.DBR=Rare=tagMIArmor062={^l}Jackal's Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_MUMMY.DBR=Rare=tagMIArmor064={^l}Ceremonial Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_NEANDERTHALMAGE.DBR=Rare=tagMIArmor065={^l}Shaman's Adornment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_RATMANARCHER.DBR=Rare=tagMIArmor067={^l}Quiver of N'Imh
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_RATMANCHAMPION.DBR=Rare=tagMIArmor068={^l}The Rat's Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_RATMANMELEE.DBR=Rare=tagMIArmor069={^l}Vagabond's Shirt
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_SATYRBRUTE.DBR=Rare=tagMIArmor071={^l}Brute's Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_TELKINE.DBR=Rare=tagMIArmor072={^l}Megalesios' Veil
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_TIGERMANMELEE.DBR=Rare=tagMIArmor075={^l}Prowler's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_WRAITH.DBR=Rare=tagMIArmor077={^l}Ethereal Cage
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_ARACHNOS.DBR=Rare=tagMIArmor050={^l}Deathweaver's Chitin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_DRAGONIAN.DBR=Rare=tagMIArmor054={^l}Razorback Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_DUNERAIDER.DBR=Rare=tagMIArmor055={^l}Windswept Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_GORGONMELEE.DBR=Rare=tagMIArmor058={^l}Sentinel's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_ICHTHIANMAGE.DBR=Rare=tagMIArmor059={^l}Ichthian Oracle's Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_ICHTHIANMELEE.DBR=Rare=tagMIArmor060={^l}Ichthian Aegis
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_JACKALMANMELEE.DBR=Rare=tagMIArmor062={^l}Jackal's Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_MINOTAUR.DBR=Rare=tagMIArmor063={^l}Breastplate of the Minotaur
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_MUMMY.DBR=Rare=tagMIArmor064={^l}Ceremonial Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_NEANDERTHALMAGE.DBR=Rare=tagMIArmor065={^l}Shaman's Adornment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_NEANDERTHALMELEE.DBR=Rare=tagMIArmor066={^l}Marauder's Girdle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_RATMANCHAMPION.DBR=Rare=tagMIArmor068={^l}The Rat's Pack
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_RATMANMELEE.DBR=Rare=tagMIArmor069={^l}Vagabond's Shirt
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_SATYRBRUTE.DBR=Rare=tagMIArmor071={^l}Brute's Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_WRAITH.DBR=Rare=tagMIArmor077={^l}Ethereal Cage
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_YERREN.DBR=Rare=tagMIArmor078={^l}Warchief's Garb
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_FORMICIDMELEE02.DBR=Rare=xtagMIArmor041={^l}Myrmidon's Chitin
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_ALFR.DBR=Rare=x2tagMIArmor017={^l}Tunic of Alfheim
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_ELDJOTUN.DBR=Rare=x2tagMIArmor021={^l}Blacksteel Plate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_MELINOEMAGE.DBR=Rare=xtagMIArmor047={^l}Bloodborn Girdle
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_GIGANTESMELEE.DBR=Rare=xtagMIArmor042={^l}Porphyrion's Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_KERESMAGE.DBR=Rare=xtagMIArmor043={^l}Vestment of Ker
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_TROLL.DBR=Rare=x2tagMIArmor001={^l}Bonebreaker Mail
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_FJORDMELEE.DBR=Rare=x2tagMIArmor005={^l}Icescale Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_BANDITGREEK.DBR=Rare=x2tagMIArmor032={^l}Scironian Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_FJORDMAGE.DBR=Rare=x2tagMIArmor009={^l}Raiment of the Deep
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_KELPIE.DBR=Rare=x2tagMIArmor029={^l}Kelpie Cuisse
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_ELDJOTUN.DBR=Rare=x2tagMIArmor021={^l}Blacksteel Plate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_EMPUSAMAGE.DBR=Rare=xtagMIArmor037={^l}The Night Mistress's Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_EINHERJAR.DBR=Rare=x2tagMIArmor051={^l}Harness of Valhöll
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_YERREN.DBR=Rare=x2tagMIArmor037={^l}Bear Rider's Garb
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_MERFOLK.DBR=Rare=x2tagMIArmor035={^l}Triton Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_FJORDMELEE.DBR=Rare=x2tagMIArmor005={^l}Icescale Armor
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_ANOURANMELEE.DBR=Rare=xtagMIArmor036={^l}Batrachos Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_BANDITGREEK.DBR=Rare=x2tagMIArmor032={^l}Scironian Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_DVERGRMELEE.DBR=Rare=x2tagMIArmor013={^l}Master Forge Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_ANOURANMAGE.DBR=Rare=xtagMIArmor035={^l}Witch Doctor's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_ANOURANMELEE.DBR=Rare=xtagMIArmor036={^l}Batrachos Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_FORMICIDMAGE02.DBR=Rare=xtagMIArmor039={^l}Ch'kra's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_GIGANTESMELEE.DBR=Rare=xtagMIArmor042={^l}Porphyrion's Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_GIGANTESMELEE02.DBR=Rare=xtagUArmor135=Alcyoneus’ Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_LAMIAMELEE.DBR=Rare=xtagMIArmor045={^l}Ismene's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_E_MACHAEMELEE.DBR=Rare=xtagMIArmor046={^l}Homados
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_FORMICIDMAGE01.DBR=Rare=xtagMIArmor038={^l}Myrmigki Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_FORMICIDMELEE02.DBR=Rare=xtagMIArmor041={^l}Myrmidon's Chitin
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_GIGANTESMELEE.DBR=Rare=xtagMIArmor042={^l}Porphyrion's Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_KERESMAGE.DBR=Rare=xtagMIArmor043={^l}Vestment of Ker
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_KERESMELEE.DBR=Rare=xtagMIArmor044={^l}Anaplekte's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_MACHAEMELEE.DBR=Rare=xtagMIArmor046={^l}Homados
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_L_MELINOEMAGE.DBR=Rare=xtagMIArmor047={^l}Bloodborn Girdle
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_ANOURANMELEE.DBR=Rare=xtagMIArmor036={^l}Batrachos Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_EMPUSAMAGE.DBR=Rare=xtagMIArmor037={^l}The Night Mistress's Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_FORMICIDMAGE01.DBR=Rare=xtagMIArmor038={^l}Myrmigki Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_FORMICIDMAGE02.DBR=Rare=xtagMIArmor039={^l}Ch'kra's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_GIGANTESMELEE02.DBR=Rare=xtagUArmor135=Alcyoneus’ Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_KERESMAGE.DBR=Rare=xtagMIArmor043={^l}Vestment of Ker
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_LAMIAMELEE.DBR=Rare=xtagMIArmor045={^l}Ismene's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\MI_N_MACHAEMELEE.DBR=Rare=xtagMIArmor046={^l}Homados
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_ANOURANMAGE.DBR=Rare=xtagMIArmor035={^l}Witch Doctor's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_ANOURANMELEE.DBR=Rare=xtagMIArmor036={^l}Batrachos Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_EMPUSAMAGE.DBR=Rare=xtagMIArmor037={^l}The Night Mistress's Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\Z_TEMPBITMAPDBRS\MI_E_MELINOEMAGE.DBR=Rare=xtagMIArmor047={^l}Bloodborn Girdle
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor025={^l}Coat of the Chosen
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_TROLL.DBR=Rare=x2tagMIArmor001={^l}Bonebreaker Mail
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_YERREN.DBR=Rare=x2tagMIArmor037={^l}Bear Rider's Garb
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_DRAUGR.DBR=Rare=x2tagMIArmor043={^l}Ring Mail of the Restless King
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_DVERGRMAGE.DBR=Rare=x2tagMIArmor013b={^l}Master Seer Robe
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_ELDJOTUN.DBR=Rare=x2tagMIArmor021={^l}Blacksteel Plate
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_KELPIE.DBR=Rare=x2tagMIArmor029={^l}Kelpie Cuisse
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor025={^l}Coat of the Chosen
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_ALFR.DBR=Rare=x2tagMIArmor017={^l}Tunic of Alfheim
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_DVERGRMAGE.DBR=Rare=x2tagMIArmor013b={^l}Master Seer Robe
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_EINHERJAR.DBR=Rare=x2tagMIArmor051={^l}Harness of Valhöll
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_FJORDMAGE.DBR=Rare=x2tagMIArmor009={^l}Raiment of the Deep
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_MERFOLK.DBR=Rare=x2tagMIArmor035={^l}Triton Armor
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_NERTHUSSHAMAN.DBR=Rare=x2tagMIArmor025={^l}Coat of the Chosen
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_TROLLMAGE.DBR=Rare=x2tagMIArmor001b={^l}Bonecaster Shawl
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_DRAUGR.DBR=Rare=x2tagMIArmor043={^l}Ring Mail of the Restless King
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_DVERGRMAGE.DBR=Rare=x2tagMIArmor013b={^l}Master Seer Robe
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_EINHERJAR.DBR=Rare=x2tagMIArmor051={^l}Harness of Valhöll
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_FJORDMAGE.DBR=Rare=x2tagMIArmor009={^l}Raiment of the Deep
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_TROLL.DBR=Rare=x2tagMIArmor001={^l}Bonebreaker Mail
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_TROLLMAGE.DBR=Rare=x2tagMIArmor001b={^l}Bonecaster Shawl
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_N_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_L_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_L_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\MI_E_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+
+
+
+#=== Epic
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_WAYFARER'SREGALIA.DBR=Epic=tagUArmor339=Wayfarer's Regalia
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_COVEROFNIGHT.DBR=Epic=tagUArmor314=Cover of Night
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_CHU'SQUIVER.DBR=Epic=tagUArmor260=Chu's Quiver
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_UMBRALRAIMENT.DBR=Epic=tagUArmor398=Umbral Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_BRAMBLESHEATHVEST.DBR=Epic=tagUArmor311=Bramblesheath Vest
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_DAEVOS'CUIRASS.DBR=Epic=tagUArmor315=Daevos' Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_ARMOROFKHEPHURIS.DBR=Epic=tagUArmor280=Armor of Khephuris
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_ASPECTOFTHEWILD.DBR=Epic=tagUArmor366=Resilience of the Wild
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_SOULSHIELDCHITON.DBR=Epic=tagUArmor283=Soulshield Chiton
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_FIREWALKER'SSUIT.DBR=Epic=tagUArmor369=Breastplate of the Firewalker
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_TRICKSTERSTUNIC.DBR=Epic=tagUArmor336=Trickster's Tunic
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_THEJACKEL'SFESTERINGGARB.DBR=Epic=tagUArmor335=The Jackal's Festering Garb
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_TEMPEST.DBR=Epic=tagUArmor364=Armor of the Tempest
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_SHEIDO'SROBESOFINSIGHT.DBR=Epic=tagUArmor346=Shei-Do's Robes of Insight
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_HUNTER'SARMOR.DBR=Epic=tagUArmor370=Hunter's Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_CHARIOTEER'SQUIVER.DBR=Epic=tagUArmor312=Charioteer's Quiver
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_GLAEVIN'SBREASTPLATE.DBR=Epic=tagUArmor319=Glaevin's Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_ARMOROFTHEBURNINGBLADE.DBR=Epic=tagUArmor255=Armor of the Burning Blade
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_PHYSICIAN'SROBE.DBR=Epic=tagUArmor330=Physician's Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_WARDEN'SCHARGE.DBR=Epic=tagUArmor375=Warden's Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_TAKESHI'S KIMONO.DBR=Epic=tagUArmor286=Takeshi's Kimono
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_BLADEFLINGER'SARMOR.DBR=Epic=tagUArmor310=Bladeflinger's Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_MANTLEOFEVISCERATION.DBR=Epic=tagUArmor313=Mantle of Evisceration
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_MAGMA.DBR=Epic=tagUArmor270=Magma
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_THEBANPANOPLY.DBR=Epic=tagUArmor393=Theban Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_HUOQUIAOARMOR.DBR=Epic=tagUArmor322=Huo Quiao Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_MANTLEOFPANACEA.DBR=Epic=tagUArmor333=Mantle of Panacea
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_PYROMANCER'SGUARD.DBR=Epic=tagUArmor396=Pyromancer's Robe
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_E_004.DBR=Epic=xtagUArmor043=Harbinger's Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_LABYRINTHINEARMOR.DBR=Epic=tagUArmor387=Labyrinthine Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_THRACIANCUIRASS.DBR=Epic=tagUArmor274=Thracian Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_N_03.DBR=Epic=x2tagUArmor045=Sigurd's Cloak
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_VESTMENTOFBEWILDERMENT.DBR=Epic=tagUArmor290=Vestment of Bewilderment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_IRONSKINSUIT.DBR=Epic=tagUArmor324=Ironskin Suit
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_BLACKGUARD.DBR=Epic=tagUArmor256=Blackguard
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_LORENCUIRASS.DBR=Epic=tagUArmor325=Lo Ren Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_MIRAGE.DBR=Epic=tagUArmor359=Mirage
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_BEN'HAAMON'SKILT.DBR=Epic=tagUArmor357=Ben'haamon's Kilt
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_N_001.DBR=Epic=xtagUArmor034=Robe of Elemental Fury
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_N_02.DBR=Epic=x2tagUArmor044=Thialfi's Studded Vest
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_THESPHINX.DBR=Epic=tagUArmor363=Breastplate of the Sphinx
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_REIZARF'NAICUIRASS.DBR=Epic=tagUArmor278=Reizar F'nai Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_MEMNON'SRAIMENT.DBR=Epic=tagUArmor371=Memnon's Aegis
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\Z_SLEUTH01.DBR=Epic=xtagUArmor041=Detective's Greatcoat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_PYTHIA'SVESTMENT.DBR=Epic=tagUArmor343=Vestment of the Pythia
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_SHADOWGUARD.DBR=Epic=tagUArmor373=Shadow's Guard
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_LAZARUSARMOR.DBR=Epic=tagUArmor388=Lazarus Platemail
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_N_ORACLE'SGARMENTS.DBR=Epic=tagUArmor402=Oracle's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_E_002.DBR=Epic=xtagUArmor046=Diomedes' Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_GALESONG.DBR=Epic=tagUArmor264=Galesong
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\Z_PIRATE01.DBR=Epic=xtagUArmor055=Blackbeard's Coat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_FIREBLOSSOM.DBR=Epic=tagUArmor317=Fire Blossom
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_PIOUSSASH.DBR=Epic=tagUArmor361=Pious Sash
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_YUYA'SGARB.DBR=Epic=tagUArmor360=Yuya's Garb
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_SAFEGUARDOFTHEMANTIS.DBR=Epic=tagUArmor382=Mantis Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_LEGENDOFFUXI.DBR=Epic=tagUArmor389=Fu Xi's Armored Chest
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_NOMADSBODYWRAP.DBR=Epic=tagUArmor327=Nomad's Body Wrap
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_SOMATOPHYLAKESPLATE.DBR=Epic=tagUArmor282=Somatophylakes Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_RAMSES'ROYALARMOR.DBR=Epic=tagUArmor392=Ramses' Coat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_BABYLONIANRAIMENT.DBR=Epic=tagUArmor385=Babylonian Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_BRINNE'SREDEMPTION.DBR=Epic=tagUArmor258=Brinne's Redemption
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_ROBESOFCALCHAS.DBR=Epic=tagUArmor358=Robes of Calchas
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_VESTMENTOFTHEMALIGNSPIRITS.DBR=Epic=tagUArmor347=Vestment of the Malign Spirits
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_YMOCHELSRIDDLEROBE.DBR=Epic=tagUArmor348=Ymochel's Riddlerobe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_ARCHON'SCHITON.DBR=Epic=tagUArmor356=Archon's Chiton
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_AUGUR'SDRAPE.DBR=Epic=tagUArmor308=Augur's Drape
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_EPHOR'S GARB.DBR=Epic=tagUArmor342=Ephor's Garb
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_N_VESTOFTHEWANDERINGGOAT.DBR=Epic=tagUArmor338=Vest of the Wandering Goat
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_ADEPT'SREGALIA.DBR=Epic=tagUArmor394=Adept's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_HABILIMENTSOFTHEDRUID.DBR=Epic=tagUArmor395=Druid's Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_RAIMENTOFTHESTORM.DBR=Epic=tagUArmor397=Robe of Storms
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_N_NECROMANCER'SHABILIMENT.DBR=Epic=tagUArmor401=Necromancer's Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_ARMOROFTHEIMMORTALGUARD.DBR=Epic=tagUArmor378=Apple Bearer's Mail
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_ARMOROFTROY.DBR=Epic=tagUArmor365=Trojan Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_ROGUE'SCOVER.DBR=Epic=tagUArmor372=Rogue's Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_THEACROPOLIS.DBR=Epic=tagUArmor374=The Citadel
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_WARRIOR'SPANOPLY.DBR=Epic=tagUArmor376=Warrior's Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_GEBELTJAUTI.DBR=Epic=tagUArmor403=Garb of the Scorpion King
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_IMPERIALRAIMENT.DBR=Epic=tagUArmor386=Imperial Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_OBSIDIANARMOR.DBR=Epic=tagUArmor390=Obsidian Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_N_PRIDEOFTHEJADEPALACE.DBR=Epic=tagUArmor391=Jade Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_BREASTPLATEOFXANTHUS.DBR=Epic=tagUArmor257=Breastplate of Xanthus
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_CUIRASSOFRETRIBUTION.DBR=Epic=tagUArmor284=Cuirass of Retribution
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_DO-MARU.DBR=Epic=tagUArmor262=Do-Maru
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_GILDANTHAR.DBR=Epic=tagUArmor265=Gildanthar
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_KHERHEBVESTMENT.DBR=Epic=tagUArmor267=Kher Heb Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_LIFESHROUD.DBR=Epic=tagUArmor269=Lifeshroud
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_SNAKESKINWRAP.DBR=Epic=tagUArmor281=Snakeskin Wrap
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_TERRAGUARD.DBR=Epic=tagUArmor287=TerraGuard
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_TYLDERONSBREASTPLATE.DBR=Epic=tagUArmor289=Tylderon's Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_BANDEDPLATEOFVEREITE.DBR=Epic=tagUArmor309=Banded Plate of Verei-Te
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_FLAMESKIN.DBR=Epic=tagUArmor316=Flame Skin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_GALIONCUIRASS.DBR=Epic=tagUArmor318=Galion Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_HARNESSOFCOMMAND.DBR=Epic=tagUArmor320=Harness of Command
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_HEARTOFTHEMOUNTAIN.DBR=Epic=tagUArmor321=Heart of the Mountain
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_HYPERIANCUIRASS.DBR=Epic=tagUArmor323=Hyperian Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_MARON'SGARMENT.DBR=Epic=tagUArmor326=Maron's Garment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_OEDIPUS'ARMOR.DBR=Epic=tagUArmor328=Oedipus Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_OUTLAW'SSASH.DBR=Epic=tagUArmor329=Outlaw's Sash
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_RENLEI'SPRIDE.DBR=Epic=tagUArmor331=Ren Lei's Pride
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_SANDSTALKERARMOR.DBR=Epic=tagUArmor332=Sandstalker Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_SPEARMAN'SSILK.DBR=Epic=tagUArmor334=Spearman's Silk
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_TUNICOFTHESILVERBOW.DBR=Epic=tagUArmor337=Tunic of the Silver Bow
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_N_WAYLAYER'SJERKIN.DBR=Epic=tagUArmor340=Waylayer's Jerkin
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\Z_SANTA01.DBR=Epic=xtagUArmor053=Santa's Winter Coat
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_04.DBR=Epic=x2tagUArmor040=Berserker's Mantle
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\U_N_002.DBR=Epic=xtagUArmor032=Templar's Zeal
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_N_002.DBR=Epic=xtagUArmor035=Occultist's Raiment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_N_003.DBR=Epic=xtagUArmor036=Darkseer
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\USM_E_001.DBR=Epic=xtagUArmor049=Dreamweaver's Vestment
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\USM_N_001.DBR=Epic=xtagUArmor050=Robes of Erebus
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_E_001.DBR=Epic=xtagUArmor045=Aegis of Atreus
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_N_001.DBR=Epic=xtagUArmor044=Breastplate of Morte
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_05.DBR=Epic=x2tagUArmor041=Cuirass of Viridomarus
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_06.DBR=Epic=x2tagUArmor042=Layered Corselet
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\LE_NEW\SECRETO_TORSO.DBR=Epic=tagSetSecretoTorso=Anti-Magic Robes
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\US_N_BRENNUS.DBR=Epic=x2tagUArmor015=Brennus' Plate
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_N_01.DBR=Epic=x2tagUArmor043=Vest of Aericura
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_N_04.DBR=Epic=x2tagUArmor046=Shieldmaiden's Belt
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_N_05.DBR=Epic=x2tagUArmor047=Teutoburg Tunic
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\Z_TRACKSUIT.DBR=Epic=x2tagZArmor001=Running Jacket
+
+#=== Legendary
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_L_ARCHMAGE'SREGALIA.DBR=Legendary=tagUArmor400=Archmage's Mantle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_RAIMENTOFXIGUA.DBR=Legendary=tagUArmor277=Raiment of Xi'Gua
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_CRYSTALLINEARRAY.DBR=Legendary=tagUArmor368=Crystalline Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_ARMOROFACHILLES.DBR=Legendary=tagUArmor293=Armor of Achilles
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_VESTMENTOFTHEOVERLORD.DBR=Legendary=tagUArmor355=Vestment of the Overlord
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_DIOGENES'CHITON.DBR=Legendary=tagUArmor261=Diogenes' Chiton
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_ODDYSEUS'ARMOR.DBR=Legendary=tagUArmor301=Odysseus' Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_WYRMSKINHARNESS.DBR=Legendary=tagUArmor307=Wyrmskin Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_NEMEANLIONHIDE.DBR=Legendary=tagUArmor383=Pelt of the Nemean Lion
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_VERDANTPLATE.DBR=Legendary=tagUArmor306=Verdant Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_PENUMBRAPLATE.DBR=Legendary=tagUArmor352=Penumbra Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_MANTLEOFAMUNRA.DBR=Legendary=tagUArmor353=Mantle of Amun-Ra
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_L_001.DBR=Legendary=xtagUArmor042=Legionnaire's Breastplate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_OVERLORD'SIRONSHELL.DBR=Legendary=tagUArmor302=Overlord's Iron Shell
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_ETRUSCANCUIRASS.DBR=Legendary=tagUArmor263=Etruscan Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_PROTEANARMOR.DBR=Legendary=tagUArmor275=Protean Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_ROBESOFSIDIROSLOROS.DBR=Legendary=tagUArmor354=Robes of Sidiros Loros
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_RHESUS'WHITEWASHEDARMOR.DBR=Legendary=tagUArmor279=Rhesus' Whitewashed Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_E_BONEARMOR.DBR=Legendary=tagUArmor367=Bone Breastplate
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\U_L_001.DBR=Legendary=xtagUArmor033=Armor of the Phantom
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_SANBAI'SROBE.DBR=Legendary=tagUArmor345=San Bai's Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_RAIMENTOFLOGOS.DBR=Legendary=tagUArmor276=Raiment of Logos
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\USM_E_VESTMENTSOFTHEBATTLEMAGE.DBR=Legendary=tagUArmor399=Battlemage Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_MANTLEOFTHESECRETOS.DBR=Legendary=tagUArmor272=Mantle of the Secretos
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_THOTH'SSHADOW.DBR=Legendary=tagUArmor305=Thoth's Shadow
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_ARMOROFTHECRIMSONGUARD.DBR=Legendary=tagUArmor292=Armor of the Crimson Guard
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_AZURESILKVESTMENT.DBR=Legendary=tagUArmor341=Azuresilk Vestment
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_E_QIBAI'SROBE.DBR=Legendary=tagUArmor344=Qi Bai's Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_CALYPSO'SCOVER.DBR=Legendary=tagUArmor296=Calypso's Cover
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_FENGXAO'SMEDITATIONROBES.DBR=Legendary=tagUArmor349=Feng Xao's Meditation Robes
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_IRIS'SCINTILLATINGROBES.DBR=Legendary=tagUArmor350=Iris' Scintillating Robes
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\UM_L_MINDRAGEROBE.DBR=Legendary=tagUArmor351=Mindrage Robe
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_ABYSSALARMOR.DBR=Legendary=tagUArmor377=Abyssal Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_ALEXANDER'SPANOPLY.DBR=Legendary=tagUArmor362=Alexander's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_ASSASSIN'SCOVER.DBR=Legendary=tagUArmor379=Assassin's Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_CONQUEROR'SPANOPLY.DBR=Legendary=tagUArmor380=Conqueror's Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_ETERNALWARDOFTARTARUS.DBR=Legendary=tagUArmor407=Black Cage of Tartarus
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_HUOQUBING'SRELICS.DBR=Legendary=tagUArmor381=Huo Qubing's Cuirass
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\US_L_TRACKER'SARMOR.DBR=Legendary=tagUArmor384=Tracker's Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_CERTHAS'PLATE.DBR=Legendary=tagUArmor259=Certhas' Plate
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_HIPPOCRATES'VEST.DBR=Legendary=tagUArmor266=Hippocrates' Vest
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_KONDORANGIRDLE.DBR=Legendary=tagUArmor268=Kondoran Girdle
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_MANTLEOFSAJUN.DBR=Legendary=tagUArmor271=Mantle of Sa'jun
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_MORAGO'SARMOR.DBR=Legendary=tagUArmor273=Mora-Go's Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_SUNLUSHAN'SARMOR.DBR=Legendary=tagUArmor285=Sun Lu-Shan's Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_THEKHAN'SHUNTINGHARNESS.DBR=Legendary=tagUArmor288=The Khan's Hunting Harness
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_E_VESTMENTOFTHOMTHEMAD.DBR=Legendary=tagUArmor291=Vestment of Thom the Mad
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_ARMOROFANUBIS.DBR=Legendary=tagUArmor304=Armor of Anubis
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_ARMOROFPELEUS.DBR=Legendary=tagUArmor294=Armor of Peleus
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_BABEIZIGI.DBR=Legendary=tagUArmor295=Babeizi Gi
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_DIONYSUS'JERKIN.DBR=Legendary=tagUArmor297=Dionysus' Jerkin
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_FERRUSGNOSI.DBR=Legendary=tagUArmor298=Ferrus Gnosi
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_HORUS'REFUGE.DBR=Legendary=tagUArmor299=Horus' Refuge
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_MINOXIANARMOR.DBR=Legendary=tagUArmor300=Minoxian Armor
+ArmorProtective_UpperBody=RECORDS\ITEM\EQUIPMENTARMOR\U_L_SHROUDOFEIRENE.DBR=Legendary=tagUArmor303=Shroud of Eirene
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\USM_L_002.DBR=Legendary=xtagUArmor051=Wings of Carnus
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_E_001.DBR=Legendary=xtagUArmor037=Cestus
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_E_002.DBR=Legendary=xtagUArmor038=Tunic of the Magi
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_L_001.DBR=Legendary=xtagUArmor039=Cloak of Zoroaster
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\UM_L_002.DBR=Legendary=xtagUArmor040=Glykon Acolyte's Robe
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\USM_L_001.DBR=Legendary=xtagUArmor048=Plouton's Cornucopia
+ArmorProtective_UpperBody=RECORDS\XPACK\ITEM\EQUIPMENTARMOR\TORSO\US_L_002.DBR=Legendary=xtagUArmor047=Poseidon's Cuirass
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\US_L_HORNEDGOD.DBR=Legendary=x2tagUArmor001=Harness of Cernunnos
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_01.DBR=Legendary=x2tagUArmor037=Skyrta of Orvar-Oddr
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\USM_E_SHADE.DBR=Legendary=x2tagUArmor021=The Perishing Form
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\USM_L_ALLFATHER.DBR=Legendary=x2tagUArmor004=Tunic of the Allfather
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\USM_L_FREYJA.DBR=Legendary=x2tagUArmor008=Corselet of Freyja
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\US_L_DONARSMIGHT.DBR=Legendary=x2tagUArmor012=Megingjörd
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_02.DBR=Legendary=x2tagUArmor038=Falcon Cape
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_E_03.DBR=Legendary=x2tagUArmor039=Cloak of Fimbulvinter
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_L_01.DBR=Legendary=x2tagUArmor035=Plate of Toutatis
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\U_L_02.DBR=Legendary=x2tagUArmor036=Torso of Loki
+
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_E_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+ArmorProtective_UpperBody=RECORDS\XPACK2\ITEM\EQUIPMENTARMOR\TORSO\MI_N_CENTAUR.DBR=Rare=tagMIArmor053={^l}Outrider's Tunic
+

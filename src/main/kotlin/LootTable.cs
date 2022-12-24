@@ -35,7 +35,7 @@ namespace TQ_weaponsmith
 
     private void LoadTable()
     {
-      DBRecord recordFromFile = Database.DB.GetRecordFromFile(this.tableId);
+      DBRecord recordFromFile = Database.GetRecordFromFile(this.tableId);
       if (recordFromFile == null)
         return;
       Dictionary<int, float> outer = new Dictionary<int, float>();
