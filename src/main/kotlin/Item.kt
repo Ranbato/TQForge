@@ -1,8 +1,10 @@
 ﻿import org.jetbrains.skia.Bitmap
+import utils.LittleEndianDataInputStream
 import java.io.File
 import java.io.DataInputStream
 import java.io.ObjectOutputStream
 import java.io.OutputStream
+import java.nio.ByteBuffer
 import kotlin.io.path.extension
 import kotlin.math.roundToInt
 import kotlin.random.Random
@@ -2789,52 +2791,52 @@ public class Item
 //      this.setItemsString = (string) null;
 //    }
 //
-    public fun Parse( reader: DataInputStream)
+    public fun Parse( reader: ByteBuffer)
     {
 
         if (this.sackType == SackType.Stash)
         {
-          TQData.validateNextString("stackCount", reader);
-          this.beginBlockCrap1 = reader.readInt()
+          TQData.validateNextString(reader,"stackCount")
+          this.beginBlockCrap1 =reader.getInt()
         }
         else if (this.sackType == SackType.Sack || this.sackType == SackType.Player)
         {
-          TQData.validateNextString("begin_block", reader);
-          this.beginBlockCrap1 = reader.readInt()
+          TQData.validateNextString(reader,"begin_block")
+          this.beginBlockCrap1 =reader.getInt()
         }
-        TQData.validateNextString("begin_block", reader);
-        this.beginBlockCrap2 = reader.readInt()
-        TQData.validateNextString("baseName", reader);
+        TQData.validateNextString(reader,"begin_block")
+        this.beginBlockCrap2 =reader.getInt()
+        TQData.validateNextString(reader,"baseName")
         this.BaseItemId = TQData.readCString(reader);
-        TQData.validateNextString("prefixName", reader);
+        TQData.validateNextString(reader,"prefixName")
         this.prefixID = TQData.readCString(reader);
-        TQData.validateNextString("suffixName", reader);
+        TQData.validateNextString(reader,"suffixName")
         this.suffixID = TQData.readCString(reader);
-        TQData.validateNextString("relicName", reader);
+        TQData.validateNextString(reader,"relicName")
         this.relicID = TQData.readCString(reader);
-        TQData.validateNextString("relicBonus", reader);
+        TQData.validateNextString(reader,"relicBonus")
         this.RelicBonusId = TQData.readCString(reader);
-        TQData.validateNextString("seed", reader);
-        this.seed = reader.readInt()
-        TQData.validateNextString("var1", reader);
-        this.var1 = reader.readInt()
+        TQData.validateNextString(reader,"seed")
+        this.seed =reader.getInt()
+        TQData.validateNextString(reader,"var1")
+        this.var1 =reader.getInt()
         if (TQData.readCString(reader).uppercase() == "relicName2".uppercase())
         {
           this.isSecondBonus = true;
           this.relicID2 = TQData.readCString(reader);
-          TQData.validateNextString("relicBonus2", reader);
+          TQData.validateNextString(reader,"relicBonus2")
           this.RelicBonusId2 = TQData.readCString(reader);
-          TQData.validateNextString("var2", reader);
-          this.var2 = reader.readInt()
-          TQData.validateNextString("end_block", reader);
+          TQData.validateNextString(reader,"var2")
+          this.var2 =reader.getInt()
+          TQData.validateNextString(reader,"end_block")
         }
-        this.endBlockCrap2 = reader.readInt()
+        this.endBlockCrap2 =reader.getInt()
         if (this.sackType == SackType.Stash)
         {
-          TQData.validateNextString("xOffset", reader);
-          this.PositionX =  reader.readFloat().roundToInt()
-          TQData.validateNextString("yOffset", reader);
-          this.PositionY = reader.readFloat().roundToInt()
+          TQData.validateNextString(reader,"xOffset")
+          this.PositionX =  reader.getFloat().roundToInt()
+          TQData.validateNextString(reader,"yOffset")
+          this.PositionY = reader.getFloat().roundToInt()
         }
         else if (this.sackType == SackType.Equipment)
         {
@@ -2843,12 +2845,12 @@ public class Item
         }
         else
         {
-          TQData.validateNextString("pointX", reader);
-          this.PositionX = reader.readInt()
-          TQData.validateNextString("pointY", reader);
-          this.PositionY = reader.readInt()
-          TQData.validateNextString("end_block", reader);
-          this.endBlockCrap1 = reader.readInt()
+          TQData.validateNextString(reader,"pointX")
+          this.PositionX =reader.getInt()
+          TQData.validateNextString(reader,"pointY")
+          this.PositionY =reader.getInt()
+          TQData.validateNextString(reader,"end_block")
+          this.endBlockCrap1 =reader.getInt()
         }
         this.GetDBData();
         if (this.sackType == SackType.Stash)

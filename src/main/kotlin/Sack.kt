@@ -1,7 +1,9 @@
 ﻿import org.jetbrains.skia.Point
+import utils.LittleEndianDataInputStream
 import java.io.InputStream
 import java.io.DataInputStream
 import java.io.OutputStream
+import java.nio.ByteBuffer
 
 public class Sack
   {
@@ -147,15 +149,15 @@ public class Sack
 //
 //    public static bool IsWeaponSlot(int equipmentSlot) => equipmentSlot >= 0 && equipmentSlot <= Sack.equipmentLocationOffsets.Length && Sack.equipmentLocationOffsets[equipmentSlot].X == Item.WeaponSlotIndicator;
 //
-    public fun Parse( reader: DataInputStream):Unit
+    public fun Parse( reader: ByteBuffer):Unit
     {
         this.isModified = false
-        TQData.validateNextString("begin_block", reader)
-        this.beginBlockCrap = reader.readInt()
-        TQData.validateNextString("tempBool", reader)
-        this.tempBool = reader.readInt()
-        TQData.validateNextString("size", reader)
-        this.size = reader.readInt()
+        TQData.validateNextString(reader,"begin_block")
+        this.beginBlockCrap = reader.getInt()
+        TQData.validateNextString(reader,"tempBool")
+        this.tempBool = reader.getInt()
+        TQData.validateNextString(reader,"size")
+        this.size = reader.getInt()
         var obj1:Item? = null
         for ( index in 0 until this.size)
         {
@@ -173,8 +175,8 @@ public class Sack
             this.items.add(obj2);
           }
         }
-        TQData.validateNextString("end_block", reader);
-        this.endBlockCrap = reader.readInt();
+        TQData.validateNextString(reader,"end_block")
+        this.endBlockCrap = reader.getInt();
 
     }
 //

@@ -1,4 +1,5 @@
-﻿import java.io.BufferedInputStream
+﻿import utils.LittleEndianDataInputStream
+import java.io.BufferedInputStream
 import java.io.ByteArrayInputStream
 import java.io.ByteArrayOutputStream
 import java.io.File
@@ -100,7 +101,7 @@ public class  ArzFile constructor(filename:String)
 
       val file = File(fileName)
       val len = file.length() as Int
-      val reader = DataInputStream(BufferedInputStream(file.inputStream()))
+      val reader = LittleEndianDataInputStream(BufferedInputStream(file.inputStream()))
       rawData = Files.readAllBytes(file.toPath())
 
 
@@ -141,7 +142,7 @@ public class  ArzFile constructor(filename:String)
     private fun ReadRecordTable(
        pos:Int,
       numEntries:Int,
-       reader: DataInputStream
+       reader: LittleEndianDataInputStream
     )
     {
       this.recordInfo = LinkedHashMap((numEntries * 1.2).roundToInt());
@@ -156,7 +157,7 @@ public class  ArzFile constructor(filename:String)
       }
     }
 
-    private fun ReadStringTable( pos:Int,  reader:DataInputStream)
+    private fun ReadStringTable( pos:Int,  reader:LittleEndianDataInputStream)
     {
       reader.skip(pos.toLong())
       val length = reader.readInt()
@@ -178,7 +179,7 @@ public class  ArzFile constructor(filename:String)
       public var RecordType = ""
 
 
-      public fun Decode(inReader: DataInputStream, baseOffset:Int, arzFile:ArzFile )
+      public fun Decode(inReader: LittleEndianDataInputStream, baseOffset:Int, arzFile:ArzFile )
       {
         this.idStringIndex = inReader.readInt();
         this.RecordType = TQData.readCString(inReader);

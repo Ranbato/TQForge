@@ -1,4 +1,6 @@
-﻿import java.io.*
+﻿import utils.ByteBufferBackedInputStream
+import utils.LittleEndianDataInputStream
+import java.io.*
 import java.nio.ByteBuffer
 
 private val logger = mu.KotlinLogging.logger {}
@@ -24,21 +26,25 @@ public object TQData
       writer.write(bytes)
     }
 
-    public fun readCString( reader: ByteBuffer, offset:Int):String
+    public fun readCString( reader: ByteBuffer, offset:Int = 0):String
     {
-      val num = reader.getInt(offset)
+      reader.position(if(offset == 0) reader.position() else offset)
+//      val stream = LittleEndianDataInputStream(ByteBufferBackedInputStream(reader.slice(sliceStart,reader.limit() - sliceStart)))
+      val num = reader.getInt()
       val bytes = ByteArray(num)
+
       reader.get(bytes);
       return String(bytes,Charsets.ISO_8859_1)
     }
-    public fun readCString( array: ByteArray):String
-    {
-      return readCString(ByteArrayInputStream(array))
-    }
+//    public fun readCString( array: ByteArray):String
+//    {
+//      return readCString(ByteArrayInputStream(array))
+//    }
 
-    public fun readCString( reader: InputStream):String
+    public fun readCString( reader: LittleEndianDataInputStream):String
     {
-      val num = DataInputStream(reader).readInt()
+      val num = reader.readInt() // only moves 1 even though 4 bytes?
+//      reader.skipBytes(3)
       val bytes = ByteArray(num)
       reader.read(bytes);
       return String(bytes,Charsets.ISO_8859_1)
@@ -62,9 +68,9 @@ public object TQData
 //      return false;
 //    }
 
-    public fun validateNextString( value:String,  reader: DataInputStream):Boolean
+    public fun validateNextString( byteBuffer: ByteBuffer, value:String,  offset:Int = 0):Boolean
     {
-      val str = readCString(reader);
+      val str = readCString(byteBuffer,offset)
       if (str.uppercase() == value.uppercase()) {
         return true
       }
@@ -101,7 +107,11 @@ public object TQData
         val saveFile = Config.getSaveFile(playerName);
         val character = Character(playerName, saveFile);
 
+      try {
         character.loadFile();
+      } catch (ex:Exception){
+        logger.error { "Unable to load character $character" }
+      }
 
          // logger.error{"Error: Unable to load character $playerName data: ${ex.ToString()}"}
       return character;

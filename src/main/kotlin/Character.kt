@@ -1,4 +1,5 @@
 import utils.ByteBufferBackedInputStream
+import utils.LittleEndianDataInputStream
 import java.io.ByteArrayOutputStream
 import java.io.File
 import java.io.DataInputStream
@@ -69,13 +70,10 @@ public fun loadFile():Unit
 
             rawData = FileChannel.open(file.toPath()).map(FileChannel.MapMode.READ_ONLY,0,file.length())
             rawData.order( ByteOrder.LITTLE_ENDIAN);
-            //rawData.load()
-
-//            rawData = Files.readAllBytes(file.toPath())
 
             this.parseRawData();
         }catch(ex:Exception){
-            logger.error { "Error opening file $caracterFile ${ex.message}" }
+            logger.error { "Error opening file $caracterFile ${ex.message} $ex" }
         }
     }
 
@@ -96,7 +94,7 @@ public fun loadFile():Unit
               ++num;
               val offset3 = nextBlockDelim + beginBlockPattern.size + 4;
               val upperInvariant = TQData.readCString(rawData,offset3).uppercase()
-              start = offset3 + upperInvariant.length +1
+              start = rawData.position() //offset3 + upperInvariant.length +1
               var str:String
               if (upperInvariant == "BEGIN_BLOCK")
               {
@@ -192,15 +190,13 @@ public fun loadFile():Unit
       try
       {
         this.equipmentBlockStart = offset;
-        val reader = DataInputStream(ByteBufferBackedInputStream(rawData))
-        reader.skip(offset as Long)
-        TQData.validateNextString("equipmentCtrlIOStreamVersion", reader);
-        this.equipmentCtrlIOStreamVersion = reader.readInt();
+        TQData.validateNextString(rawData,"equipmentCtrlIOStreamVersion", offset)
+        this.equipmentCtrlIOStreamVersion = rawData.getInt();
         this.equipmentSack = Sack()
         this.equipmentSack.sackType = SackType.Equipment;
         this.equipmentSack.IsImmortalThrone = true;
-        this.equipmentSack.Parse(reader);
-        this.equipmentBlockEnd =  reader.available() - offset
+        this.equipmentSack.Parse(rawData);
+        this.equipmentBlockEnd =  rawData.position()
       }
       catch (ex:Exception )
       {
@@ -213,24 +209,22 @@ public fun loadFile():Unit
       try
       {
         this.itemBlockStart = offset;
-        val reader = DataInputStream(ByteBufferBackedInputStream(rawData))
-        reader.skip(offset as Long)
-        TQData.validateNextString("numberOfSacks", reader);
-        this.numberOfSacks = reader.readInt();
-        TQData.validateNextString("currentlyFocusedSackNumber", reader);
-        this.currentlyFocusedSackNumber = reader.readInt();
-        TQData.validateNextString("currentlySelectedSackNumber", reader);
-        this.currentlySelectedSackNumber = reader.readInt();
+        TQData.validateNextString(rawData, "numberOfSacks", offset);
+        this.numberOfSacks = rawData.getInt();
+        TQData.validateNextString(rawData,"currentlyFocusedSackNumber");
+        this.currentlyFocusedSackNumber = rawData.getInt();
+        TQData.validateNextString(rawData,"currentlySelectedSackNumber");
+        this.currentlySelectedSackNumber = rawData.getInt();
 //        sacks. = Sack[this.numberOfSacks];
         for (index in 0 until numberOfSacks)
         {
           val sack =  Sack();
           sack.sackType = SackType.Sack;
           sack.IsImmortalThrone = true;
-          sack.Parse(reader);
+          sack.Parse(rawData);
           sacks[index] = sack
         }
-        this.itemBlockEnd = reader.available() - offset
+        this.itemBlockEnd = rawData.position()
       }
       catch ( ex:java.lang.Exception)
       {
