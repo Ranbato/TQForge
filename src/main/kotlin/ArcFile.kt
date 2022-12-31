@@ -1,8 +1,10 @@
-﻿import java.io.BufferedInputStream
+﻿import utils.ByteBufferBackedInputStream
+import java.io.BufferedInputStream
 import java.io.File
 import java.io.FileInputStream
 import java.nio.ByteOrder
 import java.nio.channels.FileChannel
+import java.util.zip.Inflater
 import java.util.zip.InflaterInputStream
 
 // Place definition above class declaration to make field static
@@ -83,21 +85,25 @@ public class ArcFile {
             logger.info { "Error - $dataId not found." }
             return ByteArray(0)
         }
-        BufferedInputStream(FileInputStream(FileName)).use { fileStream ->
+
+        val file = File(FileName)
+        FileChannel.open(file.toPath()).use {
+            val data = it.map(FileChannel.MapMode.READ_ONLY, 0, file.length())
+            data.order(ByteOrder.LITTLE_ENDIAN)
             val buffer = ByteArray(directoryEntry.RealSize)
             var offset = 0;
             if (directoryEntry.StorageType == 1 && directoryEntry.CompressedSize == directoryEntry.RealSize) {
                 logger.info { "Offset=${directoryEntry.FileOffset}  Size=${directoryEntry.RealSize}" }
-                fileStream.skip(directoryEntry.FileOffset.toLong());
-                fileStream.read(buffer, 0, directoryEntry.RealSize);
+                data.position(directoryEntry.FileOffset);
+                data.get(buffer)
             } else {
 
-                directoryEntry.Parts.forEach { part ->
+                directoryEntry.Parts?.forEach { part ->
 
-                    fileStream.skip(part.FileOffset.toLong());
-                    fileStream.read()
-                    fileStream.read();
-                    InflaterInputStream(fileStream).use {
+                    data.position(part.FileOffset);
+//                    data.get()
+//                    data.get();
+                    InflaterInputStream(ByteBufferBackedInputStream(data)).use {
                         var num2 = 0
                         var num3: Int
                         while (run {
@@ -147,90 +153,94 @@ public class ArcFile {
 
 
         val file = File(FileName)
-        val rawData = FileChannel.open(file.toPath()).map(FileChannel.MapMode.READ_ONLY, 0, file.length())
-        rawData.order(ByteOrder.LITTLE_ENDIAN)
+        FileChannel.open(file.toPath()).use {
+            val rawData = it.map(FileChannel.MapMode.READ_ONLY, 0, file.length())
+            rawData.order(ByteOrder.LITTLE_ENDIAN)
 
-        if (rawData.get() != 65.toByte() || rawData.get() != 82.toByte() || rawData.get() != 67.toByte() || file.length() < 33L) return
-        rawData.position(8);
-        val capacity = rawData.getInt()
-        val length1 = rawData.getInt()
-        logger.debug { "numEntries=${capacity}, numParts=${length1}" }
-        val arcPartEntryArray = arrayOfNulls<ARCPartEntry>(length1)
-        val arcDirEntryArray = arrayOfNulls<ARCDirEntry>(capacity)
 
-        logger.info("Seeking to tocOffset location")
-        rawData.position(24)
-        val offset = rawData.getInt()
-        logger.debug { "tocOffset = ${offset}" }
-        if (file.length() < (offset + 12)) return
-        rawData.position(offset)
 
-        for (index in 0 until length1) {
-            arcPartEntryArray[index] = ARCPartEntry(rawData.getInt(), rawData.getInt(), rawData.getInt());
-            logger.debug { "parts[{$index}]" }
-            logger.debug { "  fileOffset=${arcPartEntryArray[index]?.FileOffset}, compressedSize=${arcPartEntryArray[index]?.CompressedSize}, realSize=${arcPartEntryArray[index]?.RealSize}" }
+            if (rawData.get() != 65.toByte() || rawData.get() != 82.toByte() || rawData.get() != 67.toByte() || file.length() < 33L) return
+            rawData.position(8);
+            val capacity = rawData.getInt()
+            val length1 = rawData.getInt()
+            logger.debug { "numEntries=${capacity}, numParts=${length1}" }
+            val arcPartEntryArray = arrayOfNulls<ARCPartEntry>(length1)
+            val arcDirEntryArray = arrayOfNulls<ARCDirEntry>(capacity)
 
-        }
+            logger.info("Seeking to tocOffset location")
+            rawData.position(24)
+            val offset = rawData.getInt()
+            logger.debug { "tocOffset = ${offset}" }
+            if (file.length() < (offset + 12)) return
+            rawData.position(offset)
 
-        val position = rawData.position()
-        val num1 = 44 * capacity
-        logger.debug { "fileNamesOffset = {$position}.  Seeking to {$num1} to read file record data." }
-        rawData.position((file.length() - num1).toInt());
+            for (index in 0 until length1) {
+                arcPartEntryArray[index] = ARCPartEntry(rawData.getInt(), rawData.getInt(), rawData.getInt());
+                logger.debug { "parts[{$index}]" }
+                logger.debug { "  fileOffset=${arcPartEntryArray[index]?.FileOffset}, compressedSize=${arcPartEntryArray[index]?.CompressedSize}, realSize=${arcPartEntryArray[index]?.RealSize}" }
 
-        for (index1 in 0 until capacity) {
-            val num2 = rawData.getInt()
-            arcDirEntryArray[index1] = ARCDirEntry(num2, rawData.getInt(), rawData.getInt(), rawData.getInt())
-            logger.info { "StorageType=${num2}" }
-            val num3 = rawData.getInt()
-            logger.info { "Crap2=${num3}" }
-            val num4 = rawData.getInt()
-            logger.info { "Crap3=${num4}" }
-            val num5 = rawData.getInt()
-            logger.info { "Crap4=${num5}" }
-            val length2 = rawData.getInt()
-            if (length2 < 1) {
-                arcDirEntryArray[index1]?.Parts?.clear()
-                logger.info { "File ${index1} is not compressed." }
-            } else {
-//              arcDirEntryArray[index1].Parts = ARCPartEntry [length2];
             }
-            val num6 = rawData.getInt()
-            val num7 = rawData.getInt()
-            logger.info { "Filename Length=${num7}" }
-            val num8 = rawData.getInt()
-            logger.info { "Filename Offset=${num8}" }
-            logger.info { "record[{$index1}]" }
-            logger.info { "  offset=${arcDirEntryArray[index1]?.FileOffset} compressedSize=${arcDirEntryArray[index1]?.CompressedSize} realSize=${arcDirEntryArray[index1]?.RealSize}" }
-            if (num2 != 1 && arcDirEntryArray[index1]?.IsActive() == true)
-                logger.info { "  numParts=${arcDirEntryArray[index1]?.Parts?.size} firstPart=${num6} lastPart=${(num6 + (arcDirEntryArray[index1]?.Parts?.size ?: 0) - 1)}" }
-            else
-                logger.info { "  INACTIVE firstPart=${num6}" }
+
+            val position = rawData.position()
+            val num1 = 44 * capacity
+            logger.debug { "fileNamesOffset = ${position}.  Seeking to ${file.length() - num1} to read file record data." }
+            rawData.position((file.length() - num1).toInt());
+
+            for (index1 in 0 until capacity) {
+                val num2 = rawData.getInt()
+                arcDirEntryArray[index1] = ARCDirEntry(num2, rawData.getInt(), rawData.getInt(), rawData.getInt())
+                logger.info { "StorageType=${num2}" }
+                val num3 = rawData.getInt()
+                logger.debug { "Crap2=${num3}" }
+                val num4 = rawData.getInt()
+                logger.debug { "Crap3=${num4}" }
+                val num5 = rawData.getInt()
+                logger.debug { "Crap4=${num5}" }
+                val length2 = rawData.getInt()
+                if (length2 < 1) {
+                    arcDirEntryArray[index1]?.Parts?.clear()
+                    logger.info { "File ${index1} is not compressed." }
+                } else {
+                    arcDirEntryArray[index1]?.active = true
+                    arcDirEntryArray[index1]?.numParts = length2
+                }
+                val num6 = rawData.getInt()
+                val num7 = rawData.getInt()
+                logger.info { "Filename Length=${num7}" }
+                val num8 = rawData.getInt()
+                logger.info { "Filename Offset=${num8}" }
+                logger.info { "record[{$index1}]" }
+                logger.info { "  offset=${arcDirEntryArray[index1]?.FileOffset} compressedSize=${arcDirEntryArray[index1]?.CompressedSize} realSize=${arcDirEntryArray[index1]?.RealSize}" }
+                if (num2 != 1 && arcDirEntryArray[index1]?.IsActive() == true)
+                    logger.info { "  numParts=${arcDirEntryArray[index1]?.numParts} firstPart=${num6} lastPart=${(num6 + (arcDirEntryArray[index1]?.numParts ?: 0) - 1)}" }
+                else
+                    logger.info { "  INACTIVE firstPart=${num6}" }
 
 
-            if (num2 != 1 && arcDirEntryArray[index1]?.IsActive() == true) {
-                for (index2 in 0 until arcDirEntryArray[index1]!!.Parts!!.size)
-                    arcDirEntryArray[index1]!!.Parts[index2] = arcPartEntryArray[index2 + num6]!!
+                if (num2 != 1 && arcDirEntryArray[index1]?.IsActive() == true) {
+                    for (index2 in 0 until arcDirEntryArray[index1]!!.numParts)
+                        arcDirEntryArray[index1]!!.Parts!!.add(index2,arcPartEntryArray[index2 + num6]!!)
+                }
             }
-        }
-        rawData.position(position)
-        var bytes = ByteArray(2048)
-        for (index3 in 0 until capacity) {
-            if (arcDirEntryArray[index3]?.IsActive() == true) {
-                logger.info { "Reading entry name ${index3}" }
-                var index4 = 0;
-                while (run {
-                        bytes[index4] = rawData.get()
-                        bytes[index4++] > 0
-                    }) {
-                    if (bytes[index4 - 1].toInt() == 3) {
-                        rawData.position(rawData.position() - 1)
-                        --index4
-                        bytes[index4] = 0
-                        logger.info("Null file - inactive?")
-                        break
-                    }
-                    if (index4 >= bytes.size) {
-                        logger.debug("ARCFile.ReadARCToC() Error - Buffer size of 2048 has been exceeded.");
+            rawData.position(position)
+            var bytes = ByteArray(2048)
+            for (index3 in 0 until capacity) {
+                if (arcDirEntryArray[index3]?.IsActive() == true) {
+                    logger.info { "Reading entry name ${index3}" }
+                    var index4 = 0;
+                    while (run {
+                            bytes[index4] = rawData.get()
+                            bytes[index4++] > 0
+                        }) {
+                        if (bytes[index4 - 1].toInt() == 3) {
+                            rawData.position(rawData.position() - 1)
+                            --index4
+                            bytes[index4] = 0
+                            logger.info("Null file - inactive?")
+                            break
+                        }
+                        if (index4 >= bytes.size) {
+                            logger.debug("ARCFile.ReadARCToC() Error - Buffer size of 2048 has been exceeded.");
 //                    if (TQDebug.ArcFileDebugLevel > 2)
 //                    {
 //                      TQDebug.DebugWriteLine("Buffer contents:\n");
@@ -241,23 +251,24 @@ public class ArcFile {
 //                        }));
 //                      TQDebug.DebugWriteLine(string.Empty);
 //                    }
+                        }
                     }
-                }
-                logger.info { "Read ${index4} bytes for name.  Converting to string." }
+                    logger.debug { "Read ${index4} bytes for name.  Converting to string." }
 
-                var recordId: String
-                if (index4 >= 1) {
-                    recordId = String(bytes.sliceArray(0..index4 - 1))
-                } else
-                    recordId = "Null File ${index3}"
-                arcDirEntryArray[index3]?.FileName = TQData.NormalizeRecordPath(recordId);
-                logger.info { "Name ${index3} = '${arcDirEntryArray[index3]?.FileName}'" }
+                    var recordId: String
+                    if (index4 >= 1) {
+                        recordId = String(bytes.sliceArray(0 until index4 - 1))
+                    } else
+                        recordId = "Null File ${index3}"
+                    arcDirEntryArray[index3]?.FileName = TQData.NormalizeRecordPath(recordId);
+                    logger.debug { "Name ${index3} = '${arcDirEntryArray[index3]?.FileName}'" }
+                }
             }
-        }
-        logger.debug("Creating Dictionary");
-        for (index in 0 until capacity) {
-            if (arcDirEntryArray[index]?.IsActive() == true)
-                directoryEntries[arcDirEntryArray[index]!!.FileName] = arcDirEntryArray[index]!!
+            logger.debug("Creating Dictionary");
+            for (index in 0 until capacity) {
+                if (arcDirEntryArray[index]?.IsActive() == true)
+                    directoryEntries[arcDirEntryArray[index]!!.FileName] = arcDirEntryArray[index]!!
+            }
         }
         logger.info("Exiting ARCFile.ReadARCToC()");
     }
@@ -298,11 +309,13 @@ public class ArcFile {
         val CompressedSize: Int = 0,
         val RealSize: Int = 0,
         var FileName: String = "",
-        val Parts: ArrayList<ARCPartEntry> = ArrayList(),
+        val Parts: MutableList<ARCPartEntry> = mutableListOf(),
+        var active:Boolean = false,
+        var numParts:Int = 0,
     ) {
 
 
-        public fun IsActive(): Boolean = this.StorageType == 1 || (this.Parts != null && this.Parts.isNotEmpty())
+        public fun IsActive(): Boolean = this.StorageType == 1 || active
     }
 
     data class ARCPartEntry

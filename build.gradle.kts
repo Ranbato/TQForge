@@ -5,6 +5,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     kotlin("jvm")
     id("org.jetbrains.compose")
+    kotlin("plugin.serialization") version "1.7.20"
 }
 //
 //group = "org.lambertland"
@@ -25,6 +26,10 @@ dependencies{
 
     implementation("io.github.microutils:kotlin-logging-jvm:3.0.4")
     implementation("ch.qos.logback:logback-classic:1.4.5")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.4.1")
+    // https://mvnrepository.com/artifact/com.github.jai-imageio/jai-imageio-core
+    testImplementation("com.github.jai-imageio:jai-imageio-core:1.4.0")
+
 }
 
 compose.desktop {

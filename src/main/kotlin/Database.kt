@@ -1,6 +1,5 @@
 ﻿import org.jetbrains.skia.Bitmap
 import org.jetbrains.skiko.toBitmap
-import utils.DDSReader
 import java.awt.*
 import java.awt.image.BufferedImage
 import java.io.*
@@ -598,8 +597,12 @@ public object Database {
 
   private fun changeExtension(file: String, ext: String): String {
     val index = file.lastIndexOf(".")
-    val segment = file.substring(0, index)
-    return "$segment$ext"
+    return if(index == -1 ){
+      "$file$ext"
+    } else {
+      val segment = file.substring(0, index)
+      "$segment$ext"
+    }
   }
 
   private fun LoadARZFile() {
@@ -646,12 +649,8 @@ public object Database {
           //https://github.com/RaynsAS/Custom-Salem/tree/master/src/haven
           //bitmap2 = BitmapCode.LoadFromTexMemory(data, 0, data.Length);
 
-          val pixels = DDSReader.read(data, DDSReader.ARGB, 0);
-          val width = DDSReader.getWidth(data);
-          val height = DDSReader.getHeight(data);
-          val image = BufferedImage(width, height, BufferedImage.TYPE_INT_ARGB)
-          image.setRGB(0, 0, width, height, pixels, 0, width)
-          bitmap2 = image.toBitmap()
+          BitmapCode.LoadFromTexMemory(data,0,data.size)
+
         } catch (ex2: Exception) {
           logger.warn { "Error loading bitmap for $resourceId" }
           bitmap2 = null;
@@ -741,7 +740,7 @@ public object Database {
     if (buffer == null) {
       logger.error { "Error in ARC File: $databaseFile does not contain an entry for '$filename'" }
     } else {
-      BufferedReader(InputStreamReader(ByteArrayInputStream(buffer))).use { streamReader ->
+      BufferedReader(InputStreamReader(ByteArrayInputStream(buffer),Charsets.UTF_16)).use { streamReader ->
         val ch = '='
         var str1: String? = ""
         while (run {

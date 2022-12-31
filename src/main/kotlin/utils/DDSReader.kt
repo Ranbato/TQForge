@@ -14,6 +14,8 @@ package utils
  * http://3dtech.jp/wiki/index.php?DDSReader
  *
  */
+
+private val logger = mu.KotlinLogging.logger {}
 object DDSReader {
     val ARGB = Order(16, 8, 0, 24)
     val ABGR = Order(0, 8, 16, 24)
@@ -157,11 +159,11 @@ object DDSReader {
                     // X8R8G8B8
                     type = X8R8G8B8
                 } else {
-                    // Unsupported 32bit RGB image
+                     logger.error("Unsupported 32bit RGB image")
                 }
             }
         } else {
-            // YUV or LUMINANCE image
+            logger.error("Unsupported YUV or LUMINANCE image")
         }
         return type
     }
