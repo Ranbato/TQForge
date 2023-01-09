@@ -1,12 +1,9 @@
-﻿import ddsutil.DDSUtil
-import jogl.DDSImage
-import org.jetbrains.skia.*
+﻿import org.jetbrains.skia.*
 import org.jetbrains.skiko.toBitmap
-import utils.DDSLoader
-import utils.DDSReader
+import utils.unused.DDSLoader
+import utils.unused.DDSReader
 import java.awt.Transparency
 import java.awt.image.*
-import java.io.ByteArrayInputStream
 import java.nio.ByteBuffer
 import java.nio.ByteOrder
 
@@ -90,14 +87,26 @@ private val logger = mu.KotlinLogging.logger {}
 //      val image = DDSImage.read(ByteBuffer.wrap(data))
 //      return DDSUtil.loadBufferedImage(image).toBitmap()
 
-      // Weird colors
-      val loader = DDSLoader()
-      return loader.load(ByteArrayInputStream(numArray))
+//      // Weird colors
+//      val loader = DDSLoader()
+//      return loader.load(ByteArrayInputStream(numArray))
 
       // Still nope
 //      val img = Image.makeFromEncoded(data)
 //      return img.toBufferedImage().toBitmap()
+
+      //PFIM start
+      val image = Dds.Create(data, PfimConfig())
+
+      // whatnow?
+
+      val loader = DDSLoader()
+      val info = ImageInfo(image.width,image.height,ColorType.RGBA_8888,ColorAlphaType.PREMUL,ColorSpace.sRGB)
+      val raster = Image.makeRaster(info,image.data,image.stride())
+      return raster.toBufferedImage().toBitmap()
+
     }
+
     fun Image.toBufferedImage(): BufferedImage {
       val storage = Bitmap()
       storage.allocPixelsFlags(ImageInfo.makeS32(this.width, this.height, ColorAlphaType.PREMUL), false)

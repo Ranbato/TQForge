@@ -579,7 +579,7 @@ public object Database {
       length = resourceId.indexOf('\\', length + 1);
       if (length <= 0)
         return ByteArray(0)
-      path = resourceId.substring(num + 1, length - num - 1);
+      path = resourceId.substring(num + 1, length );
       resourceId = resourceId.substring(num + 1);
     }
     val flag2 = path.uppercase() == "XPACK2"
@@ -589,7 +589,7 @@ public object Database {
       val num2 = resourceId.indexOf('\\', length + 1);
       if (num2 <= 0)
         return ByteArray(0)
-      path = resourceId.substring(num1 + 1, num2 - num1 - 1);
+      path = resourceId.substring(num1 + 1, num2);
       resourceId = resourceId.substring(num1 + 1);
     }
     return this.ReadARCFile(File(rootFolder, changeExtension(path, ".arc")).path, resourceId);
@@ -649,7 +649,7 @@ public object Database {
           //https://github.com/RaynsAS/Custom-Salem/tree/master/src/haven
           //bitmap2 = BitmapCode.LoadFromTexMemory(data, 0, data.Length);
 
-          BitmapCode.LoadFromTexMemory(data,0,data.size)
+         bitmap2 = BitmapCode.LoadFromTexMemory(data,0,data.size)
 
         } catch (ex2: Exception) {
           logger.warn { "Error loading bitmap for $resourceId" }

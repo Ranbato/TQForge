@@ -51,7 +51,8 @@ public class Item
      var PositionY = 0
     private var relicInfo:Info? = null
     private var relicBonusInfo:Info? = null
-    private var itemBitmap: Bitmap? = null
+     var itemBitmap: Bitmap? = null
+      private set
     private var width = 0
     private var height = 0
      var  sackType:SackType = SackType.Sack
@@ -1770,10 +1771,10 @@ public class Item
       this.relicInfo = Database.GetInfo(this.relicID);
       this.relicBonusInfo = Database.GetInfo(this.RelicBonusId);
         var baseitem = baseItemInfo
-      if (baseitem != null) {
+      if (baseItemInfo != null) {
           this.itemBitmap =
-              if (!this.IsRelic || this.IsRelicComplete) Database.LoadBitmap(baseitem.Bitmap ?:"") else Database.LoadBitmap(
-                  baseitem.ShardBitmap ?:""
+              if (!this.IsRelic || this.IsRelicComplete) Database.LoadBitmap(baseItemInfo?.Bitmap ?:"") else Database.LoadBitmap(
+                  baseItemInfo?.ShardBitmap ?:""
               );
       }
       if (this.itemBitmap == null)
@@ -3574,7 +3575,7 @@ public class Item
         return if (itemId == null) {
             ""
         }else
-            if(itemId.length < 4 || File(itemId).toPath().extension.uppercase() ==".DBR")  {itemId} else {
+            if(itemId.length < 4 || File(itemId).toPath().extension.uppercase() =="DBR")  {itemId} else {
                 "$itemId.dbr"
             }
     }

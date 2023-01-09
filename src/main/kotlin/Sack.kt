@@ -76,6 +76,8 @@ public class Sack
       return num
     }
 
+      public fun getItems() = items.toList()
+
 //    public Sack Duplicate()
 //    {
 //      Sack sack = new Sack();

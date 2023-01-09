@@ -1,28 +1,14 @@
 package tools.resourceextraction
 
-import ddsutil.DDSUtil
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
-import org.jetbrains.skia.Bitmap
-import org.jetbrains.skiko.toBitmap
 import org.jetbrains.skiko.toBufferedImage
-import utils.DDSReader
 import utils.QuickDrawPanel
-import java.awt.FlowLayout
-import java.awt.GridBagLayout
-import java.awt.Image
-import java.awt.image.BufferedImage
 import java.io.File
 import java.nio.ByteOrder
 import java.nio.channels.FileChannel
-import java.nio.file.Files
-import java.nio.file.Path
-import java.util.*
 import javax.imageio.ImageIO
 import javax.swing.JFrame
 import javax.swing.JScrollPane
 import javax.swing.WindowConstants.EXIT_ON_CLOSE
-import kotlin.io.path.exists
 
 fun main(args: Array<String>) {
 

@@ -222,7 +222,7 @@ public fun loadFile():Unit
           sack.sackType = SackType.Sack;
           sack.IsImmortalThrone = true;
           sack.Parse(rawData);
-          sacks[index] = sack
+          sacks.add(index,sack)
         }
         this.itemBlockEnd = rawData.position()
       }

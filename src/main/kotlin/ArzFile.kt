@@ -192,11 +192,11 @@ public class  ArzFile constructor(filename:String) {
         return null
       }
       val dbRecord = DBRecord(this.ID, this.RecordType)
-      DataInputStream(ByteArrayInputStream(buffer)).use {
+      LittleEndianDataInputStream(ByteArrayInputStream(buffer)).use {
         var num2 = 0
         while (num2 < num1) {
-          val dataType = it.readShort() as Int
-          val numberOfValues = it.readShort() as Int
+          val dataType = it.readShort().toInt()
+          val numberOfValues = it.readShort().toInt()
           val index1 = it.readInt()
           val variableName = arzFile.Getstring(index1);
           if (variableName.isEmpty()) {
